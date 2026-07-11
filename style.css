@@ -94,6 +94,13 @@ body {
   font-weight: 800;
 }
 .subtitle { margin: 0; color: var(--muted); font-size: 0.9rem; }
+.intro-text {
+  max-width: 640px;
+  margin: 12px auto 0;
+  color: var(--muted);
+  font-size: 0.82rem;
+  line-height: 1.7;
+}
 
 .layout {
   display: grid;
