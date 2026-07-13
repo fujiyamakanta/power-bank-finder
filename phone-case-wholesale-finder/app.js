@@ -16,7 +16,7 @@ function iconFor(product) {
 
 const BRAND_DEVICE_MAP = {
   "Apple": ["iPhone", "iPad", "Apple Watch", "MacBook"],
-  "Android": ["Galaxy", "OPPO", "Xperia", "Google Pixel", "AQUOS", "京セラ"]
+  "Android": ["Galaxy", "OPPO", "Xperia", "Google Pixel", "AQUOS", "京セラ", "Xiaomi", "ARROWS"]
 };
 
 const PAGE_SIZE = 12;
@@ -24,6 +24,7 @@ let visibleCount = PAGE_SIZE;
 let currentMatched = [];
 
 let PRODUCTS = [];
+let MODEL_CATALOG = {};
 
 const resultList = document.getElementById("result-list");
 const resultCount = document.getElementById("result-count");
@@ -47,6 +48,13 @@ async function loadData() {
     console.error("データの読み込みに失敗しました", e);
     PRODUCTS = [];
   }
+  try {
+    const catalogRes = await fetch("model-catalog.json", { cache: "no-store" });
+    MODEL_CATALOG = await catalogRes.json();
+  } catch (e) {
+    console.error("機種カタログの読み込みに失敗しました", e);
+    MODEL_CATALOG = {};
+  }
   buildNavTree();
   populateChipOptions(materialGroup, "material", collectValues("material"));
   populateChipOptions(casetypeGroup, "case_type", collectValues("case_type"));
@@ -65,7 +73,9 @@ function collectValues(field) {
 function buildNavTree() {
   navTree.innerHTML = "";
   Object.entries(BRAND_DEVICE_MAP).forEach(([brand, deviceTypes]) => {
-    const relevantTypes = deviceTypes.filter(dt => PRODUCTS.some(p => p.device_type === dt));
+    const relevantTypes = deviceTypes.filter(dt =>
+      PRODUCTS.some(p => p.device_type === dt) || (MODEL_CATALOG[dt] || []).length > 0
+    );
     if (relevantTypes.length === 0) return;
 
     const brandEl = document.createElement("details");
@@ -78,9 +88,11 @@ function buildNavTree() {
     devicesWrap.className = "nav-devices";
 
     relevantTypes.forEach(dt => {
-      const models = [...new Set(
+      const productModels = new Set(
         PRODUCTS.filter(p => p.device_type === dt).flatMap(p => p.compatible_models || [])
-      )].sort();
+      );
+      const catalogModels = MODEL_CATALOG[dt] || [];
+      const models = catalogModels.length > 0 ? catalogModels : [...productModels].sort();
 
       const deviceEl = document.createElement("details");
       deviceEl.className = "nav-device";
@@ -90,9 +102,11 @@ function buildNavTree() {
 
       const modelsWrap = document.createElement("div");
       modelsWrap.className = "chip-group nav-models";
-      modelsWrap.innerHTML = models.map(m => `
-        <label class="chip"><input type="checkbox" name="model" value="${m}"><span>${m}</span></label>
-      `).join("");
+      modelsWrap.innerHTML = models.map(m => {
+        const hasProduct = productModels.has(m);
+        const label = hasProduct ? m : `${m} (準備中)`;
+        return `<label class="chip${hasProduct ? "" : " chip-empty"}"><input type="checkbox" name="model" value="${m}"><span>${label}</span></label>`;
+      }).join("");
       deviceEl.appendChild(modelsWrap);
 
       devicesWrap.appendChild(deviceEl);
