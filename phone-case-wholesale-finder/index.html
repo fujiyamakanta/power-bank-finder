@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>スマホケース卸選定ツール | 条件で絞り込んでAmazon商品ページへ</title>
+<meta name="description" content="対応機種・素材・カラー・価格帯・想定仕入れロット・機能性などの条件からスマホケースを絞り込み、Amazonの商品ページへのリンクをまとめて確認できる卸売り仕入れ検討用の無料ツールです。">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://fujiyamakanta.github.io/power-bank-finder/phone-case-wholesale-finder/">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="スマホケース卸選定ツール">
+<meta property="og:title" content="スマホケース卸選定ツール | 条件で絞り込んでAmazon商品ページへ">
+<meta property="og:description" content="対応機種・素材・カラー・価格帯・想定仕入れロット・機能性の条件からスマホケースを絞り込み、Amazon商品ページへのリンクをまとめて確認できる卸売り仕入れ検討用ツール。">
+<meta property="og:url" content="https://fujiyamakanta.github.io/power-bank-finder/phone-case-wholesale-finder/">
+<meta property="og:locale" content="ja_JP">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "スマホケース卸選定ツール",
+  "url": "https://fujiyamakanta.github.io/power-bank-finder/phone-case-wholesale-finder/",
+  "description": "対応機種・素材・カラー・価格帯・想定仕入れロット・機能性の条件からスマホケースを絞り込み、Amazon商品ページへのリンクをまとめて確認できる卸売り仕入れ検討用ツール。",
+  "applicationCategory": "BusinessApplication",
+  "operatingSystem": "Any",
+  "inLanguage": "ja",
+  "isAccessibleForFree": true,
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "JPY"
+  }
+}
+</script>
+
+<link rel="stylesheet" href="style.css?v=1">
+</head>
+<body>
+<header class="app-header">
+  <h1>スマホケース卸選定ツール</h1>
+  <p class="subtitle">条件を選ぶだけで、仕入れ候補のスマホケースを絞り込みます</p>
+  <p class="intro-text">対応機種・素材・ケースタイプ・カラー・参考単価・想定仕入れロット・機能性などの条件から、卸売り仕入れの候補になりそうなスマホケースを絞り込めるツールです。各商品はAmazon.co.jpの実際の商品ページにリンクしています。</p>
+</header>
+
+<main class="layout">
+  <section class="filter-panel" aria-label="検索条件">
+    <h2>絞り込み条件</h2>
+    <p class="panel-hint">気になる条件を選ぶと、下の結果がすぐに絞り込まれます。</p>
+
+    <form id="filter-form">
+
+      <fieldset>
+        <legend>対応機種(複数選択可)</legend>
+        <div class="chip-group" id="model-group"></div>
+      </fieldset>
+
+      <fieldset>
+        <legend>素材(複数選択可)</legend>
+        <div class="chip-group" id="material-group"></div>
+      </fieldset>
+
+      <fieldset>
+        <legend>ケースタイプ(複数選択可)</legend>
+        <div class="chip-group" id="casetype-group"></div>
+      </fieldset>
+
+      <fieldset>
+        <legend>カラー(複数選択可)</legend>
+        <div class="chip-group" id="color-group"></div>
+      </fieldset>
+
+      <fieldset>
+        <legend>参考単価(上限)</legend>
+        <select name="price_max" id="price_max">
+          <option value="0">指定なし</option>
+          <option value="1000">1,000円以下</option>
+          <option value="1500">1,500円以下</option>
+          <option value="2000">2,000円以下</option>
+          <option value="3000">3,000円以下</option>
+          <option value="5000">5,000円以下</option>
+        </select>
+      </fieldset>
+
+      <fieldset>
+        <legend>想定仕入れロット(上限の目安)</legend>
+        <select name="moq_max" id="moq_max">
+          <option value="0">指定なし</option>
+          <option value="30">30個以下</option>
+          <option value="50">50個以下</option>
+          <option value="100">100個以下</option>
+          <option value="200">200個以下</option>
+        </select>
+      </fieldset>
+
+      <fieldset>
+        <legend>機能性(複数選択可)</legend>
+        <div class="chip-group" id="feature-group"></div>
+      </fieldset>
+
+      <p class="live-count-hint" id="live-count-hint"></p>
+      <div class="form-actions">
+        <button type="submit" class="btn-primary">この条件で絞り込む</button>
+        <button type="reset" class="btn-secondary" id="reset-btn">条件をリセット</button>
+      </div>
+    </form>
+  </section>
+
+  <section class="results-panel" aria-label="検索結果">
+    <div class="results-header">
+      <h2>絞り込み結果</h2>
+      <div class="sort-control">
+        <label for="sort-select">並び替え:</label>
+        <select id="sort-select">
+          <option value="price_asc">参考単価が安い順</option>
+          <option value="price_desc">参考単価が高い順</option>
+          <option value="moq_asc">仕入れロットが少ない順</option>
+        </select>
+      </div>
+    </div>
+    <div id="active-conditions" class="active-conditions"></div>
+    <p id="result-count" class="result-count"></p>
+    <div id="result-list" class="result-list"></div>
+  </section>
+</main>
+
+<footer class="app-footer">
+  <p>掲載中の単価・想定仕入れロットは調査時点の目安値であり、Amazonが公式に提供する在庫・卸情報ではありません。Amazonの通常販売ページは個人向け小売が基本のため、実際の仕入れ数量・価格・在庫状況は各商品ページおよび出品者に必ず直接ご確認ください。</p>
+</footer>
+
+<script src="app.js?v=1"></script>
+</body>
+</html>
