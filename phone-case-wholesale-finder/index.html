@@ -3,15 +3,15 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>スマホケース卸選定ツール | 条件で絞り込んでAmazon商品ページへ</title>
-<meta name="description" content="対応機種・素材・カラー・価格帯・想定仕入れロット・機能性などの条件からスマホケースを絞り込み、Amazonの商品ページへのリンクをまとめて確認できる卸売り仕入れ検討用の無料ツールです。">
+<title>スマホ・ガジェットケース卸選定ツール | 条件で絞り込んでAmazon商品ページへ</title>
+<meta name="description" content="iPhone・Android・iPad・Apple Watch・MacBookなどの対応機種・素材・カラー・価格帯・想定仕入れロット・機能性の条件からケース・カバーを絞り込み、Amazonの商品ページへのリンクをまとめて確認できる卸売り仕入れ検討用の無料ツールです。">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://fujiyamakanta.github.io/power-bank-finder/phone-case-wholesale-finder/">
 
 <meta property="og:type" content="website">
-<meta property="og:site_name" content="スマホケース卸選定ツール">
-<meta property="og:title" content="スマホケース卸選定ツール | 条件で絞り込んでAmazon商品ページへ">
-<meta property="og:description" content="対応機種・素材・カラー・価格帯・想定仕入れロット・機能性の条件からスマホケースを絞り込み、Amazon商品ページへのリンクをまとめて確認できる卸売り仕入れ検討用ツール。">
+<meta property="og:site_name" content="スマホ・ガジェットケース卸選定ツール">
+<meta property="og:title" content="スマホ・ガジェットケース卸選定ツール | 条件で絞り込んでAmazon商品ページへ">
+<meta property="og:description" content="iPhone・Android・iPad・Apple Watch・MacBookなどの対応機種・素材・カラー・価格帯・想定仕入れロット・機能性の条件からケース・カバーを絞り込み、Amazon商品ページへのリンクをまとめて確認できる卸売り仕入れ検討用ツール。">
 <meta property="og:url" content="https://fujiyamakanta.github.io/power-bank-finder/phone-case-wholesale-finder/">
 <meta property="og:locale" content="ja_JP">
 
@@ -19,9 +19,9 @@
 {
   "@context": "https://schema.org",
   "@type": "WebApplication",
-  "name": "スマホケース卸選定ツール",
+  "name": "スマホ・ガジェットケース卸選定ツール",
   "url": "https://fujiyamakanta.github.io/power-bank-finder/phone-case-wholesale-finder/",
-  "description": "対応機種・素材・カラー・価格帯・想定仕入れロット・機能性の条件からスマホケースを絞り込み、Amazon商品ページへのリンクをまとめて確認できる卸売り仕入れ検討用ツール。",
+  "description": "iPhone・Android・iPad・Apple Watch・MacBookなどの対応機種・素材・カラー・価格帯・想定仕入れロット・機能性の条件からケース・カバーを絞り込み、Amazon商品ページへのリンクをまとめて確認できる卸売り仕入れ検討用ツール。",
   "applicationCategory": "BusinessApplication",
   "operatingSystem": "Any",
   "inLanguage": "ja",
@@ -38,72 +38,22 @@
 </head>
 <body>
 <header class="app-header">
-  <h1>スマホケース卸選定ツール</h1>
-  <p class="subtitle">条件を選ぶだけで、仕入れ候補のスマホケースを絞り込みます</p>
-  <p class="intro-text">対応機種・素材・ケースタイプ・カラー・参考単価・想定仕入れロット・機能性などの条件から、卸売り仕入れの候補になりそうなスマホケースを絞り込めるツールです。各商品はAmazon.co.jpの実際の商品ページにリンクしています。</p>
+  <h1>スマホ・ガジェットケース卸選定ツール</h1>
+  <p class="subtitle">メーカー→機種の順にタップすると、対応ケースがすぐに絞り込まれます</p>
+  <p class="intro-text">Apple(iPhone・iPad・Apple Watch・MacBook)・Android(Galaxy・OPPO・Xperia・Google Pixel・AQUOS・京セラ)の機種を選ぶだけで、卸売り仕入れの候補になりそうなケース・カバーを絞り込めるツールです。各商品はAmazon.co.jpの実際の商品ページにリンクしています。</p>
 </header>
 
 <main class="layout">
-  <section class="filter-panel" aria-label="検索条件">
-    <h2>絞り込み条件</h2>
-    <p class="panel-hint">気になる条件を選ぶと、下の結果がすぐに絞り込まれます。</p>
+  <section class="filter-panel" aria-label="機種選択">
+    <h2>対応機種を選ぶ</h2>
+    <p class="panel-hint">メーカーをタップ→機種をタップすると、下に具体的なモデルが表示されます。</p>
 
-    <form id="filter-form">
+    <div class="nav-tree" id="nav-tree"></div>
 
-      <fieldset>
-        <legend>対応機種(複数選択可)</legend>
-        <div class="chip-group" id="model-group"></div>
-      </fieldset>
-
-      <fieldset>
-        <legend>素材(複数選択可)</legend>
-        <div class="chip-group" id="material-group"></div>
-      </fieldset>
-
-      <fieldset>
-        <legend>ケースタイプ(複数選択可)</legend>
-        <div class="chip-group" id="casetype-group"></div>
-      </fieldset>
-
-      <fieldset>
-        <legend>カラー(複数選択可)</legend>
-        <div class="chip-group" id="color-group"></div>
-      </fieldset>
-
-      <fieldset>
-        <legend>参考単価(上限)</legend>
-        <select name="price_max" id="price_max">
-          <option value="0">指定なし</option>
-          <option value="1000">1,000円以下</option>
-          <option value="1500">1,500円以下</option>
-          <option value="2000">2,000円以下</option>
-          <option value="3000">3,000円以下</option>
-          <option value="5000">5,000円以下</option>
-        </select>
-      </fieldset>
-
-      <fieldset>
-        <legend>想定仕入れロット(上限の目安)</legend>
-        <select name="moq_max" id="moq_max">
-          <option value="0">指定なし</option>
-          <option value="30">30個以下</option>
-          <option value="50">50個以下</option>
-          <option value="100">100個以下</option>
-          <option value="200">200個以下</option>
-        </select>
-      </fieldset>
-
-      <fieldset>
-        <legend>機能性(複数選択可)</legend>
-        <div class="chip-group" id="feature-group"></div>
-      </fieldset>
-
-      <p class="live-count-hint" id="live-count-hint"></p>
-      <div class="form-actions">
-        <button type="submit" class="btn-primary">この条件で絞り込む</button>
-        <button type="reset" class="btn-secondary" id="reset-btn">条件をリセット</button>
-      </div>
-    </form>
+    <p class="live-count-hint" id="live-count-hint"></p>
+    <div class="form-actions">
+      <button type="button" class="btn-secondary" id="reset-btn">条件をリセット</button>
+    </div>
   </section>
 
   <section class="results-panel" aria-label="検索結果">
@@ -118,6 +68,51 @@
         </select>
       </div>
     </div>
+
+    <div class="results-toolbar" id="results-toolbar">
+      <details class="filter-dropdown">
+        <summary>素材</summary>
+        <div class="chip-group dropdown-panel" id="material-group"></div>
+      </details>
+      <details class="filter-dropdown">
+        <summary>ケースタイプ</summary>
+        <div class="chip-group dropdown-panel" id="casetype-group"></div>
+      </details>
+      <details class="filter-dropdown">
+        <summary>カラー</summary>
+        <div class="chip-group dropdown-panel" id="color-group"></div>
+      </details>
+      <details class="filter-dropdown">
+        <summary>参考単価</summary>
+        <div class="dropdown-panel">
+          <select name="price_max" id="price_max">
+            <option value="0">指定なし</option>
+            <option value="1000">1,000円以下</option>
+            <option value="1500">1,500円以下</option>
+            <option value="2000">2,000円以下</option>
+            <option value="3000">3,000円以下</option>
+            <option value="5000">5,000円以下</option>
+          </select>
+        </div>
+      </details>
+      <details class="filter-dropdown">
+        <summary>想定ロット</summary>
+        <div class="dropdown-panel">
+          <select name="moq_max" id="moq_max">
+            <option value="0">指定なし</option>
+            <option value="30">30個以下</option>
+            <option value="50">50個以下</option>
+            <option value="100">100個以下</option>
+            <option value="200">200個以下</option>
+          </select>
+        </div>
+      </details>
+      <details class="filter-dropdown">
+        <summary>機能性</summary>
+        <div class="chip-group dropdown-panel" id="feature-group"></div>
+      </details>
+    </div>
+
     <div id="active-conditions" class="active-conditions"></div>
     <p id="result-count" class="result-count"></p>
     <div id="result-list" class="result-list"></div>
