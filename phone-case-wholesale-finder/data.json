@@ -3,392 +3,1855 @@
     "id": "iphone15plus-rssviss-bookcase-white",
     "name": "Rssviss iPhone 15 Plus 手帳型ケース(シュリンクレザー)",
     "brand": "Rssviss",
-    "compatible_models": ["iPhone 15 Plus"],
-    "material": ["PUレザー"],
-    "case_type": ["手帳型"],
-    "colors": ["ホワイト"],
-    "features": ["カード収納", "スタンド機能", "マグネット式"],
+    "compatible_models": [
+      "iPhone 15 Plus"
+    ],
+    "material": [
+      "PUレザー"
+    ],
+    "case_type": [
+      "手帳型"
+    ],
+    "colors": [
+      "ホワイト"
+    ],
+    "features": [
+      "カード収納",
+      "スタンド機能",
+      "マグネット式"
+    ],
     "price_jpy_ref": 1980,
     "moq_ref": 80,
     "amazon_url": "https://www.amazon.co.jp/iPhone15-Rssviss-%E3%82%B7%E3%83%A5%E3%83%AA%E3%83%B3%E3%82%AF%E3%83%AC%E3%82%B6%E3%83%BC-%E3%82%A2%E3%82%A4%E3%83%95%E3%82%A9%E3%83%B315%E3%83%97%E3%83%A9%E3%82%B9-6-1inch%E5%AF%BE%E5%BF%9C/dp/B0CD3BY4RM",
-    "notes": "全面保護タイプの手帳型。カードポケット付きで実用性重視。"
+    "notes": "全面保護タイプの手帳型。カードポケット付きで実用性重視。",
+    "device_type": "iPhone"
   },
   {
     "id": "iphone15-icovercase-bookcase-navy",
     "name": "iCoverCase iPhone 15 手帳型ケース(耐衝撃・マグネット)",
     "brand": "iCoverCase",
-    "compatible_models": ["iPhone 15"],
-    "material": ["PUレザー", "TPU"],
-    "case_type": ["手帳型", "耐衝撃"],
-    "colors": ["ネイビー"],
-    "features": ["カード収納", "マグネット式", "スタンド機能", "耐衝撃"],
+    "compatible_models": [
+      "iPhone 15"
+    ],
+    "material": [
+      "PUレザー",
+      "TPU"
+    ],
+    "case_type": [
+      "手帳型",
+      "耐衝撃"
+    ],
+    "colors": [
+      "ネイビー"
+    ],
+    "features": [
+      "カード収納",
+      "マグネット式",
+      "スタンド機能",
+      "耐衝撃"
+    ],
     "price_jpy_ref": 1780,
     "moq_ref": 80,
     "amazon_url": "https://www.amazon.co.jp/iPhone-15-iPhone15-%E3%81%84phone15-iCoverCase/dp/B0CHP786JW",
-    "notes": "落ち着いたレトロカラー。耐衝撃素材を内側に採用。"
+    "notes": "落ち着いたレトロカラー。耐衝撃素材を内側に採用。",
+    "device_type": "iPhone"
   },
   {
     "id": "iphone15-bookcase-magsafe-purple",
     "name": "iPhone 15 手帳型ケース MagSafe対応(PU革)",
     "brand": "ノーブランド(OEM)",
-    "compatible_models": ["iPhone 15"],
-    "material": ["PUレザー"],
-    "case_type": ["手帳型"],
-    "colors": ["パープル"],
-    "features": ["MagSafe対応", "カード収納", "ワイヤレス充電対応"],
+    "compatible_models": [
+      "iPhone 15"
+    ],
+    "material": [
+      "PUレザー"
+    ],
+    "case_type": [
+      "手帳型"
+    ],
+    "colors": [
+      "パープル"
+    ],
+    "features": [
+      "MagSafe対応",
+      "カード収納",
+      "ワイヤレス充電対応"
+    ],
     "price_jpy_ref": 2180,
     "moq_ref": 60,
     "amazon_url": "https://www.amazon.co.jp/%E3%81%84phone15-MagSafe%E5%AF%BE%E5%BF%9C-iPhone15-iPhone15%E3%82%B1%E3%83%BC%E3%82%B9-%E3%83%AF%E3%82%A4%E3%83%A4%E3%83%AC%E3%82%B9%E5%85%85%E9%9B%BB%E5%AF%BE%E5%BF%9C/dp/B0CJ78SQ4G",
-    "notes": "MagSafe対応で装着したままワイヤレス充電が可能。"
+    "notes": "MagSafe対応で装着したままワイヤレス充電が可能。",
+    "device_type": "iPhone"
   },
   {
     "id": "iphone15-3ccart-bookcase-green",
     "name": "3CCart iPhone 15 手帳型ケース(財布型)",
     "brand": "3CCart",
-    "compatible_models": ["iPhone 15"],
-    "material": ["PUレザー"],
-    "case_type": ["手帳型"],
-    "colors": ["グリーン"],
-    "features": ["カード収納", "スタンド機能"],
+    "compatible_models": [
+      "iPhone 15"
+    ],
+    "material": [
+      "PUレザー"
+    ],
+    "case_type": [
+      "手帳型"
+    ],
+    "colors": [
+      "グリーン"
+    ],
+    "features": [
+      "カード収納",
+      "スタンド機能"
+    ],
     "price_jpy_ref": 1680,
     "moq_ref": 80,
     "amazon_url": "https://www.amazon.co.jp/3CCart-iPhone15-%E3%82%A2%E3%82%A4%E3%83%95%E3%82%A9%E3%83%B315-%E3%81%84phone15-%E6%89%8B%E5%B8%B3%EF%BC%88iPhone/dp/B0C9TG823K",
-    "notes": "女性向けの可愛いデザインの財布型ケース。"
+    "notes": "女性向けの可愛いデザインの財布型ケース。",
+    "device_type": "iPhone"
   },
   {
     "id": "iphone15-3ccart-bookcase-smokepurple",
     "name": "3CCart iPhone 15 手帳型ケース(横置きスタンド)",
     "brand": "3CCart",
-    "compatible_models": ["iPhone 15"],
-    "material": ["PUレザー"],
-    "case_type": ["手帳型"],
-    "colors": ["スモークパープル"],
-    "features": ["カード収納", "マグネット式", "スタンド機能"],
+    "compatible_models": [
+      "iPhone 15"
+    ],
+    "material": [
+      "PUレザー"
+    ],
+    "case_type": [
+      "手帳型"
+    ],
+    "colors": [
+      "スモークパープル"
+    ],
+    "features": [
+      "カード収納",
+      "マグネット式",
+      "スタンド機能"
+    ],
     "price_jpy_ref": 1680,
     "moq_ref": 80,
     "amazon_url": "https://www.amazon.co.jp/3CCart-iPhone15-%E3%81%84Phone15-%E3%82%B9%E3%83%88%E3%83%A9%E3%83%83%E3%83%97%E4%BB%98%E3%81%8D%EF%BC%88iPhone-15%E3%82%B9%E3%83%A2%E3%83%BC%E3%82%AF%E3%83%91%E3%83%BC%E3%83%97%E3%83%AB%EF%BC%89/dp/B0C9TJLXNV",
-    "notes": "薄型PUレザーで横置きスタンド機能付き。"
+    "notes": "薄型PUレザーで横置きスタンド機能付き。",
+    "device_type": "iPhone"
   },
   {
     "id": "iphoneair-clear-shoulder",
     "name": "iPhone Air クリアショルダーケース(TPU・耐衝撃)",
     "brand": "ノーブランド(OEM)",
-    "compatible_models": ["iPhone Air"],
-    "material": ["TPU"],
-    "case_type": ["クリア", "ショルダー型"],
-    "colors": ["クリア"],
-    "features": ["耐衝撃", "カード収納"],
+    "compatible_models": [
+      "iPhone Air"
+    ],
+    "material": [
+      "TPU"
+    ],
+    "case_type": [
+      "クリア",
+      "ショルダー型"
+    ],
+    "colors": [
+      "クリア"
+    ],
+    "features": [
+      "耐衝撃",
+      "カード収納"
+    ],
     "price_jpy_ref": 1580,
     "moq_ref": 100,
     "amazon_url": "https://www.amazon.co.jp/%E3%82%B7%E3%83%A7%E3%83%AB%E3%83%80%E3%83%BC-%E3%82%AB%E3%83%BC%E3%83%89%E5%8F%8E%E7%B4%8D-%E3%82%A2%E3%82%A4%E3%83%95%E3%82%A9%E3%83%B3-%E3%82%B9%E3%83%9E%E3%83%9B%E3%82%B1%E3%83%BC%E3%82%B9-%E3%82%B1%E3%83%BC%E3%82%B9%EF%BC%88%E3%82%AF%E3%83%AA%E3%82%A2%EF%BC%89/dp/B0FN6S3ZB3",
-    "notes": "斜めがけ・肩掛けストラップ対応で落下防止。"
+    "notes": "斜めがけ・肩掛けストラップ対応で落下防止。",
+    "device_type": "iPhone"
   },
   {
     "id": "iphone13-clear-selfie-white",
     "name": "iPhone 13 クリアケース(衝撃吸収・自撮りリング)",
     "brand": "ノーブランド(OEM)",
-    "compatible_models": ["iPhone 13"],
-    "material": ["TPU"],
-    "case_type": ["クリア"],
-    "colors": ["ホワイト"],
-    "features": ["耐衝撃"],
+    "compatible_models": [
+      "iPhone 13"
+    ],
+    "material": [
+      "TPU"
+    ],
+    "case_type": [
+      "クリア"
+    ],
+    "colors": [
+      "ホワイト"
+    ],
+    "features": [
+      "耐衝撃"
+    ],
     "price_jpy_ref": 980,
     "moq_ref": 150,
     "amazon_url": "https://www.amazon.co.jp/iPhone-%E3%81%8B%E3%82%8F%E3%81%84%E3%81%84-%E3%82%AA%E3%82%B7%E3%83%A3%E3%83%AC-%E6%8C%81%E3%81%A1%E3%82%84%E3%81%99%E3%81%84-iPhone13/dp/B0BQM733S9",
-    "notes": "定番のクリアTPU。低単価・大量仕入れ向き。"
+    "notes": "定番のクリアTPU。低単価・大量仕入れ向き。",
+    "device_type": "iPhone"
   },
   {
     "id": "iphone12-clear-selfie-white",
     "name": "iPhone 12 クリアケース(衝撃吸収・自撮りリング)",
     "brand": "ノーブランド(OEM)",
-    "compatible_models": ["iPhone 12"],
-    "material": ["TPU"],
-    "case_type": ["クリア"],
-    "colors": ["ホワイト"],
-    "features": ["耐衝撃"],
+    "compatible_models": [
+      "iPhone 12"
+    ],
+    "material": [
+      "TPU"
+    ],
+    "case_type": [
+      "クリア"
+    ],
+    "colors": [
+      "ホワイト"
+    ],
+    "features": [
+      "耐衝撃"
+    ],
     "price_jpy_ref": 980,
     "moq_ref": 150,
     "amazon_url": "https://www.amazon.co.jp/iPhone-%E3%81%8B%E3%82%8F%E3%81%84%E3%81%84-%E3%82%AA%E3%82%B7%E3%83%A3%E3%83%AC-%E6%8C%81%E3%81%A1%E3%82%84%E3%81%99%E3%81%84-iPhone12/dp/B0BQM82VB9",
-    "notes": "旧機種向けの定番クリアケース。旧モデルユーザー向け在庫として。"
+    "notes": "旧機種向けの定番クリアケース。旧モデルユーザー向け在庫として。",
+    "device_type": "iPhone"
   },
   {
     "id": "iphone16e-clear-shoulder-purple",
     "name": "iPhone 16E クリアショルダーケース(TPU・耐衝撃)",
     "brand": "ノーブランド(OEM)",
-    "compatible_models": ["iPhone 16E"],
-    "material": ["TPU"],
-    "case_type": ["クリア", "ショルダー型"],
-    "colors": ["パープル"],
-    "features": ["耐衝撃", "ワイヤレス充電対応"],
+    "compatible_models": [
+      "iPhone 16E"
+    ],
+    "material": [
+      "TPU"
+    ],
+    "case_type": [
+      "クリア",
+      "ショルダー型"
+    ],
+    "colors": [
+      "パープル"
+    ],
+    "features": [
+      "耐衝撃",
+      "ワイヤレス充電対応"
+    ],
     "price_jpy_ref": 1580,
     "moq_ref": 100,
     "amazon_url": "https://www.amazon.co.jp/iPhone-%E7%B8%84%E6%8E%9B%E3%81%91%E3%82%B1%E3%83%BC%E3%82%B9-%E3%82%A2%E3%82%A4%E3%83%95%E3%82%A9%E3%83%B316E-%E7%B9%94%E3%82%8A%E3%82%B9%E3%83%88%E3%83%A9%E3%83%83%E3%83%97%E4%BB%98%E3%81%8D-%E3%83%AF%E3%82%A4%E3%83%A4%E3%83%AC%E3%82%B9%E5%85%85%E9%9B%BB%E5%AF%BE%E5%BF%9C/dp/B0F1JVH6R9",
-    "notes": "紐付きで長さ調整・取り外し可能。"
+    "notes": "紐付きで長さ調整・取り外し可能。",
+    "device_type": "iPhone"
   },
   {
     "id": "esr-iphone1413-projectzero-clear",
     "name": "ESR iPhone 14/13 Project Zeroクリアケース(米軍MIL規格)",
     "brand": "ESR",
-    "compatible_models": ["iPhone 14", "iPhone 13"],
-    "material": ["TPU"],
-    "case_type": ["クリア", "耐衝撃"],
-    "colors": ["クリア"],
-    "features": ["耐衝撃", "ストラップホール付き", "黄ばみ防止"],
+    "compatible_models": [
+      "iPhone 14",
+      "iPhone 13"
+    ],
+    "material": [
+      "TPU"
+    ],
+    "case_type": [
+      "クリア",
+      "耐衝撃"
+    ],
+    "colors": [
+      "クリア"
+    ],
+    "features": [
+      "耐衝撃",
+      "ストラップホール付き",
+      "黄ばみ防止"
+    ],
     "price_jpy_ref": 2480,
     "moq_ref": 40,
     "amazon_url": "https://www.amazon.co.jp/ESR-iPhone-13-%E7%B1%B3%E8%BB%8DMIL%E8%A6%8F%E6%A0%BC-%E3%82%B9%E3%83%88%E3%83%A9%E3%83%83%E3%83%97%E3%83%9B%E3%83%BC%E3%83%AB%E4%BB%98%E3%81%8D/dp/B099K6PP31",
-    "notes": "有名ブランド品。ブランド力を訴求したい仕入れ向け。"
+    "notes": "有名ブランド品。ブランド力を訴求したい仕入れ向け。",
+    "device_type": "iPhone"
   },
   {
     "id": "galaxys24ultra-zw2340-blue",
     "name": "Galaxy S24 Ultra 耐衝撃ケース(黄ばみなし・PC)",
     "brand": "ZW23-40",
-    "compatible_models": ["Galaxy S24 Ultra"],
-    "material": ["PC"],
-    "case_type": ["耐衝撃", "シンプル"],
-    "colors": ["ブルー"],
-    "features": ["耐衝撃", "レンズ保護", "ストラップホール付き"],
+    "compatible_models": [
+      "Galaxy S24 Ultra"
+    ],
+    "material": [
+      "PC"
+    ],
+    "case_type": [
+      "耐衝撃",
+      "シンプル"
+    ],
+    "colors": [
+      "ブルー"
+    ],
+    "features": [
+      "耐衝撃",
+      "レンズ保護",
+      "ストラップホール付き"
+    ],
     "price_jpy_ref": 1680,
     "moq_ref": 80,
     "amazon_url": "https://www.amazon.co.jp/Galaxy-S24-Ultra-%E3%82%B9%E3%83%88%E3%83%A9%E3%83%83%E3%83%97%E3%83%9B%E3%83%BC%E3%83%AB%E4%BB%98%E3%81%8D-%E3%82%AE%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%B7%E3%83%BCs24/dp/B0CQ887B2S",
-    "notes": "指紋防止・すり傷防止コーティング。"
+    "notes": "指紋防止・すり傷防止コーティング。",
+    "device_type": "Galaxy"
   },
   {
     "id": "spigen-galaxys24-liquidair-black",
     "name": "Spigen Galaxy S24 リキッド・エアー(米軍MIL規格)",
     "brand": "Spigen",
-    "compatible_models": ["Galaxy S24"],
-    "material": ["TPU"],
-    "case_type": ["耐衝撃", "シンプル"],
-    "colors": ["マット・ブラック"],
-    "features": ["耐衝撃", "レンズ保護", "ワイヤレス充電対応"],
+    "compatible_models": [
+      "Galaxy S24"
+    ],
+    "material": [
+      "TPU"
+    ],
+    "case_type": [
+      "耐衝撃",
+      "シンプル"
+    ],
+    "colors": [
+      "マット・ブラック"
+    ],
+    "features": [
+      "耐衝撃",
+      "レンズ保護",
+      "ワイヤレス充電対応"
+    ],
     "price_jpy_ref": 2680,
     "moq_ref": 30,
     "amazon_url": "https://www.amazon.co.jp/Spigen-%E7%B1%B3%E8%BB%8DMIL%E8%A6%8F%E6%A0%BC%E5%8F%96%E5%BE%97-%E3%83%AA%E3%82%AD%E3%83%83%E3%83%89%E3%83%BB%E3%82%A8%E3%82%A2%E3%83%BC-ACS07347-%E3%83%9E%E3%83%83%E3%83%88%E3%83%BB%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF/dp/B0CM5F1T8P",
-    "notes": "知名度の高い大手ブランド。ブランド仕入れは小ロットから検討。"
+    "notes": "知名度の高い大手ブランド。ブランド仕入れは小ロットから検討。",
+    "device_type": "Galaxy"
   },
   {
     "id": "galaxys24-bookcase-turquoise",
     "name": "Galaxy S24 手帳型ケース(PUレザー・マグネット内蔵)",
     "brand": "ノーブランド(OEM)",
-    "compatible_models": ["Galaxy S24"],
-    "material": ["PUレザー", "TPU"],
-    "case_type": ["手帳型"],
-    "colors": ["ターコイズ"],
-    "features": ["カード収納", "マグネット式", "スタンド機能", "耐衝撃", "防水"],
+    "compatible_models": [
+      "Galaxy S24"
+    ],
+    "material": [
+      "PUレザー",
+      "TPU"
+    ],
+    "case_type": [
+      "手帳型"
+    ],
+    "colors": [
+      "ターコイズ"
+    ],
+    "features": [
+      "カード収納",
+      "マグネット式",
+      "スタンド機能",
+      "耐衝撃",
+      "防水"
+    ],
     "price_jpy_ref": 1880,
     "moq_ref": 70,
     "amazon_url": "https://www.amazon.co.jp/Galaxy-S24-Sumsung-%E3%82%B9%E3%83%88%E3%83%A9%E3%83%83%E3%83%97%E3%83%9B%E3%83%BC%E3%83%AB%E4%BB%98%E3%81%8D-%E3%83%9E%E3%82%B0%E3%83%8D%E3%83%83%E3%83%88%E5%86%85%E8%94%B5/dp/B0CNP6NJYL",
-    "notes": "発色の良いターコイズカラー。防滴仕様。"
+    "notes": "発色の良いターコイズカラー。防滴仕様。",
+    "device_type": "Galaxy"
   },
   {
     "id": "galaxys24-clearmatte-magsafe-green",
     "name": "Galaxy S24 クリアマットケース(MagSafe対応)",
     "brand": "ノーブランド(OEM)",
-    "compatible_models": ["Galaxy S24"],
-    "material": ["PC"],
-    "case_type": ["クリア", "シンプル"],
-    "colors": ["グリーン"],
-    "features": ["MagSafe対応", "耐衝撃", "スタンド機能"],
+    "compatible_models": [
+      "Galaxy S24"
+    ],
+    "material": [
+      "PC"
+    ],
+    "case_type": [
+      "クリア",
+      "シンプル"
+    ],
+    "colors": [
+      "グリーン"
+    ],
+    "features": [
+      "MagSafe対応",
+      "耐衝撃",
+      "スタンド機能"
+    ],
     "price_jpy_ref": 1580,
     "moq_ref": 90,
     "amazon_url": "https://www.amazon.co.jp/Galaxy-MagSafe%E5%AF%BE%E5%BF%9C-%E3%83%9E%E3%82%B0%E3%82%BB%E3%83%BC%E3%83%95%E5%AF%BE%E5%BF%9C-GalaxyS24-%E3%82%AE%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%B7%E3%83%BCS24%E3%82%B1%E3%83%BC%E3%82%B9/dp/B0CSMT5XQ9",
-    "notes": "韓国系デザインのマットクリア。スタンド機能付き。"
+    "notes": "韓国系デザインのマットクリア。スタンド機能付き。",
+    "device_type": "Galaxy"
   },
   {
     "id": "fonkcase-galaxys24-clear-black",
     "name": "FONKCASE Galaxy S24 クリアケース(360度回転リング・MagSafe対応)",
     "brand": "FONKCASE",
-    "compatible_models": ["Galaxy S24"],
-    "material": ["TPU"],
-    "case_type": ["クリア"],
-    "colors": ["ブラック"],
-    "features": ["MagSafe対応", "ワイヤレス充電対応", "耐衝撃", "黄ばみ防止", "ストラップホール付き"],
+    "compatible_models": [
+      "Galaxy S24"
+    ],
+    "material": [
+      "TPU"
+    ],
+    "case_type": [
+      "クリア"
+    ],
+    "colors": [
+      "ブラック"
+    ],
+    "features": [
+      "MagSafe対応",
+      "ワイヤレス充電対応",
+      "耐衝撃",
+      "黄ばみ防止",
+      "ストラップホール付き"
+    ],
     "price_jpy_ref": 2180,
     "moq_ref": 50,
     "amazon_url": "https://www.amazon.co.jp/%E3%80%90360%C2%B0%E5%9B%9E%E8%BB%A2%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%BB%E7%B8%A6%E6%A8%AA%E4%B8%A1%E5%AF%BE%E5%BF%9C%E3%80%91FONKCASE-Galaxy-S24-Magsafe%E5%AF%BE%E5%BF%9C-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%BB%E7%B8%A6%E6%A8%AA%E4%B8%A1%E5%AF%BE%E5%BF%9C/dp/B0GWKPDR6J",
-    "notes": "360度回転リング付きでスタンドとしても使用可能。"
+    "notes": "360度回転リング付きでスタンドとしても使用可能。",
+    "device_type": "Galaxy"
   },
   {
     "id": "bentoben-galaxys24-matte-black",
     "name": "BENTOBEN Galaxy S24 半透明マットケース(MagSafe対応)",
     "brand": "BENTOBEN",
-    "compatible_models": ["Galaxy S24"],
-    "material": ["PC"],
-    "case_type": ["クリア", "シンプル"],
-    "colors": ["ブラック"],
-    "features": ["MagSafe対応", "ワイヤレス充電対応", "耐衝撃", "レンズ保護", "ストラップホール付き"],
+    "compatible_models": [
+      "Galaxy S24"
+    ],
+    "material": [
+      "PC"
+    ],
+    "case_type": [
+      "クリア",
+      "シンプル"
+    ],
+    "colors": [
+      "ブラック"
+    ],
+    "features": [
+      "MagSafe対応",
+      "ワイヤレス充電対応",
+      "耐衝撃",
+      "レンズ保護",
+      "ストラップホール付き"
+    ],
     "price_jpy_ref": 1980,
     "moq_ref": 50,
     "amazon_url": "https://www.amazon.co.jp/BENTOBEN-MagSafe%E5%AF%BE%E5%BF%9C-%E3%83%AF%E3%82%A4%E3%83%A4%E3%83%AC%E3%82%B9%E5%85%85%E9%9B%BB-%E3%82%B9%E3%83%88%E3%83%A9%E3%83%83%E3%83%97%E3%83%9B%E3%83%BC%E3%83%AB%E4%BB%98%E3%81%8D-%E3%82%AE%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%B7%E3%83%BCs24/dp/B0CPDKJK3S",
-    "notes": "指紋防止のマット質感。メタルレンズ保護付き。"
+    "notes": "指紋防止のマット質感。メタルレンズ保護付き。",
+    "device_type": "Galaxy"
   },
   {
     "id": "provare-galaxys24-clear-hard",
     "name": "Provare Galaxy S24 クリアハードケース(ポリカーボネート)",
     "brand": "Provare",
-    "compatible_models": ["Galaxy S24"],
-    "material": ["PC"],
-    "case_type": ["クリア", "シンプル"],
-    "colors": ["クリア"],
-    "features": ["耐衝撃", "ストラップホール付き"],
+    "compatible_models": [
+      "Galaxy S24"
+    ],
+    "material": [
+      "PC"
+    ],
+    "case_type": [
+      "クリア",
+      "シンプル"
+    ],
+    "colors": [
+      "クリア"
+    ],
+    "features": [
+      "耐衝撃",
+      "ストラップホール付き"
+    ],
     "price_jpy_ref": 1280,
     "moq_ref": 100,
     "amazon_url": "https://www.amazon.co.jp/Galaxy-SC-51E-%E3%83%9D%E3%83%AA%E3%82%AB%E3%83%BC%E3%83%9C%E3%83%8D%E3%83%BC%E3%83%88-%E3%82%B9%E3%83%88%E3%83%A9%E3%83%83%E3%83%97%E3%83%9B%E3%83%BC%E3%83%AB%E4%BB%98-%E3%80%90Provare%E3%80%91/dp/B0D2KR8VLY",
-    "notes": "高光沢・軽量ハードタイプ。"
+    "notes": "高光沢・軽量ハードタイプ。",
+    "device_type": "Galaxy"
   },
   {
     "id": "galaxys24-genuineleather-brown",
     "name": "Galaxy S24シリーズ 本革レザーケース(手作り高級牛革)",
     "brand": "ノーブランド(OEM)",
-    "compatible_models": ["Galaxy S24 Ultra", "Galaxy S24 Plus", "Galaxy S24"],
-    "material": ["本革"],
-    "case_type": ["手帳型"],
-    "colors": ["ブラウン"],
-    "features": ["耐衝撃"],
+    "compatible_models": [
+      "Galaxy S24 Ultra",
+      "Galaxy S24 Plus",
+      "Galaxy S24"
+    ],
+    "material": [
+      "本革"
+    ],
+    "case_type": [
+      "手帳型"
+    ],
+    "colors": [
+      "ブラウン"
+    ],
+    "features": [
+      "耐衝撃"
+    ],
     "price_jpy_ref": 3980,
     "moq_ref": 20,
     "amazon_url": "https://www.amazon.co.jp/Samsung-Galaxy-Ultra-%E6%9C%AC%E9%9D%A9%E3%83%AC%E3%82%B6%E3%83%BC%E3%83%9E%E3%82%B0%E3%83%8D%E3%83%83%E3%83%88%E9%9B%BB%E8%A9%B1%E3%82%AB%E3%83%90%E3%83%BC-%E4%BF%9D%E8%AD%B7%E3%82%AB%E3%83%90%E3%83%BC/dp/B0CSCWT5JJ",
-    "notes": "伝統工芸の手作り高級ライン。高単価・少量仕入れ向き。"
+    "notes": "伝統工芸の手作り高級ライン。高単価・少量仕入れ向き。",
+    "device_type": "Galaxy"
   },
   {
     "id": "bentoben-galaxys24-clear",
     "name": "BENTOBEN Galaxy S24 クリアケース(MagSafe対応)",
     "brand": "BENTOBEN",
-    "compatible_models": ["Galaxy S24"],
-    "material": ["TPU"],
-    "case_type": ["クリア"],
-    "colors": ["クリア"],
-    "features": ["MagSafe対応", "ワイヤレス充電対応", "耐衝撃", "レンズ保護", "ストラップホール付き"],
+    "compatible_models": [
+      "Galaxy S24"
+    ],
+    "material": [
+      "TPU"
+    ],
+    "case_type": [
+      "クリア"
+    ],
+    "colors": [
+      "クリア"
+    ],
+    "features": [
+      "MagSafe対応",
+      "ワイヤレス充電対応",
+      "耐衝撃",
+      "レンズ保護",
+      "ストラップホール付き"
+    ],
     "price_jpy_ref": 1980,
     "moq_ref": 50,
     "amazon_url": "https://www.amazon.co.jp/BENTOBEN-MagSafe%E5%AF%BE%E5%BF%9C-%E3%83%AF%E3%82%A4%E3%83%A4%E3%83%AC%E3%82%B9%E5%85%85%E9%9B%BB-%E3%82%B9%E3%83%88%E3%83%A9%E3%83%83%E3%83%97%E3%83%9B%E3%83%BC%E3%83%AB%E4%BB%98%E3%81%8D-%E3%82%AE%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%B7%E3%83%BCs24/dp/B0CPDKR213",
-    "notes": "同ブランドのクリアタイプ。定番色として在庫向き。"
+    "notes": "同ブランドのクリアタイプ。定番色として在庫向き。",
+    "device_type": "Galaxy"
   },
   {
     "id": "iphone16-simple-pc-clear",
     "name": "iPhone 16 シンプル無地ハードケース(ポリカーボネート)",
     "brand": "ノーブランド(OEM)",
-    "compatible_models": ["iPhone 16"],
-    "material": ["PC"],
-    "case_type": ["シンプル", "クリア"],
-    "colors": ["クリア"],
+    "compatible_models": [
+      "iPhone 16"
+    ],
+    "material": [
+      "PC"
+    ],
+    "case_type": [
+      "シンプル",
+      "クリア"
+    ],
+    "colors": [
+      "クリア"
+    ],
     "features": [],
     "price_jpy_ref": 880,
     "moq_ref": 200,
     "amazon_url": "https://www.amazon.co.jp/iPhone16-%E3%82%B9%E3%83%9E%E3%83%9B%E3%82%B1%E3%83%BC%E3%82%B9-iphone16%E3%82%B1%E3%83%BC%E3%82%B9-%E3%82%A2%E3%82%A4%E3%83%95%E3%82%A9%E3%83%B3%E3%82%AB%E3%83%90%E3%83%BC-%E3%83%9D%E3%83%AA%E3%82%AB%E3%83%BC%E3%83%9C%E3%83%8D%E3%83%BC%E3%83%88%E8%A3%BD/dp/B0DHCLQ34B",
-    "notes": "最も低単価で大量仕入れがしやすい無地タイプ。"
+    "notes": "最も低単価で大量仕入れがしやすい無地タイプ。",
+    "device_type": "iPhone"
   },
   {
     "id": "iphone16-aramid-black",
     "name": "iPhone 16 アラミド繊維フチなしケース(超薄型・耐衝撃)",
     "brand": "ノーブランド(OEM)",
-    "compatible_models": ["iPhone 16"],
-    "material": ["アラミド繊維"],
-    "case_type": ["シンプル", "耐衝撃"],
-    "colors": ["ブラック"],
-    "features": ["耐衝撃", "ワイヤレス充電対応"],
+    "compatible_models": [
+      "iPhone 16"
+    ],
+    "material": [
+      "アラミド繊維"
+    ],
+    "case_type": [
+      "シンプル",
+      "耐衝撃"
+    ],
+    "colors": [
+      "ブラック"
+    ],
+    "features": [
+      "耐衝撃",
+      "ワイヤレス充電対応"
+    ],
     "price_jpy_ref": 2280,
     "moq_ref": 60,
     "amazon_url": "https://www.amazon.co.jp/%E7%94%A8%E3%83%95%E3%83%81%E3%81%AA%E3%81%97%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3-%E3%82%A2%E3%83%A9%E3%83%9F%E3%83%89%E7%B9%8A%E7%B6%AD%E8%A3%BD-%E3%83%AF%E3%82%A4%E3%83%A4%E3%83%AC%E3%82%B9%E5%85%85%E9%9B%BB%E5%AF%BE%E5%BF%9C-%E8%B6%85%E6%A5%B5%E8%96%84%E3%83%BB%E8%B6%85%E8%BB%BD%E9%87%8F-%E3%82%B1%E3%83%BC%E3%82%B9%EF%BC%88%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF%EF%BC%89/dp/B0F2TNRRT7",
-    "notes": "ミニマリスト向けフチなしデザイン、高級素材で差別化。"
+    "notes": "ミニマリスト向けフチなしデザイン、高級素材で差別化。",
+    "device_type": "iPhone"
   },
   {
     "id": "iphone16pro-simple-pc-clear",
     "name": "iPhone 16 Pro シンプル無地ハードケース(ポリカーボネート)",
     "brand": "ノーブランド(OEM)",
-    "compatible_models": ["iPhone 16 Pro"],
-    "material": ["PC"],
-    "case_type": ["シンプル", "クリア"],
-    "colors": ["クリア"],
+    "compatible_models": [
+      "iPhone 16 Pro"
+    ],
+    "material": [
+      "PC"
+    ],
+    "case_type": [
+      "シンプル",
+      "クリア"
+    ],
+    "colors": [
+      "クリア"
+    ],
     "features": [],
     "price_jpy_ref": 880,
     "moq_ref": 200,
     "amazon_url": "https://www.amazon.co.jp/iPhone16-%E3%82%B9%E3%83%9E%E3%83%9B%E3%82%B1%E3%83%BC%E3%82%B9-iphone16pro%E3%82%B1%E3%83%BC%E3%82%B9-%E3%82%A2%E3%82%A4%E3%83%95%E3%82%A9%E3%83%B3%E3%82%AB%E3%83%90%E3%83%BC-%E3%83%9D%E3%83%AA%E3%82%AB%E3%83%BC%E3%83%9C%E3%83%8D%E3%83%BC%E3%83%88%E8%A3%BD/dp/B0DHCLLW43",
-    "notes": "Proモデル向けの定番無地ケース。"
+    "notes": "Proモデル向けの定番無地ケース。",
+    "device_type": "iPhone"
   },
   {
     "id": "iphone16plus-clear-tpupc-black",
     "name": "iPhone 16 Plus クリアケース(TPU+PC・全面保護)",
     "brand": "ノーブランド(OEM)",
-    "compatible_models": ["iPhone 16 Plus"],
-    "material": ["TPU", "PC"],
-    "case_type": ["クリア"],
-    "colors": ["ブラック"],
-    "features": ["耐衝撃", "ワイヤレス充電対応"],
+    "compatible_models": [
+      "iPhone 16 Plus"
+    ],
+    "material": [
+      "TPU",
+      "PC"
+    ],
+    "case_type": [
+      "クリア"
+    ],
+    "colors": [
+      "ブラック"
+    ],
+    "features": [
+      "耐衝撃",
+      "ワイヤレス充電対応"
+    ],
     "price_jpy_ref": 1180,
     "moq_ref": 150,
     "amazon_url": "https://www.amazon.co.jp/iPhone-Plus-%E3%82%AF%E3%83%AA%E3%82%A2%E3%82%B1%E3%83%BC%E3%82%B9-%E3%81%99%E3%82%8A%E5%82%B7%E9%98%B2%E6%AD%A2-%E3%83%AF%E3%82%A4%E3%83%A4%E3%83%AC%E3%82%B9%E5%85%85%E9%9B%BB%E5%AF%BE%E5%BF%9C/dp/B0DG8L779G",
-    "notes": "TPU+PCハイブリッドで薄型・軽量。すり傷防止コーティング。"
+    "notes": "TPU+PCハイブリッドで薄型・軽量。すり傷防止コーティング。",
+    "device_type": "iPhone"
   },
   {
     "id": "iphone16-vertical-pc-brown",
     "name": "iPhone 16 縦開きハードケース(PC・シンプル)",
     "brand": "ノーブランド(OEM)",
-    "compatible_models": ["iPhone 16"],
-    "material": ["PC"],
-    "case_type": ["シンプル"],
-    "colors": ["ブラウン"],
-    "features": ["耐衝撃"],
+    "compatible_models": [
+      "iPhone 16"
+    ],
+    "material": [
+      "PC"
+    ],
+    "case_type": [
+      "シンプル"
+    ],
+    "colors": [
+      "ブラウン"
+    ],
+    "features": [
+      "耐衝撃"
+    ],
     "price_jpy_ref": 1080,
     "moq_ref": 150,
     "amazon_url": "https://www.amazon.co.jp/iPhone16-%E4%B8%8A%E4%B8%8B%E3%81%AE%E9%96%8B%E9%96%89%E5%BC%8F-%E3%83%8F%E3%83%BC%E3%83%89PC%E3%82%B1%E3%83%BC%E3%82%B9-%E3%82%B7%E3%83%B3%E3%83%97%E3%83%AB-%E6%90%BA%E5%B8%AF%E3%82%AB%E3%83%90%E3%83%BC/dp/B0DKCQRRD7",
-    "notes": "上下開閉式のユニークな構造。薄型でかさばらない。"
+    "notes": "上下開閉式のユニークな構造。薄型でかさばらない。",
+    "device_type": "iPhone"
   },
   {
     "id": "iphone16pro-simple-clear-thin",
     "name": "iPhone 16 Pro 無地シンプルクリアハードケース(薄型)",
     "brand": "ノーブランド(OEM)",
-    "compatible_models": ["iPhone 16 Pro"],
-    "material": ["PC"],
-    "case_type": ["シンプル", "クリア"],
-    "colors": ["クリア"],
+    "compatible_models": [
+      "iPhone 16 Pro"
+    ],
+    "material": [
+      "PC"
+    ],
+    "case_type": [
+      "シンプル",
+      "クリア"
+    ],
+    "colors": [
+      "クリア"
+    ],
     "features": [],
     "price_jpy_ref": 780,
     "moq_ref": 200,
     "amazon_url": "https://www.amazon.co.jp/IPHONE16PRO-iphone16-%E3%82%A2%E3%82%A4%E3%83%95%E3%82%A9%E3%83%B316%E3%83%97%E3%83%AD-iphone16pro-%E3%82%B9%E3%83%9E%E3%83%BC%E3%83%88%E3%83%95%E3%82%A9%E3%83%B3%E3%82%AB%E3%83%90%E3%83%BC/dp/B0DHJQ4L6W",
-    "notes": "全キャリア共通で使える薄型背面カバー。"
+    "notes": "全キャリア共通で使える薄型背面カバー。",
+    "device_type": "iPhone"
   },
   {
     "id": "iphone16series-clear-stand-gray",
     "name": "iPhone 16/16 Plus/16 Pro/16 Pro Max クリアケース(TPU+PC・スタンド機能)",
     "brand": "ノーブランド(OEM)",
-    "compatible_models": ["iPhone 16", "iPhone 16 Plus", "iPhone 16 Pro", "iPhone 16 Pro Max"],
-    "material": ["TPU", "PC"],
-    "case_type": ["クリア"],
-    "colors": ["グレー"],
-    "features": ["耐衝撃", "スタンド機能"],
+    "compatible_models": [
+      "iPhone 16",
+      "iPhone 16 Plus",
+      "iPhone 16 Pro",
+      "iPhone 16 Pro Max"
+    ],
+    "material": [
+      "TPU",
+      "PC"
+    ],
+    "case_type": [
+      "クリア"
+    ],
+    "colors": [
+      "グレー"
+    ],
+    "features": [
+      "耐衝撃",
+      "スタンド機能"
+    ],
     "price_jpy_ref": 1280,
     "moq_ref": 120,
     "amazon_url": "https://www.amazon.co.jp/iPhone-Max%E3%82%B1%E3%83%BC%E3%82%B9-%E6%8C%81%E3%81%A1%E3%82%84%E3%81%99%E3%81%84-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E6%A9%9F%E8%83%BD-%E8%80%90%E8%A1%9D%E6%92%83%E3%82%AB%E3%83%90%E3%83%BC/dp/B0D9QMRL9M",
-    "notes": "iPhone16シリーズ全機種に対応した汎用モデル。"
+    "notes": "iPhone16シリーズ全機種に対応した汎用モデル。",
+    "device_type": "iPhone"
   },
   {
     "id": "plata-iphone16-hardgloss-white",
     "name": "PLATA iPhone 16 ハード光沢バックケース(単色シンプル)",
     "brand": "PLATA",
-    "compatible_models": ["iPhone 16"],
-    "material": ["PC"],
-    "case_type": ["シンプル"],
-    "colors": ["ホワイト"],
+    "compatible_models": [
+      "iPhone 16"
+    ],
+    "material": [
+      "PC"
+    ],
+    "case_type": [
+      "シンプル"
+    ],
+    "colors": [
+      "ホワイト"
+    ],
     "features": [],
     "price_jpy_ref": 980,
     "moq_ref": 180,
     "amazon_url": "https://www.amazon.co.jp/PLATA-iPhone16%E5%AF%BE%E5%BF%9C-%E3%82%A2%E3%82%A4%E3%83%95%E3%82%A9%E3%83%B316%E5%AF%BE%E5%BF%9C-%E3%83%8F%E3%83%BC%E3%83%89%E3%82%B1%E3%83%BC%E3%82%B9-%E3%83%90%E3%83%83%E3%82%AF%E3%82%AB%E3%83%90%E3%83%BC/dp/B0DHKPRRGD",
-    "notes": "ボタン操作・充電も装着したまま可能な光沢ハードケース。"
+    "notes": "ボタン操作・充電も装着したまま可能な光沢ハードケース。",
+    "device_type": "iPhone"
   },
   {
     "id": "iphone16-carbon-blackred",
     "name": "iPhone 16 耐衝撃ケース(カーボン調・レンズ保護)",
     "brand": "ノーブランド(OEM)",
-    "compatible_models": ["iPhone 16"],
-    "material": ["TPU", "PC"],
-    "case_type": ["耐衝撃", "シンプル"],
-    "colors": ["ブラック", "レッド"],
-    "features": ["耐衝撃", "レンズ保護"],
+    "compatible_models": [
+      "iPhone 16"
+    ],
+    "material": [
+      "TPU",
+      "PC"
+    ],
+    "case_type": [
+      "耐衝撃",
+      "シンプル"
+    ],
+    "colors": [
+      "ブラック",
+      "レッド"
+    ],
+    "features": [
+      "耐衝撃",
+      "レンズ保護"
+    ],
     "price_jpy_ref": 1180,
     "moq_ref": 140,
     "amazon_url": "https://www.amazon.co.jp/iPhone-iPhone16-%E3%82%A2%E3%82%A4%E3%83%95%E3%82%A9%E3%83%B316-%E3%82%B7%E3%83%83%E3%82%AF%E3%82%B9%E3%83%86%E3%82%A3%E3%83%BC%E3%83%B3-%E3%82%AB%E3%83%A1%E3%83%A9%E3%83%AC%E3%83%B3%E3%82%BA%E4%BF%9D%E8%AD%B7/dp/B0DGFMK1D9",
-    "notes": "カーボン調デザインで男性向け需要にも対応。"
+    "notes": "カーボン調デザインで男性向け需要にも対応。",
+    "device_type": "iPhone"
+  },
+  {
+    "id": "xperia1vi-crystal-clear",
+    "name": "Xperia 1 VI Crystal Series クリアケース(米軍MIL規格・SGS認証)",
+    "brand": "ノーブランド(OEM)",
+    "compatible_models": [
+      "Xperia 1 VI"
+    ],
+    "material": [
+      "PC"
+    ],
+    "case_type": [
+      "クリア",
+      "耐衝撃"
+    ],
+    "colors": [
+      "クリア"
+    ],
+    "features": [
+      "耐衝撃",
+      "レンズ保護",
+      "ストラップホール付き",
+      "黄ばみ防止"
+    ],
+    "price_jpy_ref": 1980,
+    "moq_ref": 60,
+    "amazon_url": "https://www.amazon.co.jp/Xperia-%E7%B1%B3%E8%BB%8DMIL%E8%A6%8F%E6%A0%BC%E5%8F%96%E5%BE%97-%E3%82%B9%E3%83%88%E3%83%A9%E3%83%83%E3%83%97%E3%83%9B%E3%83%BC%E3%83%AB%E4%BB%98%E3%81%8D-%E3%82%A8%E3%82%AF%E3%82%B9%E3%83%9A%E3%83%AA%E3%82%A21-Crystal/dp/B0D5VNLM6F",
+    "notes": "米軍MIL規格・SGS認証取得のクリアケース。黄ばみに強い。",
+    "device_type": "Xperia"
+  },
+  {
+    "id": "xperia1vi-matte-simple",
+    "name": "Xperia 1 VI 耐衝撃マットケース(全面保護・シンプル)",
+    "brand": "ノーブランド(OEM)",
+    "compatible_models": [
+      "Xperia 1 VI"
+    ],
+    "material": [
+      "TPU"
+    ],
+    "case_type": [
+      "耐衝撃",
+      "シンプル"
+    ],
+    "colors": [
+      "ブラック"
+    ],
+    "features": [
+      "耐衝撃",
+      "レンズ保護",
+      "ストラップホール付き"
+    ],
+    "price_jpy_ref": 1380,
+    "moq_ref": 100,
+    "amazon_url": "https://www.amazon.co.jp/XPERIA-VI-%E3%82%A8%E3%82%AF%E3%82%B9%E3%83%9A%E3%83%AA%E3%82%A2-%E3%82%B9%E3%83%88%E3%83%A9%E3%83%83%E3%83%97%E3%83%9B%E3%83%BC%E3%83%AB%E4%BB%98%E3%81%8D-Xperia/dp/B0D2QTSDJM",
+    "notes": "マット質感で指紋防止・擦り傷防止。脱着簡単。",
+    "device_type": "Xperia"
+  },
+  {
+    "id": "xperia1vi-ring-tpu",
+    "name": "Sony Xperia 1 VI ケース リング付きTPU(米軍MIL規格)",
+    "brand": "ノーブランド(OEM)",
+    "compatible_models": [
+      "Xperia 1 VI"
+    ],
+    "material": [
+      "TPU"
+    ],
+    "case_type": [
+      "耐衝撃"
+    ],
+    "colors": [
+      "ブラック"
+    ],
+    "features": [
+      "耐衝撃",
+      "スタンド機能",
+      "ストラップホール付き"
+    ],
+    "price_jpy_ref": 1580,
+    "moq_ref": 80,
+    "amazon_url": "https://www.amazon.co.jp/Xperia-%E7%B1%B3%E8%BB%8DMIL%E8%A6%8F%E6%A0%BC%E5%8F%96%E5%BE%97-%E3%82%B9%E3%83%88%E3%83%A9%E3%83%83%E3%83%97%E3%83%9B%E3%83%BC%E3%83%AB%E4%BB%98%E3%81%8D-%E3%82%B5%E3%83%A9%E3%82%B5%E3%83%A9%E8%A7%A6%E3%82%8A%E5%BF%83%E5%9C%B0-%E3%82%A8%E3%82%AF%E3%82%B9%E3%83%9A%E3%83%AA%E3%82%A21/dp/B0D2PZ3LTQ",
+    "notes": "液状シリコンの薄型TPU。リング付きでスタンドとしても使用可。",
+    "device_type": "Xperia"
+  },
+  {
+    "id": "xperia1vi-magsafe-purple",
+    "name": "Xperia 1 VI ケース MagSafe対応(PC・軽量薄型)",
+    "brand": "ノーブランド(OEM)",
+    "compatible_models": [
+      "Xperia 1 VI"
+    ],
+    "material": [
+      "PC"
+    ],
+    "case_type": [
+      "シンプル",
+      "耐衝撃"
+    ],
+    "colors": [
+      "うすむらさき"
+    ],
+    "features": [
+      "MagSafe対応",
+      "ワイヤレス充電対応",
+      "耐衝撃",
+      "ストラップホール付き"
+    ],
+    "price_jpy_ref": 1880,
+    "moq_ref": 70,
+    "amazon_url": "https://www.amazon.co.jp/Xperia-MagSafe%E5%AF%BE%E5%BF%9C-%E3%83%AF%E3%82%A4%E3%83%A4%E3%83%AC%E3%82%B9%E5%85%85%E9%9B%BB%E5%AF%BE%E5%BF%9C-Xperia1VI-%E3%82%B9%E3%83%88%E3%83%A9%E3%83%83%E3%83%97%E3%83%9B%E3%83%BC%E3%83%AB%E4%BB%98%E3%81%8D/dp/B0D4TL1JKG",
+    "notes": "MagSafe対応で装着したままワイヤレス充電が可能。軽量薄型。",
+    "device_type": "Xperia"
+  },
+  {
+    "id": "xperia1vi-bookcase-leather",
+    "name": "Xperia 1 VI 手帳型ケース(高級PUレザー・財布型)",
+    "brand": "ノーブランド(OEM)",
+    "compatible_models": [
+      "Xperia 1 VI"
+    ],
+    "material": [
+      "PUレザー"
+    ],
+    "case_type": [
+      "手帳型",
+      "耐衝撃"
+    ],
+    "colors": [
+      "ブラウン"
+    ],
+    "features": [
+      "カード収納",
+      "マグネット式",
+      "耐衝撃"
+    ],
+    "price_jpy_ref": 2280,
+    "moq_ref": 50,
+    "amazon_url": "https://www.amazon.co.jp/Sony-Xperia-VI-%E9%AB%98%E7%B4%9APU%E3%83%AC%E3%82%B6%E3%83%BC-%E3%82%A8%E3%82%AF%E3%82%B9%E3%83%9A%E3%83%AA%E3%82%A21vi/dp/B0DFGPDCCR",
+    "notes": "高級PUレザーの財布型。カード収納・マグネット式開閉。",
+    "device_type": "Xperia"
+  },
+  {
+    "id": "xperia1vi-clear-purple",
+    "name": "Xperia 1 VI クリアケース(透明TPU・耐衝撃)",
+    "brand": "ノーブランド(OEM)",
+    "compatible_models": [
+      "Xperia 1 VI"
+    ],
+    "material": [
+      "TPU"
+    ],
+    "case_type": [
+      "クリア"
+    ],
+    "colors": [
+      "パープル"
+    ],
+    "features": [
+      "耐衝撃",
+      "ワイヤレス充電対応"
+    ],
+    "price_jpy_ref": 1280,
+    "moq_ref": 110,
+    "amazon_url": "https://www.amazon.co.jp/Xperia-Xperia1VI-SO-51E-%E3%83%AF%E3%82%A4%E3%83%A4%E3%83%AC%E3%82%B9%E5%85%85%E9%9B%BB%E5%AF%BE%E5%BF%9C/dp/B0D7C39P8J",
+    "notes": "透明TPUで薄型・軽量。滑り止め加工。",
+    "device_type": "Xperia"
+  },
+  {
+    "id": "oppo-renoa-bookcase-gray",
+    "name": "COVERARY OPPO Reno A 手帳型ケース(全機種対応ダークカラー)",
+    "brand": "COVERARY",
+    "compatible_models": [
+      "OPPO Reno A"
+    ],
+    "material": [
+      "PUレザー"
+    ],
+    "case_type": [
+      "手帳型",
+      "シンプル"
+    ],
+    "colors": [
+      "グレー"
+    ],
+    "features": [],
+    "price_jpy_ref": 1480,
+    "moq_ref": 90,
+    "amazon_url": "https://www.amazon.co.jp/OPPO-Reno-%E3%82%B1%E3%83%BC%E3%82%B9-%E3%82%B9%E3%83%9E%E3%83%9B%E3%82%B1%E3%83%BC%E3%82%B9-%E3%82%B7%E3%83%B3%E3%83%97%E3%83%AB/dp/B07ZNCZ17T",
+    "notes": "メンズ向けのダークカラー・シンプルな手帳型。",
+    "device_type": "OPPO"
+  },
+  {
+    "id": "oppo-reno11a-bookcase-blue",
+    "name": "OPPO Reno 11A 手帳型ケース(高質PU合皮・財布型)",
+    "brand": "ノーブランド(OEM)",
+    "compatible_models": [
+      "OPPO Reno 11A"
+    ],
+    "material": [
+      "PUレザー"
+    ],
+    "case_type": [
+      "手帳型"
+    ],
+    "colors": [
+      "ブルー"
+    ],
+    "features": [
+      "カード収納",
+      "マグネット式",
+      "スタンド機能",
+      "耐衝撃"
+    ],
+    "price_jpy_ref": 1780,
+    "moq_ref": 70,
+    "amazon_url": "https://www.amazon.co.jp/%E9%AB%98%E8%B3%AAPU%E5%90%88%E7%9A%AE-Reno11-%E3%83%9E%E3%82%B0%E3%83%8D%E3%83%83%E3%83%88-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E6%A9%9F%E8%83%BD%E4%BB%98-Reno11A/dp/B0D78WH4F3",
+    "notes": "耐摩擦・耐衝撃仕様の財布型。全面保護。",
+    "device_type": "OPPO"
+  },
+  {
+    "id": "oppo-renoa-bookcase-black",
+    "name": "OPPO Reno A 手帳型ケース(カード収納・PUレザー)",
+    "brand": "ノーブランド(OEM)",
+    "compatible_models": [
+      "OPPO Reno A"
+    ],
+    "material": [
+      "PUレザー"
+    ],
+    "case_type": [
+      "手帳型",
+      "耐衝撃"
+    ],
+    "colors": [
+      "ブラック"
+    ],
+    "features": [
+      "カード収納",
+      "マグネット式",
+      "スタンド機能",
+      "耐衝撃",
+      "ストラップホール付き"
+    ],
+    "price_jpy_ref": 1680,
+    "moq_ref": 80,
+    "amazon_url": "https://www.amazon.co.jp/OPPO-Reno-SIM%E3%83%95%E3%83%AA%E3%83%BC-%E3%82%B9%E3%83%88%E3%83%A9%E3%83%83%E3%83%97%E3%83%9B%E3%83%BC%E3%83%AB%E4%BB%98%E3%81%8D-%E3%82%AB%E3%83%BC%E3%83%89%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC/dp/B08F3GXQ7M",
+    "notes": "カードホルダー・札収納付きのレトロ財布型。SIMフリー機対応。",
+    "device_type": "OPPO"
+  },
+  {
+    "id": "oppo-reno5a-bookcase-simple",
+    "name": "OPPO Reno5 A 手帳型ケース(TPU・耐衝撃・シンプル)",
+    "brand": "ノーブランド(OEM)",
+    "compatible_models": [
+      "OPPO Reno5 A"
+    ],
+    "material": [
+      "TPU",
+      "PUレザー"
+    ],
+    "case_type": [
+      "手帳型",
+      "シンプル"
+    ],
+    "colors": [
+      "ブラック"
+    ],
+    "features": [
+      "カード収納",
+      "マグネット式",
+      "スタンド機能",
+      "耐衝撃"
+    ],
+    "price_jpy_ref": 1580,
+    "moq_ref": 90,
+    "amazon_url": "https://www.amazon.co.jp/%E3%82%B1%E3%83%BC%E3%82%B9%E6%89%8B%E5%B8%B3%E5%9E%8B-OPPOReno5A%E3%82%B1%E3%83%BC%E3%82%B9-Reno5A-%E3%83%9E%E3%82%B0%E3%83%8D%E3%83%83%E3%83%88%E5%86%85%E8%94%B5-%E3%82%B9%E3%83%94%E3%83%BC%E3%82%AB%E3%83%BC%E3%83%9B%E3%83%BC%E3%83%AB/dp/B0968QTHJQ",
+    "notes": "ベルトなしのスピーカーホール付き。ワイモバイル/SIMフリー機対応。",
+    "device_type": "OPPO"
+  },
+  {
+    "id": "galaxya54-clear-tpu-black",
+    "name": "Galaxy A54 5G クリアケース(TPU・黄変防止・ワイヤレス充電対応)",
+    "brand": "ノーブランド(OEM)",
+    "compatible_models": [
+      "Galaxy A54"
+    ],
+    "material": [
+      "TPU"
+    ],
+    "case_type": [
+      "クリア"
+    ],
+    "colors": [
+      "クリア"
+    ],
+    "features": [
+      "耐衝撃",
+      "ワイヤレス充電対応",
+      "黄ばみ防止"
+    ],
+    "price_jpy_ref": 980,
+    "moq_ref": 150,
+    "amazon_url": "https://www.amazon.co.jp/Samsung-Galaxy-%E3%82%AE%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%B7%E3%83%BCA54-SC-53D-%E3%83%AF%E3%82%A4%E3%83%A4%E3%83%AC%E3%82%B9%E5%85%85%E9%9B%BB/dp/B0C33J2YCF",
+    "notes": "柔らかい薄型TPU。低単価で大量仕入れ向き。",
+    "device_type": "Galaxy"
+  },
+  {
+    "id": "galaxya54-ring-clear",
+    "name": "Galaxy A54 5G クリアリングケース(TPU・車載ホルダー対応)",
+    "brand": "ノーブランド(OEM)",
+    "compatible_models": [
+      "Galaxy A54"
+    ],
+    "material": [
+      "TPU"
+    ],
+    "case_type": [
+      "クリア"
+    ],
+    "colors": [
+      "クリア"
+    ],
+    "features": [
+      "耐衝撃",
+      "黄ばみ防止"
+    ],
+    "price_jpy_ref": 1080,
+    "moq_ref": 130,
+    "amazon_url": "https://www.amazon.co.jp/Galaxy-%E3%83%AA%E3%83%B3%E3%82%B0%E4%BB%98%E3%81%8D-%E3%82%AE%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%B7%E3%83%BC-SC-53D-%E8%BB%8A%E8%BC%89%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%E5%AF%BE%E5%BF%9C/dp/B0C2BYXGXS",
+    "notes": "リング付きで車載ホルダーにも対応。滑り止め加工。",
+    "device_type": "Galaxy"
+  },
+  {
+    "id": "galaxya54-clear-tpupc-blue",
+    "name": "Galaxy A54 5G クリアケース(TPU+PC二重構造・強化ガラスフィルム付き)",
+    "brand": "ノーブランド(OEM)",
+    "compatible_models": [
+      "Galaxy A54"
+    ],
+    "material": [
+      "TPU",
+      "PC"
+    ],
+    "case_type": [
+      "クリア",
+      "耐衝撃"
+    ],
+    "colors": [
+      "クリアブルー"
+    ],
+    "features": [
+      "耐衝撃"
+    ],
+    "price_jpy_ref": 1180,
+    "moq_ref": 120,
+    "amazon_url": "https://www.amazon.co.jp/Galaxy-%E5%82%B7%E3%82%84%E3%81%BB%E3%81%93%E3%82%8A%E3%81%8B%E3%82%89%E5%AE%88%E3%82%8B-%E3%82%AE%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%B7%E3%83%BC-%E5%BC%B7%E5%8C%96%E3%82%AC%E3%83%A9%E3%82%B9%E3%83%95%E3%82%A3%E3%83%AB%E3%83%A0-%E3%82%AF%E3%83%AA%E3%82%A2%E3%83%96%E3%83%AB%E3%83%BC/dp/B0BPX6GNRH",
+    "notes": "強化ガラスフィルムのおまけ付き。2重構造で耐衝撃性アップ。",
+    "device_type": "Galaxy"
+  },
+  {
+    "id": "galaxya54-genuine-clear",
+    "name": "Samsung純正 Galaxy A54 Clear Case(国内正規品)",
+    "brand": "Samsung純正",
+    "compatible_models": [
+      "Galaxy A54"
+    ],
+    "material": [
+      "PC"
+    ],
+    "case_type": [
+      "クリア",
+      "シンプル"
+    ],
+    "colors": [
+      "クリア"
+    ],
+    "features": [],
+    "price_jpy_ref": 2480,
+    "moq_ref": 30,
+    "amazon_url": "https://www.amazon.co.jp/Samsung-Clear-Galaxy%E7%B4%94%E6%AD%A3-%E5%9B%BD%E5%86%85%E6%AD%A3%E8%A6%8F%E5%93%81-EF-QA546CTEGJP/dp/B0C2YCV22P",
+    "notes": "Samsung純正の国内正規品。ブランド力を訴求したい仕入れ向け。",
+    "device_type": "Galaxy"
+  },
+  {
+    "id": "pixel9-gogorelax-clear",
+    "name": "Google Pixel 9 クリアケース(ガラスフィルム保護付き・米軍MIL規格)",
+    "brand": "gogorelax",
+    "compatible_models": [
+      "Google Pixel 9"
+    ],
+    "material": [
+      "PC"
+    ],
+    "case_type": [
+      "クリア"
+    ],
+    "colors": [
+      "クリア"
+    ],
+    "features": [
+      "耐衝撃",
+      "ワイヤレス充電対応",
+      "黄ばみ防止",
+      "ストラップホール付き"
+    ],
+    "price_jpy_ref": 1680,
+    "moq_ref": 90,
+    "amazon_url": "https://www.amazon.co.jp/Google-Pixel-%E3%82%B1%E3%83%BC%E3%82%B9-%E3%82%AC%E3%83%A9%E3%82%B9%E3%83%95%E3%82%A3%E3%83%AB%E3%83%A0%E4%BF%9D%E8%AD%B7%E4%BB%98%E3%81%8D-gogorelax/dp/B0D9W282B9",
+    "notes": "保護ガラスフィルム付属。米軍MIL規格取得で耐久性も確保。",
+    "device_type": "Google Pixel"
+  },
+  {
+    "id": "pixel9profold-clear",
+    "name": "Google Pixel 9 Pro Fold クリアケース(軽量薄型・米軍MIL規格)",
+    "brand": "ノーブランド(OEM)",
+    "compatible_models": [
+      "Google Pixel 9 Pro Fold"
+    ],
+    "material": [
+      "PC"
+    ],
+    "case_type": [
+      "クリア"
+    ],
+    "colors": [
+      "クリア"
+    ],
+    "features": [
+      "耐衝撃",
+      "ワイヤレス充電対応",
+      "黄ばみ防止"
+    ],
+    "price_jpy_ref": 2680,
+    "moq_ref": 40,
+    "amazon_url": "https://www.amazon.co.jp/Google-Fold%E3%82%B1%E3%83%BC%E3%82%B9-fold%E3%82%B9%E3%83%9E%E3%83%9B%E3%82%B1%E3%83%BC%E3%82%B9-%E3%83%AF%E3%82%A4%E3%83%A4%E3%83%AC%E3%82%B9%E5%85%85%E9%9B%BB%E5%AF%BE%E5%BF%9C-%E7%B1%B3%E8%BB%8DMIL%E8%A6%8F%E6%A0%BC/dp/B0DHL7Y27S",
+    "notes": "折りたたみ機種向けの薄型軽量クリアケース。背面透明。",
+    "device_type": "Google Pixel"
+  },
+  {
+    "id": "pixel9-simple-white",
+    "name": "Google Pixel 9 耐衝撃シンプルケース(衝撃吸収・傷に強い)",
+    "brand": "ノーブランド(OEM)",
+    "compatible_models": [
+      "Google Pixel 9"
+    ],
+    "material": [
+      "TPU",
+      "PC"
+    ],
+    "case_type": [
+      "耐衝撃",
+      "シンプル"
+    ],
+    "colors": [
+      "ホワイト"
+    ],
+    "features": [
+      "耐衝撃"
+    ],
+    "price_jpy_ref": 1180,
+    "moq_ref": 130,
+    "amazon_url": "https://www.amazon.co.jp/Google-%E3%82%B0%E3%83%BC%E3%82%B0%E3%83%AB%E3%83%94%E3%82%AF%E3%82%BB%E3%83%AB9-GooglePixel9-%E8%80%90%E8%A1%9D%E6%92%83%E3%82%B1%E3%83%BC%E3%82%B9-%E3%82%B9%E3%83%9E%E3%83%9B%E3%82%AB%E3%83%90%E3%83%BC/dp/B0DDS7JDZ9",
+    "notes": "ソフト・ハード併用のシンプルな耐衝撃ケース。",
+    "device_type": "Google Pixel"
+  },
+  {
+    "id": "pixel9a-elecom-clear",
+    "name": "エレコム Google Pixel 9a クリアケース(耐衝撃・高耐久ハイブリッド)",
+    "brand": "エレコム",
+    "compatible_models": [
+      "Google Pixel 9a"
+    ],
+    "material": [
+      "TPU",
+      "PC"
+    ],
+    "case_type": [
+      "クリア",
+      "耐衝撃"
+    ],
+    "colors": [
+      "クリア"
+    ],
+    "features": [
+      "耐衝撃",
+      "ストラップホール付き",
+      "黄ばみ防止"
+    ],
+    "price_jpy_ref": 2180,
+    "moq_ref": 50,
+    "amazon_url": "https://www.amazon.co.jp/%E3%80%90%E3%83%95%E3%82%A3%E3%83%AB%E3%83%A0%E3%82%BB%E3%83%83%E3%83%88%E3%80%91-%E3%82%A8%E3%83%AC%E3%82%B3%E3%83%A0-%E3%82%B9%E3%83%88%E3%83%A9%E3%83%83%E3%83%97%E3%83%9B%E3%83%BC%E3%83%AB%E4%BB%98%E3%81%8D-4%E3%81%A4%E8%A7%92%E3%82%A8%E3%82%A2%E3%83%BC%E3%82%AF%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3-PMWP251HVCK3CR/dp/B0F5VQGJMS",
+    "notes": "国内ブランドのエレコム製。ガラスフィルムセット付属。",
+    "device_type": "Google Pixel"
+  },
+  {
+    "id": "pixel9-milspec-clear",
+    "name": "Google Pixel9/Pixel 9 Pro クリアケース(米軍MIL規格・PC+TPU二重構造)",
+    "brand": "ノーブランド(OEM)",
+    "compatible_models": [
+      "Google Pixel 9",
+      "Google Pixel 9 Pro"
+    ],
+    "material": [
+      "PC",
+      "TPU"
+    ],
+    "case_type": [
+      "クリア",
+      "耐衝撃"
+    ],
+    "colors": [
+      "クリア"
+    ],
+    "features": [
+      "耐衝撃",
+      "ストラップホール付き",
+      "黄ばみ防止"
+    ],
+    "price_jpy_ref": 1580,
+    "moq_ref": 90,
+    "amazon_url": "https://www.amazon.co.jp/Google-Pixel9-Pixel-Pro-GooglePixel9Pro/dp/B0DBDFFDFR",
+    "notes": "PC背面+TPUバンパーの2重構造で衝撃吸収。",
+    "device_type": "Google Pixel"
+  },
+  {
+    "id": "aquos-sense8-feyyxi-bookcase-gray",
+    "name": "FEYYXI AQUOS sense8 手帳型ケース(財布型・高級PUレザー)",
+    "brand": "FEYYXI",
+    "compatible_models": [
+      "AQUOS sense8"
+    ],
+    "material": [
+      "PUレザー"
+    ],
+    "case_type": [
+      "手帳型"
+    ],
+    "colors": [
+      "グレー"
+    ],
+    "features": [
+      "カード収納",
+      "スタンド機能"
+    ],
+    "price_jpy_ref": 1780,
+    "moq_ref": 70,
+    "amazon_url": "https://www.amazon.co.jp/FEYYXI-%E3%82%AB%E3%83%BC%E3%83%89%E3%83%9D%E3%82%B1%E3%83%83%E3%83%88%E4%BB%98%E3%81%8D-%E6%A8%AA%E7%BD%AE%E3%81%8D%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E6%A9%9F%E8%83%BD-%E9%AB%98%E7%B4%9APU%E3%83%AC%E3%82%B6%E3%83%BC-6-1inch/dp/B0D3SXDX6P",
+    "notes": "カードポケット付きで全面保護。上質な手触りのPUレザー。",
+    "device_type": "AQUOS"
+  },
+  {
+    "id": "aquos-sense8-rayout-bookcase-black",
+    "name": "レイ・アウト AQUOS sense8 手帳型ケース(レザー・シンプル)",
+    "brand": "レイ・アウト",
+    "compatible_models": [
+      "AQUOS sense8"
+    ],
+    "material": [
+      "PUレザー"
+    ],
+    "case_type": [
+      "手帳型",
+      "シンプル"
+    ],
+    "colors": [
+      "ブラック"
+    ],
+    "features": [],
+    "price_jpy_ref": 1980,
+    "moq_ref": 60,
+    "amazon_url": "https://www.amazon.co.jp/-/en/4580548468242/dp/B0F65FM4K7",
+    "notes": "国内アクセサリーブランド製。シンプルなレザーデザイン。",
+    "device_type": "AQUOS"
+  },
+  {
+    "id": "aquos-sense8-genuineleather-green",
+    "name": "AQUOS sense8 手帳型ケース(本革・高級本皮・耐衝撃)",
+    "brand": "Ayakumo",
+    "compatible_models": [
+      "AQUOS sense8"
+    ],
+    "material": [
+      "本革"
+    ],
+    "case_type": [
+      "手帳型",
+      "耐衝撃"
+    ],
+    "colors": [
+      "グリーン"
+    ],
+    "features": [
+      "カード収納",
+      "マグネット式",
+      "スタンド機能",
+      "耐衝撃"
+    ],
+    "price_jpy_ref": 3680,
+    "moq_ref": 25,
+    "amazon_url": "https://www.amazon.co.jp/%E3%82%B7%E3%83%A5%E3%83%AA%E3%83%B3%E3%82%AF%E3%82%AB%E3%83%BC%E3%83%95%E3%83%AC%E3%82%B6%E3%83%BC-%E3%82%B7%E3%83%B3%E3%83%97%E3%83%AB%E6%89%8B%E5%B8%B3%E3%82%B1%E3%83%BC%E3%82%B9-%E3%82%B5%E3%82%A4%E3%83%89%E3%83%9E%E3%82%B0%E3%83%8D%E3%83%83%E3%83%88%E5%BC%8F-%E6%A8%AA%E7%BD%AE%E3%81%8D%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E6%A9%9F%E8%83%BD-Ayakumo/dp/B0CLP1LL8Y",
+    "notes": "高級本皮のシュリンクカーフレザー。カード3枚収納可。",
+    "device_type": "AQUOS"
+  },
+  {
+    "id": "kyocera705kc-bookcase-camel",
+    "name": "京セラ かんたんスマホ 705KC 手帳型ケース(PUレザー・マグネット式)",
+    "brand": "ノーブランド(OEM)",
+    "compatible_models": [
+      "京セラ かんたんスマホ 705KC"
+    ],
+    "material": [
+      "PUレザー"
+    ],
+    "case_type": [
+      "手帳型"
+    ],
+    "colors": [
+      "キャメルブラウン"
+    ],
+    "features": [
+      "カード収納",
+      "マグネット式",
+      "スタンド機能"
+    ],
+    "price_jpy_ref": 1680,
+    "moq_ref": 70,
+    "amazon_url": "https://www.amazon.co.jp/%E3%81%8B%E3%82%93%E3%81%9F%E3%82%93%E3%82%B9%E3%83%9E%E3%83%9B-%E3%83%9C%E3%82%BF%E3%83%B3%E6%90%AD%E8%BC%89%E3%83%9E%E3%82%B0%E3%83%8D%E3%83%83%E3%83%88%E5%BC%8F-%E3%82%AB%E3%83%BC%E3%83%89%E3%83%9D%E3%82%B1%E3%83%83%E3%83%88%E4%BB%98%E3%81%8D-%E6%A8%AA%E7%BD%AE%E3%81%8D%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E6%A9%9F%E8%83%BD%E4%BB%98%E3%81%8D-%E3%82%AD%E3%83%A3%E3%83%A1%E3%83%AB%E3%83%96%E3%83%A9%E3%82%A6%E3%83%B3/dp/B07M6VBXLL",
+    "notes": "シニア向け機種。牛革風カバーで全面保護、横置きスタンド機能付き。",
+    "device_type": "京セラ"
+  },
+  {
+    "id": "kyocera-a205kc-bookcase-pink",
+    "name": "京セラ かんたんスマホ3 A205KC 手帳型ケース(財布型・ショルダー)",
+    "brand": "ノーブランド(OEM)",
+    "compatible_models": [
+      "京セラ かんたんスマホ3 A205KC"
+    ],
+    "material": [
+      "PUレザー"
+    ],
+    "case_type": [
+      "手帳型",
+      "ショルダー型"
+    ],
+    "colors": [
+      "ローズピンク"
+    ],
+    "features": [
+      "カード収納",
+      "スタンド機能"
+    ],
+    "price_jpy_ref": 1580,
+    "moq_ref": 80,
+    "amazon_url": "https://www.amazon.co.jp/%E3%81%8B%E3%82%93%E3%81%9F%E3%82%93%E3%82%B9%E3%83%9E%E3%83%9B3-A205KC-%E3%81%8B%E3%82%93%E3%81%9F%E3%82%93%E3%82%B9%E3%83%9E%E3%83%9B-%E3%82%B8%E3%83%83%E3%83%97%E4%BB%98%E3%81%8D%E8%B2%A1%E5%B8%83-%E3%82%B9%E3%83%9E%E3%83%9B%E3%82%B1%E3%83%BC%E3%82%B9/dp/B0DJQH11PB",
+    "notes": "肩掛けショルダー対応。ジップ付き財布型でシニア層に人気。",
+    "device_type": "京セラ"
+  },
+  {
+    "id": "kyocera-a205kc-clear-black",
+    "name": "京セラ かんたんスマホ3ケース 耐衝撃(TPU・薄型・軽量)",
+    "brand": "ノーブランド(OEM)",
+    "compatible_models": [
+      "京セラ かんたんスマホ3 A205KC"
+    ],
+    "material": [
+      "TPU"
+    ],
+    "case_type": [
+      "耐衝撃",
+      "シンプル"
+    ],
+    "colors": [
+      "ブラック"
+    ],
+    "features": [
+      "耐衝撃",
+      "黄ばみ防止"
+    ],
+    "price_jpy_ref": 880,
+    "moq_ref": 160,
+    "amazon_url": "https://www.amazon.co.jp/%E3%81%8B%E3%82%93%E3%81%9F%E3%82%93%E3%82%B9%E3%83%9E%E3%83%9B3%E3%82%B1%E3%83%BC%E3%82%B9-A205KC-%E8%BB%BD%E9%87%8FKYOCERA-Sumaho3-%E8%A1%9D%E6%92%83%E5%90%B8%E5%8F%8E%E9%BB%84%E5%A4%89%E9%98%B2%E6%AD%A2/dp/B0D1VCPX6M",
+    "notes": "シリコンTPUでカメラ保護。低単価で大量仕入れ向き。",
+    "device_type": "京セラ"
+  },
+  {
+    "id": "kyocera705kc-bookcase-lightbrown",
+    "name": "京セラ かんたんスマホ 705KC 手帳型ケース(内蔵マグネット・カードポケット)",
+    "brand": "ノーブランド(OEM)",
+    "compatible_models": [
+      "京セラ かんたんスマホ 705KC"
+    ],
+    "material": [
+      "PUレザー"
+    ],
+    "case_type": [
+      "手帳型",
+      "シンプル"
+    ],
+    "colors": [
+      "ライトブラウン"
+    ],
+    "features": [
+      "カード収納",
+      "マグネット式",
+      "スタンド機能"
+    ],
+    "price_jpy_ref": 1480,
+    "moq_ref": 80,
+    "amazon_url": "https://www.amazon.co.jp/%E3%81%8B%E3%82%93%E3%81%9F%E3%82%93%E3%82%B9%E3%83%9E%E3%83%9B-705KC-kyocera-case_iCoverCase_-%E5%86%85%E8%94%B5%E3%83%9E%E3%82%B0%E3%83%8D%E3%83%83%E3%83%88/dp/B07RN7F9ZQ",
+    "notes": "落ち着いた色味でシニア層に好まれるレトロデザイン。",
+    "device_type": "京セラ"
+  },
+  {
+    "id": "ipad10-spigen-kickstand-clear",
+    "name": "Spigen iPad 第10世代 ケース(キックスタンド・クリア耐衝撃)",
+    "brand": "Spigen",
+    "device_type": "iPad",
+    "compatible_models": [
+      "iPad 第10世代"
+    ],
+    "material": [
+      "PC",
+      "TPU"
+    ],
+    "case_type": [
+      "クリア",
+      "耐衝撃"
+    ],
+    "colors": [
+      "クリア"
+    ],
+    "features": [
+      "耐衝撃",
+      "スタンド機能"
+    ],
+    "price_jpy_ref": 2980,
+    "moq_ref": 30,
+    "amazon_url": "https://www.amazon.co.jp/Spigen-%E3%82%AD%E3%83%83%E3%82%AF%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89-Pencil%E5%85%85%E9%9B%BB-ACS05419-%E3%82%AF%E3%83%AA%E3%82%B9%E3%82%BF%E3%83%AB%E3%83%BB%E3%82%AF%E3%83%AA%E3%82%A2/dp/B0B9ZSLP7F",
+    "notes": "キックスタンド付きで動画視聴に便利。Apple Pencil充電にも対応。"
+  },
+  {
+    "id": "ipad-a16-clear-purple",
+    "name": "iPad(A16)第11世代/第10世代 クリアケース(TPU・落下防止)",
+    "brand": "ノーブランド(OEM)",
+    "device_type": "iPad",
+    "compatible_models": [
+      "iPad 第11世代 (A16)",
+      "iPad 第10世代"
+    ],
+    "material": [
+      "TPU"
+    ],
+    "case_type": [
+      "クリア"
+    ],
+    "colors": [
+      "パープル"
+    ],
+    "features": [
+      "耐衝撃"
+    ],
+    "price_jpy_ref": 1680,
+    "moq_ref": 80,
+    "amazon_url": "https://www.amazon.co.jp/11%E3%82%A4%E3%83%B3%E3%83%81-%E7%AC%AC10%E4%B8%96%E4%BB%A3-10-9%E3%82%A4%E3%83%B3%E3%83%81-2025%E3%83%A2%E3%83%87%E3%83%AB-%E6%89%8B%E9%A6%96%E3%81%A8%E8%90%BD%E4%B8%8B%E9%98%B2%E6%AD%A2/dp/B0DNF3PYC9",
+    "notes": "超軽量マット透明タイプ。手首と落下防止のストラップ対応。"
+  },
+  {
+    "id": "ipad10-waterproof-clear",
+    "name": "iPad 第10世代 完全防水ケース(IP68規格・耐衝撃・スタンド機能)",
+    "brand": "ノーブランド(OEM)",
+    "device_type": "iPad",
+    "compatible_models": [
+      "iPad 第10世代"
+    ],
+    "material": [
+      "PC",
+      "TPU"
+    ],
+    "case_type": [
+      "クリア",
+      "耐衝撃"
+    ],
+    "colors": [
+      "クリア"
+    ],
+    "features": [
+      "耐衝撃",
+      "スタンド機能",
+      "防水"
+    ],
+    "price_jpy_ref": 3480,
+    "moq_ref": 30,
+    "amazon_url": "https://www.amazon.co.jp/10-9%E3%82%A4%E3%83%B3%E3%83%81%E5%B0%82%E7%94%A8%E3%82%B1%E3%83%BC%E3%82%B9-%E3%82%B9%E3%83%88%E3%83%A9%E3%83%83%E3%83%97%E4%BB%98%E3%81%8D-10-9%E3%82%A4%E3%83%B3%E3%83%81-2022%E5%B9%B4%E7%99%BA%E5%A3%B2-360%E5%BA%A6%E5%85%A8%E9%9D%A2%E4%BF%9D%E8%AD%B7%E3%82%B1%E3%83%BC%E3%82%B9/dp/B0DP9Y7YCX",
+    "notes": "IP68防水防塵規格。お風呂・プールでも使用可能な360度保護。"
+  },
+  {
+    "id": "ipad11-greerass-clear",
+    "name": "iPad 第11世代(A16) クリアケース(TPU・全面保護)",
+    "brand": "Greerass",
+    "device_type": "iPad",
+    "compatible_models": [
+      "iPad 第11世代 (A16)"
+    ],
+    "material": [
+      "TPU"
+    ],
+    "case_type": [
+      "クリア"
+    ],
+    "colors": [
+      "クリア"
+    ],
+    "features": [
+      "耐衝撃",
+      "黄ばみ防止"
+    ],
+    "price_jpy_ref": 1580,
+    "moq_ref": 90,
+    "amazon_url": "https://www.amazon.co.jp/%E7%AC%AC11%E4%B8%96%E4%BB%A3-10-9%E3%82%A4%E3%83%B3%E3%83%81-Greerass-%E3%82%BD%E3%83%95%E3%83%88%E3%82%AB%E3%83%90%E3%83%BC-%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E7%B0%A1%E5%8D%98/dp/B0DZD9CVPW",
+    "notes": "薄型軽量で滑り止め加工。指紋防止・黄ばみ防止コーティング。"
+  },
+  {
+    "id": "ipad109-mageasy-vivaz-black",
+    "name": "MagEasy iPad 10.9 ケース(耐衝撃・薄型スリム)",
+    "brand": "MagEasy",
+    "device_type": "iPad",
+    "compatible_models": [
+      "iPad 第10世代"
+    ],
+    "material": [
+      "TPU"
+    ],
+    "case_type": [
+      "クリア",
+      "耐衝撃"
+    ],
+    "colors": [
+      "ブラック"
+    ],
+    "features": [
+      "耐衝撃"
+    ],
+    "price_jpy_ref": 2680,
+    "moq_ref": 40,
+    "amazon_url": "https://www.amazon.co.jp/%E3%80%90MagEasy%E3%80%91-iPad%E3%82%B1%E3%83%BC%E3%82%B9-%E3%82%BF%E3%83%96%E3%83%AC%E3%83%83%E3%83%88%E3%82%B1%E3%83%BC%E3%82%B9-iPad10-9-%E3%82%A2%E3%82%A4%E3%83%91%E3%83%83%E3%83%8910-9/dp/B0BYSJBVP3",
+    "notes": "サイドグリップ付きで持ちやすい半透明デザイン。"
+  },
+  {
+    "id": "watch45-spigen-ruggedarmor-black",
+    "name": "Spigen Apple Watch 45mm/44mm 一体型バンドケース(耐衝撃)",
+    "brand": "Spigen",
+    "device_type": "Apple Watch",
+    "compatible_models": [
+      "Apple Watch 45mm",
+      "Apple Watch 44mm"
+    ],
+    "material": [
+      "PC",
+      "TPU"
+    ],
+    "case_type": [
+      "バンド一体型",
+      "耐衝撃"
+    ],
+    "colors": [
+      "ブラック"
+    ],
+    "features": [
+      "耐衝撃"
+    ],
+    "price_jpy_ref": 2980,
+    "moq_ref": 30,
+    "amazon_url": "https://www.amazon.co.jp/%E3%80%90Spigen%E3%80%91-Apple-Watch-%E3%83%A9%E3%82%AE%E3%83%83%E3%83%89%E3%83%BB%E3%82%A2%E3%83%BC%E3%83%9E%E3%83%BC-062CS25324/dp/B07HSSDV4S",
+    "notes": "Rugged Armor Proシリーズ。PC+TPUの2層構造で耐衝撃性が高い。"
+  },
+  {
+    "id": "watch4544-ahnhsky-metalband-silver",
+    "name": "AHNHSKY Apple Watch 45mm/44mm バンパー付きメタル保護カバー",
+    "brand": "AHNHSKY",
+    "device_type": "Apple Watch",
+    "compatible_models": [
+      "Apple Watch 45mm",
+      "Apple Watch 44mm"
+    ],
+    "material": [
+      "PC"
+    ],
+    "case_type": [
+      "バンド一体型"
+    ],
+    "colors": [
+      "シルバー/ブラック"
+    ],
+    "features": [],
+    "price_jpy_ref": 2280,
+    "moq_ref": 50,
+    "amazon_url": "https://www.amazon.co.jp/AHNHSKY-%E3%83%90%E3%83%B3%E3%83%89%E4%BB%98%E3%81%8D-Apple-iWatch%E7%94%A8-%E3%83%97%E3%83%AD%E3%83%86%E3%82%AF%E3%82%BF%E3%83%BC/dp/B0BK92YF85",
+    "notes": "ストラップとスクリーンプロテクター付きのフルセット。"
+  },
+  {
+    "id": "watch4544-ahnhsky-sportsband-silver",
+    "name": "AHNHSKY Apple Watch 45mm/44mm スポーツバンド(耐衝撃・傷防止)",
+    "brand": "AHNHSKY",
+    "device_type": "Apple Watch",
+    "compatible_models": [
+      "Apple Watch 45mm",
+      "Apple Watch 44mm"
+    ],
+    "material": [
+      "TPU"
+    ],
+    "case_type": [
+      "バンド一体型"
+    ],
+    "colors": [
+      "シルバー/ブラック"
+    ],
+    "features": [
+      "耐衝撃"
+    ],
+    "price_jpy_ref": 1980,
+    "moq_ref": 60,
+    "amazon_url": "https://www.amazon.co.jp/AHNHSKY-Apple-%E3%82%B9%E3%83%9D%E3%83%BC%E3%83%84%E3%83%90%E3%83%B3%E3%83%89-%E3%82%A2%E3%83%83%E3%83%97%E3%83%AB%E3%82%A6%E3%82%A9%E3%83%83%E3%83%81-iWatch/dp/B0CHDWRMP8",
+    "notes": "軽量なスポーツバンドタイプ。落下防止・傷防止仕様。"
+  },
+  {
+    "id": "watch45-pellforia-green",
+    "name": "Pellforia Apple Watch 45mm 保護ケース・カバー",
+    "brand": "Pellforia",
+    "device_type": "Apple Watch",
+    "compatible_models": [
+      "Apple Watch 45mm"
+    ],
+    "material": [
+      "PC"
+    ],
+    "case_type": [
+      "シンプル"
+    ],
+    "colors": [
+      "グリーン"
+    ],
+    "features": [],
+    "price_jpy_ref": 1480,
+    "moq_ref": 70,
+    "amazon_url": "https://www.amazon.co.jp/%E3%82%A2%E3%83%83%E3%83%97%E3%83%AB%E3%82%A6%E3%82%A9%E3%83%83%E3%83%81-Apple-watch-Pellforia-%E4%BF%9D%E8%AD%B7%E3%82%B1%E3%83%BC%E3%82%B9/dp/B09S2XBH82",
+    "notes": "シンプルなカラーバリエーション豊富な保護カバー。"
+  },
+  {
+    "id": "watch45-amband-steel-black",
+    "name": "amBand Apple Watch 45mm ステンレスケースバンド一体型",
+    "brand": "amBand",
+    "device_type": "Apple Watch",
+    "compatible_models": [
+      "Apple Watch 45mm"
+    ],
+    "material": [
+      "本革"
+    ],
+    "case_type": [
+      "バンド一体型"
+    ],
+    "colors": [
+      "ブラック"
+    ],
+    "features": [
+      "耐衝撃"
+    ],
+    "price_jpy_ref": 3280,
+    "moq_ref": 25,
+    "amazon_url": "https://www.amazon.co.jp/%E3%80%902022%E6%94%B9%E8%89%AF%E3%83%A2%E3%83%87%E3%83%AB%E3%80%91amBand-%E3%82%B1%E3%83%BC%E3%82%B9%E3%83%90%E3%83%B3%E3%83%89-%E3%82%A2%E3%83%83%E3%83%97%E3%83%AB%E3%82%A6%E3%82%A9%E3%83%83%E3%83%81-%E3%83%A1%E3%83%B3%E3%82%BA%E3%83%A1%E3%82%BF%E3%83%AB%E3%83%99%E3%83%AB%E3%83%88-%E9%95%B7%E3%81%95%E8%AA%BF%E6%95%B4%E5%99%A8%E5%85%B7%E4%BB%98%E3%81%8D/dp/B09YRC7LWT",
+    "notes": "ステンレスメタルベルト一体型。高級感のある仕上げ。"
+  },
+  {
+    "id": "macbook1314-sleeve-suede-gray",
+    "name": "MacBook Pro/Air 13 スリーブケース(スウェード素材・マグネット開閉)",
+    "brand": "ノーブランド(OEM)",
+    "device_type": "MacBook",
+    "compatible_models": [
+      "MacBook Air 13",
+      "MacBook Pro 13"
+    ],
+    "material": [
+      "PUレザー"
+    ],
+    "case_type": [
+      "スリーブ型"
+    ],
+    "colors": [
+      "グレー"
+    ],
+    "features": [
+      "防水"
+    ],
+    "price_jpy_ref": 1980,
+    "moq_ref": 60,
+    "amazon_url": "https://www.amazon.co.jp/%E3%82%B9%E3%83%AA%E3%83%BC%E3%83%96%E3%82%B1%E3%83%BC%E3%82%B9-macbook-%E5%A4%A7%E5%88%87%E3%81%AA%E3%81%94%E6%84%9B%E6%A9%9F%E3%82%92%E3%81%8D%E3%81%A1%E3%82%93%E3%81%A8%E5%AE%88%E3%82%8C%E3%82%8B-%E3%83%9E%E3%82%B0%E3%83%8D%E3%83%83%E3%83%88%E9%96%8B%E9%96%89-%E8%B6%85%E8%96%84%E5%9E%8B%E3%83%BB%E8%BB%BD%E9%87%8F%E3%83%BB%E9%98%B2%E6%B0%B4/dp/B07BCDJMRT",
+    "notes": "超薄型・軽量で防水性のあるスウェード素材。マグネット開閉。"
+  },
+  {
+    "id": "macbookair13-pu-stand-pink",
+    "name": "MacBook Airケース 13インチ(PUレザー・スタンド付き・放熱機能)",
+    "brand": "ノーブランド(OEM)",
+    "device_type": "MacBook",
+    "compatible_models": [
+      "MacBook Air 13"
+    ],
+    "material": [
+      "PUレザー"
+    ],
+    "case_type": [
+      "スリーブ型"
+    ],
+    "colors": [
+      "ピンク"
+    ],
+    "features": [
+      "スタンド機能"
+    ],
+    "price_jpy_ref": 2280,
+    "moq_ref": 50,
+    "amazon_url": "https://www.amazon.co.jp/Macbook-Air%E3%82%B1%E3%83%BC%E3%82%B9-%E3%82%B9%E3%83%AA%E3%83%BC%E3%83%96%E3%82%B1%E3%83%BC%E3%82%B9-%E4%BF%9D%E8%AD%B7%E3%83%95%E3%82%A3%E3%83%AB%E3%83%A0-%E3%83%9E%E3%83%83%E3%82%AF%E3%83%96%E3%83%83%E3%82%AF%E3%82%A8%E3%82%A2%E3%83%BC%E3%82%B1%E3%83%BC%E3%82%B9/dp/B08D6JBQPL",
+    "notes": "スタンド機能付きで放熱性も確保。軽量で衝撃吸収。"
+  },
+  {
+    "id": "macbookair13-clear-hogotech-midnight",
+    "name": "MacBook Air 13 M4/M3/M2 クリアマットケース(HOGOTECH)",
+    "brand": "HOGOTECH",
+    "device_type": "MacBook",
+    "compatible_models": [
+      "MacBook Air 13"
+    ],
+    "material": [
+      "PC"
+    ],
+    "case_type": [
+      "ハードケース",
+      "シンプル"
+    ],
+    "colors": [
+      "ミッドナイト"
+    ],
+    "features": [],
+    "price_jpy_ref": 2680,
+    "moq_ref": 40,
+    "amazon_url": "https://www.amazon.co.jp/%E3%83%9F%E3%83%83%E3%83%89%E3%83%8A%E3%82%A4%E3%83%88%E3%80%90%E8%B3%AA%E6%84%9F%E3%81%9D%E3%81%AE%E3%81%BE%E3%81%BE%E3%80%81%E5%82%B7%E3%82%92%E5%AE%88%E3%82%8B%E3%80%91MacBook-13%E3%82%A4%E3%83%B3%E3%83%81-%E3%82%AF%E3%83%AA%E3%82%A2%E3%83%9E%E3%83%83%E3%83%88%E3%82%AB%E3%83%90%E3%83%BC-A3240-HOGOTECH/dp/B0FBFB4DB4",
+    "notes": "質感そのままのクリアマットハードカバー。M4/M3/M2モデル対応。"
+  },
+  {
+    "id": "macbookair-simplism-sleeve-warmgray",
+    "name": "Simplism MacBook Air スリーブケース(ウォームグレー)",
+    "brand": "Simplism",
+    "device_type": "MacBook",
+    "compatible_models": [
+      "MacBook Air 13"
+    ],
+    "material": [
+      "PUレザー"
+    ],
+    "case_type": [
+      "スリーブ型",
+      "シンプル"
+    ],
+    "colors": [
+      "グレー"
+    ],
+    "features": [],
+    "price_jpy_ref": 3480,
+    "moq_ref": 30,
+    "amazon_url": "https://www.amazon.co.jp/Simplism-MacBook-%E3%82%B9%E3%83%AA%E3%83%BC%E3%83%96%E3%82%B1%E3%83%BC%E3%82%B9-%E3%82%A6%E3%82%A9%E3%83%BC%E3%83%A0%E3%82%B0%E3%83%AC%E3%83%BC-TR-BSAIR13-WG/dp/B008XPN3XK",
+    "notes": "国内ブランドSimplism製。シンプルで上品なデザイン。"
+  },
+  {
+    "id": "macbook13-drip-leather-mocha",
+    "name": "drip MacBookケース13(本革レザースリーブ・モカ)",
+    "brand": "drip",
+    "device_type": "MacBook",
+    "compatible_models": [
+      "MacBook Air 13",
+      "MacBook Pro 13"
+    ],
+    "material": [
+      "本革"
+    ],
+    "case_type": [
+      "スリーブ型"
+    ],
+    "colors": [
+      "モカ"
+    ],
+    "features": [],
+    "price_jpy_ref": 4280,
+    "moq_ref": 20,
+    "amazon_url": "https://www.amazon.co.jp/drip-MacBook%E3%82%B1%E3%83%BC%E3%82%B9-Macbook-%E3%82%B9%E3%83%AA%E3%83%BC%E3%83%96%E3%82%B1%E3%83%BC%E3%82%B9-PC%E3%82%B9%E3%83%AA%E3%83%BC%E3%83%96/dp/B0829W5RXY",
+    "notes": "本革レザーの高級スリーブケース。高単価・少量仕入れ向き。"
   }
 ]

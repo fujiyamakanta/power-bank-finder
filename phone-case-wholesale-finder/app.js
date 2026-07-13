@@ -1,20 +1,43 @@
+const CASE_TYPE_ICONS = {
+  "手帳型": "📔",
+  "クリア": "🔍",
+  "耐衝撃": "🛡️",
+  "シンプル": "⬜",
+  "ショルダー型": "🎒",
+  "バンド一体型": "⌚",
+  "スリーブ型": "💻",
+  "ハードケース": "🖥️"
+};
+
+function iconFor(product) {
+  const t = (product.case_type || [])[0];
+  return CASE_TYPE_ICONS[t] || "📱";
+}
+
+const BRAND_DEVICE_MAP = {
+  "Apple": ["iPhone", "iPad", "Apple Watch", "MacBook"],
+  "Android": ["Galaxy", "OPPO", "Xperia", "Google Pixel", "AQUOS", "京セラ"]
+};
+
 const PAGE_SIZE = 12;
 let visibleCount = PAGE_SIZE;
 let currentMatched = [];
 
 let PRODUCTS = [];
 
-const form = document.getElementById("filter-form");
 const resultList = document.getElementById("result-list");
 const resultCount = document.getElementById("result-count");
 const sortSelect = document.getElementById("sort-select");
 const activeConditionsEl = document.getElementById("active-conditions");
 const liveCountHint = document.getElementById("live-count-hint");
-const modelGroup = document.getElementById("model-group");
+const navTree = document.getElementById("nav-tree");
 const materialGroup = document.getElementById("material-group");
 const casetypeGroup = document.getElementById("casetype-group");
 const colorGroup = document.getElementById("color-group");
 const featureGroup = document.getElementById("feature-group");
+const priceMaxSelect = document.getElementById("price_max");
+const moqMaxSelect = document.getElementById("moq_max");
+const resetBtn = document.getElementById("reset-btn");
 
 async function loadData() {
   try {
@@ -24,7 +47,7 @@ async function loadData() {
     console.error("データの読み込みに失敗しました", e);
     PRODUCTS = [];
   }
-  populateChipOptions(modelGroup, "model", collectValues("compatible_models"));
+  buildNavTree();
   populateChipOptions(materialGroup, "material", collectValues("material"));
   populateChipOptions(casetypeGroup, "case_type", collectValues("case_type"));
   populateChipOptions(colorGroup, "color", collectValues("colors"));
@@ -39,27 +62,71 @@ function collectValues(field) {
   return [...values].sort();
 }
 
+function buildNavTree() {
+  navTree.innerHTML = "";
+  Object.entries(BRAND_DEVICE_MAP).forEach(([brand, deviceTypes]) => {
+    const relevantTypes = deviceTypes.filter(dt => PRODUCTS.some(p => p.device_type === dt));
+    if (relevantTypes.length === 0) return;
+
+    const brandEl = document.createElement("details");
+    brandEl.className = "nav-brand";
+    const brandSummary = document.createElement("summary");
+    brandSummary.textContent = brand;
+    brandEl.appendChild(brandSummary);
+
+    const devicesWrap = document.createElement("div");
+    devicesWrap.className = "nav-devices";
+
+    relevantTypes.forEach(dt => {
+      const models = [...new Set(
+        PRODUCTS.filter(p => p.device_type === dt).flatMap(p => p.compatible_models || [])
+      )].sort();
+
+      const deviceEl = document.createElement("details");
+      deviceEl.className = "nav-device";
+      const deviceSummary = document.createElement("summary");
+      deviceSummary.textContent = dt;
+      deviceEl.appendChild(deviceSummary);
+
+      const modelsWrap = document.createElement("div");
+      modelsWrap.className = "chip-group nav-models";
+      modelsWrap.innerHTML = models.map(m => `
+        <label class="chip"><input type="checkbox" name="model" value="${m}"><span>${m}</span></label>
+      `).join("");
+      deviceEl.appendChild(modelsWrap);
+
+      devicesWrap.appendChild(deviceEl);
+    });
+
+    brandEl.appendChild(devicesWrap);
+    navTree.appendChild(brandEl);
+  });
+}
+
 function populateChipOptions(container, name, values) {
   container.innerHTML = values.map(v => `
     <label class="chip"><input type="checkbox" name="${name}" value="${v}"><span>${v}</span></label>
   `).join("");
 }
 
-function setChecked(f, name, value, checked) {
-  const input = [...f.elements[name]].find(el => el.value === value);
+function getCheckedValues(name) {
+  return [...document.querySelectorAll(`input[name="${name}"]:checked`)].map(el => el.value);
+}
+
+function setChecked(name, value, checked) {
+  const input = [...document.querySelectorAll(`input[name="${name}"]`)].find(el => el.value === value);
   if (input) input.checked = checked;
 }
 
 function getFilters() {
-  const formData = new FormData(form);
   return {
-    models: formData.getAll("model"),
-    materials: formData.getAll("material"),
-    caseTypes: formData.getAll("case_type"),
-    colors: formData.getAll("color"),
-    features: formData.getAll("feature"),
-    priceMax: Number(formData.get("price_max") || 0),
-    moqMax: Number(formData.get("moq_max") || 0)
+    models: getCheckedValues("model"),
+    materials: getCheckedValues("material"),
+    caseTypes: getCheckedValues("case_type"),
+    colors: getCheckedValues("color"),
+    features: getCheckedValues("feature"),
+    priceMax: Number(priceMaxSelect.value || 0),
+    moqMax: Number(moqMaxSelect.value || 0)
   };
 }
 
@@ -110,37 +177,32 @@ function sortProducts(products, sortKey) {
 }
 
 function cardHtml(p) {
-  const models = (p.compatible_models || []).map(m => `<span class="type-badge">${m}</span>`).join("");
+  const allModels = p.compatible_models || [];
+  const modelBadges = allModels.slice(0, 2).map(m => `<span class="type-badge">${m}</span>`).join("");
+  const extraModels = allModels.length > 2 ? `<span class="type-badge">+${allModels.length - 2}</span>` : "";
   const materials = (p.material || []).join(" / ") || "-";
   const caseTypes = (p.case_type || []).join(" / ") || "-";
-  const colors = (p.colors || []).join(" / ") || "-";
-  const features = (p.features || []).join(" / ") || "-";
   const priceText = p.price_jpy_ref != null ? `¥${p.price_jpy_ref.toLocaleString()}` : "単価不明";
   const moqText = p.moq_ref != null ? `${p.moq_ref.toLocaleString()}個〜` : "不明";
   const buyLink = p.amazon_url
-    ? `<a class="buy-link" href="${p.amazon_url}" target="_blank" rel="noopener noreferrer">Amazon商品ページを見る →</a>`
+    ? `<a class="buy-link" href="${p.amazon_url}" target="_blank" rel="noopener noreferrer">Amazonで見る →</a>`
     : `<span class="buy-link" style="color:var(--muted)">商品リンク未登録</span>`;
 
   return `
     <article class="result-card">
-      <div class="result-photo" aria-hidden="true">📱</div>
+      <div class="result-photo" aria-hidden="true">${iconFor(p)}</div>
       <div class="result-body">
       <div class="result-card-top">
-        <div>
-          <div class="result-name">${p.name}</div>
-          <div class="result-maker">${p.brand || ""}</div>
-        </div>
-        <div class="result-price">${priceText}<br><span style="font-size:0.72rem;color:var(--muted);font-weight:600;">目安/個</span></div>
+        <div class="result-name">${p.name}</div>
+        <div class="result-maker">${p.brand || ""}</div>
       </div>
-      <div class="result-types">${models}</div>
+      <div class="result-price">${priceText}<span class="price-unit">目安/個</span></div>
+      <div class="result-types">${modelBadges}${extraModels}</div>
       <div class="spec-grid">
         <div><span>素材: </span>${materials}</div>
         <div><span>タイプ: </span>${caseTypes}</div>
-        <div><span>カラー: </span>${colors}</div>
-        <div><span>機能: </span>${features}</div>
-        <div><span>想定ロット: </span>${moqText}</div>
+        <div><span>ロット: </span>${moqText}</div>
       </div>
-      ${p.notes ? `<div class="result-notes">${p.notes}</div>` : ""}
       <div class="result-footer">
         <span class="pse-badge">単価・ロットは参考値です</span>
         ${buyLink}
@@ -159,7 +221,7 @@ function renderResults(products) {
 
 function renderVisiblePage() {
   if (currentMatched.length === 0) {
-    resultList.innerHTML = `<div class="empty-state">条件に合うスマホケースが見つかりませんでした。条件を減らして再検索してください。</div>`;
+    resultList.innerHTML = `<div class="empty-state">条件に合う商品が見つかりませんでした。条件を減らして再検索してください。</div>`;
     return;
   }
 
@@ -183,13 +245,13 @@ function renderVisiblePage() {
 function renderActiveConditions(f) {
   const chips = [];
 
-  f.models.forEach(m => chips.push({ label: m, clear: () => setChecked(form, "model", m, false) }));
-  f.materials.forEach(m => chips.push({ label: m, clear: () => setChecked(form, "material", m, false) }));
-  f.caseTypes.forEach(t => chips.push({ label: t, clear: () => setChecked(form, "case_type", t, false) }));
-  f.colors.forEach(c => chips.push({ label: `カラー: ${c}`, clear: () => setChecked(form, "color", c, false) }));
-  f.features.forEach(v => chips.push({ label: v, clear: () => setChecked(form, "feature", v, false) }));
-  if (f.priceMax > 0) chips.push({ label: `${f.priceMax.toLocaleString()}円以下`, clear: () => { form.price_max.value = "0"; } });
-  if (f.moqMax > 0) chips.push({ label: `ロット${f.moqMax.toLocaleString()}個以下`, clear: () => { form.moq_max.value = "0"; } });
+  f.models.forEach(m => chips.push({ label: m, clear: () => setChecked("model", m, false) }));
+  f.materials.forEach(m => chips.push({ label: m, clear: () => setChecked("material", m, false) }));
+  f.caseTypes.forEach(t => chips.push({ label: t, clear: () => setChecked("case_type", t, false) }));
+  f.colors.forEach(c => chips.push({ label: `カラー: ${c}`, clear: () => setChecked("color", c, false) }));
+  f.features.forEach(v => chips.push({ label: v, clear: () => setChecked("feature", v, false) }));
+  if (f.priceMax > 0) chips.push({ label: `${f.priceMax.toLocaleString()}円以下`, clear: () => { priceMaxSelect.value = "0"; } });
+  if (f.moqMax > 0) chips.push({ label: `ロット${f.moqMax.toLocaleString()}個以下`, clear: () => { moqMaxSelect.value = "0"; } });
 
   if (chips.length === 0) {
     activeConditionsEl.innerHTML = `<span class="condition-chip none">条件は指定されていません(すべての商品を表示中)</span>`;
@@ -217,22 +279,6 @@ function applyFiltersAndRender() {
   renderResults(matched);
 }
 
-form.addEventListener("submit", (e) => {
-  e.preventDefault();
-  applyFiltersAndRender();
-});
-
-form.addEventListener("reset", () => {
-  setTimeout(() => {
-    applyFiltersAndRender();
-    updateLiveCount();
-  }, 0);
-});
-
-sortSelect.addEventListener("change", () => {
-  applyFiltersAndRender();
-});
-
 function updateLiveCount() {
   const filters = getFilters();
   const count = PRODUCTS.filter(p => matchesFilters(p, filters)).length;
@@ -245,6 +291,28 @@ function updateLiveCount() {
   }
 }
 
-form.addEventListener("change", updateLiveCount);
+function resetAllFilters() {
+  document.querySelectorAll('input[type="checkbox"]').forEach(el => { el.checked = false; });
+  priceMaxSelect.value = "0";
+  moqMaxSelect.value = "0";
+  document.querySelectorAll("details[open]").forEach(el => el.removeAttribute("open"));
+}
+
+document.addEventListener("change", (e) => {
+  if (e.target.matches('input[type="checkbox"], select') && e.target.id !== "sort-select") {
+    applyFiltersAndRender();
+    updateLiveCount();
+  }
+});
+
+sortSelect.addEventListener("change", () => {
+  applyFiltersAndRender();
+});
+
+resetBtn.addEventListener("click", () => {
+  resetAllFilters();
+  applyFiltersAndRender();
+  updateLiveCount();
+});
 
 loadData();
