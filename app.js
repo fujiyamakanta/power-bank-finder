@@ -1,32 +1,22 @@
-const TYPE_LABELS = {
-  "3in1": "3in1",
-  "plug_integrated": "ケーブル・プラグ一体型",
-  "apple_watch": "Apple Watch専用",
-  "magsafe": "MagSafe対応",
-  "connector_integrated": "端子一体型",
-  "cable_built_in": "ケーブル内蔵型",
-  "standard": "標準タイプ"
-};
-
-const TYPE_ICONS = {
-  "3in1": "✨",
-  "plug_integrated": "🔌",
-  "apple_watch": "⌚",
-  "magsafe": "🧲",
-  "connector_integrated": "📎",
-  "cable_built_in": "➰",
-  "standard": "🔋"
+const CASE_TYPE_ICONS = {
+  "手帳型": "📔",
+  "クリア": "🔍",
+  "耐衝撃": "🛡️",
+  "シンプル": "⬜",
+  "ショルダー型": "🎒",
+  "バンド一体型": "⌚",
+  "スリーブ型": "💻",
+  "ハードケース": "🖥️"
 };
 
 function iconFor(product) {
-  const t = (product.types || [])[0];
-  return TYPE_ICONS[t] || "🔋";
+  const t = (product.case_type || [])[0];
+  return CASE_TYPE_ICONS[t] || "📱";
 }
 
-const DESIGN_LABELS = {
-  "kawaii": "可愛い系",
-  "simple": "シンプル系",
-  "mecha": "メカメカ系"
+const BRAND_DEVICE_MAP = {
+  "Apple": ["iPhone", "iPad", "Apple Watch", "MacBook"],
+  "Android": ["Galaxy", "OPPO", "Xperia", "Google Pixel", "AQUOS", "京セラ"]
 };
 
 const PAGE_SIZE = 12;
@@ -35,43 +25,19 @@ let currentMatched = [];
 
 let PRODUCTS = [];
 
-const form = document.getElementById("filter-form");
 const resultList = document.getElementById("result-list");
 const resultCount = document.getElementById("result-count");
 const sortSelect = document.getElementById("sort-select");
-const advancedDetails = document.getElementById("advanced-details");
-const presetGrid = document.getElementById("preset-grid");
 const activeConditionsEl = document.getElementById("active-conditions");
 const liveCountHint = document.getElementById("live-count-hint");
-const colorFieldset = document.getElementById("color-fieldset");
+const navTree = document.getElementById("nav-tree");
+const materialGroup = document.getElementById("material-group");
+const casetypeGroup = document.getElementById("casetype-group");
 const colorGroup = document.getElementById("color-group");
-
-const PRESETS = {
-  light: (f) => { f.weight_max.value = "150"; },
-  bigCapacity: (f) => { f.capacity_min.value = "20000"; },
-  laptop: (f) => {
-    f.output_min.value = "45";
-    setChecked(f, "fast_charge", "PD", true);
-  },
-  magsafe: (f) => setChecked(f, "type", "magsafe", true),
-  appleWatch: (f) => setChecked(f, "type", "apple_watch", true),
-  noCableNeeded: (f) => {
-    setChecked(f, "type", "plug_integrated", true);
-    setChecked(f, "type", "cable_built_in", true);
-    setChecked(f, "type", "connector_integrated", true);
-  },
-  cheap: (f) => { f.price_max.value = "5000"; },
-  multiCharge: (f) => { f.simultaneous_min.value = "3"; },
-  kawaii: (f) => setChecked(f, "design_style", "kawaii", true),
-  simpleDesign: (f) => setChecked(f, "design_style", "simple", true),
-  mecha: (f) => setChecked(f, "design_style", "mecha", true),
-  reset: () => {}
-};
-
-function setChecked(f, name, value, checked) {
-  const input = [...f.elements[name]].find(el => el.value === value);
-  if (input) input.checked = checked;
-}
+const featureGroup = document.getElementById("feature-group");
+const priceMaxSelect = document.getElementById("price_max");
+const moqMaxSelect = document.getElementById("moq_max");
+const resetBtn = document.getElementById("reset-btn");
 
 async function loadData() {
   try {
@@ -81,86 +47,115 @@ async function loadData() {
     console.error("データの読み込みに失敗しました", e);
     PRODUCTS = [];
   }
-  populateColorOptions();
+  buildNavTree();
+  populateChipOptions(materialGroup, "material", collectValues("material"));
+  populateChipOptions(casetypeGroup, "case_type", collectValues("case_type"));
+  populateChipOptions(colorGroup, "color", collectValues("colors"));
+  populateChipOptions(featureGroup, "feature", collectValues("features"));
   applyFiltersAndRender();
   updateLiveCount();
 }
 
-function populateColorOptions() {
-  const colors = new Set();
-  PRODUCTS.forEach(p => (p.colors || []).forEach(c => colors.add(c)));
-  if (colors.size === 0) {
-    colorFieldset.hidden = true;
-    return;
-  }
-  colorFieldset.hidden = false;
-  colorGroup.innerHTML = [...colors].sort().map(c => `
-    <label class="chip"><input type="checkbox" name="color" value="${c}"><span>${c}</span></label>
+function collectValues(field) {
+  const values = new Set();
+  PRODUCTS.forEach(p => (p[field] || []).forEach(v => values.add(v)));
+  return [...values].sort();
+}
+
+function buildNavTree() {
+  navTree.innerHTML = "";
+  Object.entries(BRAND_DEVICE_MAP).forEach(([brand, deviceTypes]) => {
+    const relevantTypes = deviceTypes.filter(dt => PRODUCTS.some(p => p.device_type === dt));
+    if (relevantTypes.length === 0) return;
+
+    const brandEl = document.createElement("details");
+    brandEl.className = "nav-brand";
+    const brandSummary = document.createElement("summary");
+    brandSummary.textContent = brand;
+    brandEl.appendChild(brandSummary);
+
+    const devicesWrap = document.createElement("div");
+    devicesWrap.className = "nav-devices";
+
+    relevantTypes.forEach(dt => {
+      const models = [...new Set(
+        PRODUCTS.filter(p => p.device_type === dt).flatMap(p => p.compatible_models || [])
+      )].sort();
+
+      const deviceEl = document.createElement("details");
+      deviceEl.className = "nav-device";
+      const deviceSummary = document.createElement("summary");
+      deviceSummary.textContent = dt;
+      deviceEl.appendChild(deviceSummary);
+
+      const modelsWrap = document.createElement("div");
+      modelsWrap.className = "chip-group nav-models";
+      modelsWrap.innerHTML = models.map(m => `
+        <label class="chip"><input type="checkbox" name="model" value="${m}"><span>${m}</span></label>
+      `).join("");
+      deviceEl.appendChild(modelsWrap);
+
+      devicesWrap.appendChild(deviceEl);
+    });
+
+    brandEl.appendChild(devicesWrap);
+    navTree.appendChild(brandEl);
+  });
+}
+
+function populateChipOptions(container, name, values) {
+  container.innerHTML = values.map(v => `
+    <label class="chip"><input type="checkbox" name="${name}" value="${v}"><span>${v}</span></label>
   `).join("");
 }
 
+function getCheckedValues(name) {
+  return [...document.querySelectorAll(`input[name="${name}"]:checked`)].map(el => el.value);
+}
+
+function setChecked(name, value, checked) {
+  const input = [...document.querySelectorAll(`input[name="${name}"]`)].find(el => el.value === value);
+  if (input) input.checked = checked;
+}
+
 function getFilters() {
-  const formData = new FormData(form);
   return {
-    types: formData.getAll("type"),
-    capacityMin: Number(formData.get("capacity_min") || 0),
-    weightMax: Number(formData.get("weight_max") || 0),
-    thicknessMax: Number(formData.get("thickness_max") || 0),
-    outputMin: Number(formData.get("output_min") || 0),
-    fastCharge: formData.getAll("fast_charge"),
-    portsMin: Number(formData.get("ports_min") || 0),
-    simultaneousMin: Number(formData.get("simultaneous_min") || 0),
-    priceMax: Number(formData.get("price_max") || 0),
-    pseRequired: formData.get("pse_required") === "on",
-    designStyle: formData.getAll("design_style"),
-    colors: formData.getAll("color")
+    models: getCheckedValues("model"),
+    materials: getCheckedValues("material"),
+    caseTypes: getCheckedValues("case_type"),
+    colors: getCheckedValues("color"),
+    features: getCheckedValues("feature"),
+    priceMax: Number(priceMaxSelect.value || 0),
+    moqMax: Number(moqMaxSelect.value || 0)
   };
 }
 
 function matchesFilters(product, f) {
-  if (f.types.length > 0) {
-    const productTypes = product.types || [];
-    const hasType = f.types.some(t => productTypes.includes(t));
-    if (!hasType) return false;
+  if (f.models.length > 0) {
+    const pm = product.compatible_models || [];
+    if (!f.models.some(m => pm.includes(m))) return false;
   }
-  if (f.capacityMin > 0) {
-    if (!product.capacity_mah || product.capacity_mah < f.capacityMin) return false;
+  if (f.materials.length > 0) {
+    const mat = product.material || [];
+    if (!f.materials.some(m => mat.includes(m))) return false;
   }
-  if (f.weightMax > 0) {
-    if (product.weight_g == null || product.weight_g > f.weightMax) return false;
-  }
-  if (f.thicknessMax > 0) {
-    if (product.thickness_mm == null || product.thickness_mm > f.thicknessMax) return false;
+  if (f.caseTypes.length > 0) {
+    const ct = product.case_type || [];
+    if (!f.caseTypes.some(t => ct.includes(t))) return false;
   }
   if (f.colors.length > 0) {
     const pc = product.colors || [];
-    const hasColor = f.colors.some(c => pc.includes(c));
-    if (!hasColor) return false;
+    if (!f.colors.some(c => pc.includes(c))) return false;
   }
-  if (f.outputMin > 0) {
-    if (!product.output_w || product.output_w < f.outputMin) return false;
-  }
-  if (f.fastCharge.length > 0) {
-    const fc = product.fast_charge || [];
-    const hasAll = f.fastCharge.every(v => fc.includes(v));
-    if (!hasAll) return false;
-  }
-  if (f.portsMin > 0) {
-    if (!product.ports || product.ports < f.portsMin) return false;
-  }
-  if (f.simultaneousMin > 0) {
-    if (!product.simultaneous_charge || product.simultaneous_charge < f.simultaneousMin) return false;
+  if (f.features.length > 0) {
+    const pf = product.features || [];
+    if (!f.features.every(feat => pf.includes(feat))) return false;
   }
   if (f.priceMax > 0) {
-    if (product.price_jpy == null || product.price_jpy > f.priceMax) return false;
+    if (product.price_jpy_ref == null || product.price_jpy_ref > f.priceMax) return false;
   }
-  if (f.pseRequired) {
-    if (product.pse_mark !== true) return false;
-  }
-  if (f.designStyle.length > 0) {
-    const ds = product.design_style || [];
-    const hasDesign = f.designStyle.some(d => ds.includes(d));
-    if (!hasDesign) return false;
+  if (f.moqMax > 0) {
+    if (product.moq_ref == null || product.moq_ref > f.moqMax) return false;
   }
   return true;
 }
@@ -169,56 +164,47 @@ function sortProducts(products, sortKey) {
   const sorted = [...products];
   switch (sortKey) {
     case "price_asc":
-      sorted.sort((a, b) => (a.price_jpy ?? Infinity) - (b.price_jpy ?? Infinity));
+      sorted.sort((a, b) => (a.price_jpy_ref ?? Infinity) - (b.price_jpy_ref ?? Infinity));
       break;
     case "price_desc":
-      sorted.sort((a, b) => (b.price_jpy ?? -Infinity) - (a.price_jpy ?? -Infinity));
+      sorted.sort((a, b) => (b.price_jpy_ref ?? -Infinity) - (a.price_jpy_ref ?? -Infinity));
       break;
-    case "capacity_desc":
-      sorted.sort((a, b) => (b.capacity_mah ?? 0) - (a.capacity_mah ?? 0));
-      break;
-    case "weight_asc":
-      sorted.sort((a, b) => (a.weight_g ?? Infinity) - (b.weight_g ?? Infinity));
+    case "moq_asc":
+      sorted.sort((a, b) => (a.moq_ref ?? Infinity) - (b.moq_ref ?? Infinity));
       break;
   }
   return sorted;
 }
 
-function fmt(value, unit) {
-  return value == null ? "不明" : `${value.toLocaleString()}${unit}`;
-}
-
 function cardHtml(p) {
-  const types = (p.types || []).map(t => `<span class="type-badge">${TYPE_LABELS[t] || t}</span>`).join("");
-  const fastCharge = (p.fast_charge || []).join(" / ") || "-";
-  const priceText = p.price_jpy != null ? `¥${p.price_jpy.toLocaleString()}` : "価格不明";
-  const buyLink = p.purchase_url
-    ? `<a class="buy-link" href="${p.purchase_url}" target="_blank" rel="noopener noreferrer">購入ページを見る →</a>`
-    : `<span class="buy-link" style="color:var(--muted)">購入リンク未登録</span>`;
+  const allModels = p.compatible_models || [];
+  const modelBadges = allModels.slice(0, 2).map(m => `<span class="type-badge">${m}</span>`).join("");
+  const extraModels = allModels.length > 2 ? `<span class="type-badge">+${allModels.length - 2}</span>` : "";
+  const materials = (p.material || []).join(" / ") || "-";
+  const caseTypes = (p.case_type || []).join(" / ") || "-";
+  const priceText = p.price_jpy_ref != null ? `¥${p.price_jpy_ref.toLocaleString()}` : "単価不明";
+  const moqText = p.moq_ref != null ? `${p.moq_ref.toLocaleString()}個〜` : "不明";
+  const buyLink = p.amazon_url
+    ? `<a class="buy-link" href="${p.amazon_url}" target="_blank" rel="noopener noreferrer">Amazonで見る →</a>`
+    : `<span class="buy-link" style="color:var(--muted)">商品リンク未登録</span>`;
 
   return `
     <article class="result-card">
       <div class="result-photo" aria-hidden="true">${iconFor(p)}</div>
       <div class="result-body">
       <div class="result-card-top">
-        <div>
-          <div class="result-name">${p.name}</div>
-          <div class="result-maker">${p.maker || ""}</div>
-        </div>
-        <div class="result-price">${priceText}</div>
+        <div class="result-name">${p.name}</div>
+        <div class="result-maker">${p.brand || ""}</div>
       </div>
-      <div class="result-types">${types}</div>
+      <div class="result-price">${priceText}<span class="price-unit">目安/個</span></div>
+      <div class="result-types">${modelBadges}${extraModels}</div>
       <div class="spec-grid">
-        <div><span>容量: </span>${fmt(p.capacity_mah, "mAh")}</div>
-        <div><span>重さ: </span>${fmt(p.weight_g, "g")}</div>
-        <div><span>出力: </span>${fmt(p.output_w, "W")}</div>
-        <div><span>急速充電: </span>${fastCharge}</div>
-        <div><span>ポート数: </span>${fmt(p.ports, "")}</div>
-        <div><span>同時充電: </span>${fmt(p.simultaneous_charge, "台")}</div>
+        <div><span>素材: </span>${materials}</div>
+        <div><span>タイプ: </span>${caseTypes}</div>
+        <div><span>ロット: </span>${moqText}</div>
       </div>
-      ${p.notes ? `<div class="result-notes">${p.notes}</div>` : ""}
       <div class="result-footer">
-        <span class="pse-badge">${p.pse_mark === true ? "PSEマーク対応" : p.pse_mark === false ? "PSEマーク記載なし" : ""}</span>
+        <span class="pse-badge">単価・ロットは参考値です</span>
         ${buyLink}
       </div>
       </div>
@@ -235,7 +221,7 @@ function renderResults(products) {
 
 function renderVisiblePage() {
   if (currentMatched.length === 0) {
-    resultList.innerHTML = `<div class="empty-state">条件に合う製品が見つかりませんでした。条件を減らして再検索してください。</div>`;
+    resultList.innerHTML = `<div class="empty-state">条件に合う商品が見つかりませんでした。条件を減らして再検索してください。</div>`;
     return;
   }
 
@@ -259,33 +245,28 @@ function renderVisiblePage() {
 function renderActiveConditions(f) {
   const chips = [];
 
-  f.types.forEach(t => chips.push({ label: TYPE_LABELS[t] || t, clear: () => setChecked(form, "type", t, false) }));
-  if (f.capacityMin > 0) chips.push({ label: `${f.capacityMin.toLocaleString()}mAh以上`, clear: () => { form.capacity_min.value = "0"; } });
-  if (f.weightMax > 0) chips.push({ label: `${f.weightMax}g以下`, clear: () => { form.weight_max.value = "0"; } });
-  if (f.thicknessMax > 0) chips.push({ label: `厚さ${f.thicknessMax}mm以下`, clear: () => { form.thickness_max.value = "0"; } });
-  f.colors.forEach(c => chips.push({ label: `カラー: ${c}`, clear: () => setChecked(form, "color", c, false) }));
-  if (f.outputMin > 0) chips.push({ label: `${f.outputMin}W以上`, clear: () => { form.output_min.value = "0"; } });
-  f.fastCharge.forEach(v => chips.push({ label: `急速充電: ${v}`, clear: () => setChecked(form, "fast_charge", v, false) }));
-  if (f.portsMin > 0) chips.push({ label: `ポート${f.portsMin}以上`, clear: () => { form.ports_min.value = "0"; } });
-  if (f.simultaneousMin > 0) chips.push({ label: `同時充電${f.simultaneousMin}台以上`, clear: () => { form.simultaneous_min.value = "0"; } });
-  if (f.priceMax > 0) chips.push({ label: `${f.priceMax.toLocaleString()}円以下`, clear: () => { form.price_max.value = "0"; } });
-  if (f.pseRequired) chips.push({ label: "PSEマーク対応のみ", clear: () => { form.pse_required.checked = false; } });
-  f.designStyle.forEach(d => chips.push({ label: DESIGN_LABELS[d] || d, clear: () => setChecked(form, "design_style", d, false) }));
+  f.models.forEach(m => chips.push({ label: m, clear: () => setChecked("model", m, false) }));
+  f.materials.forEach(m => chips.push({ label: m, clear: () => setChecked("material", m, false) }));
+  f.caseTypes.forEach(t => chips.push({ label: t, clear: () => setChecked("case_type", t, false) }));
+  f.colors.forEach(c => chips.push({ label: `カラー: ${c}`, clear: () => setChecked("color", c, false) }));
+  f.features.forEach(v => chips.push({ label: v, clear: () => setChecked("feature", v, false) }));
+  if (f.priceMax > 0) chips.push({ label: `${f.priceMax.toLocaleString()}円以下`, clear: () => { priceMaxSelect.value = "0"; } });
+  if (f.moqMax > 0) chips.push({ label: `ロット${f.moqMax.toLocaleString()}個以下`, clear: () => { moqMaxSelect.value = "0"; } });
 
   if (chips.length === 0) {
-    activeConditionsEl.innerHTML = `<span class="condition-chip none">条件は指定されていません(すべての製品を表示中)</span>`;
+    activeConditionsEl.innerHTML = `<span class="condition-chip none">条件は指定されていません(すべての商品を表示中)</span>`;
     return;
   }
 
   activeConditionsEl.innerHTML = "";
-  chips.forEach((chip, i) => {
+  chips.forEach((chip) => {
     const el = document.createElement("span");
     el.className = "condition-chip";
     el.innerHTML = `${chip.label} <button type="button" aria-label="${chip.label}の条件を外す">×</button>`;
     el.querySelector("button").addEventListener("click", () => {
       chip.clear();
-      clearActivePresetHighlight();
       applyFiltersAndRender();
+      updateLiveCount();
     });
     activeConditionsEl.appendChild(el);
   });
@@ -298,55 +279,40 @@ function applyFiltersAndRender() {
   renderResults(matched);
 }
 
-function clearActivePresetHighlight() {
-  presetGrid.querySelectorAll(".preset-card").forEach(btn => btn.classList.remove("is-active"));
+function updateLiveCount() {
+  const filters = getFilters();
+  const count = PRODUCTS.filter(p => matchesFilters(p, filters)).length;
+  if (count === PRODUCTS.length) {
+    liveCountHint.textContent = `この内容で絞り込むと ${count}件 が見つかります(現在の全件数)`;
+  } else if (count === 0) {
+    liveCountHint.textContent = `この内容だと 0件 です。条件を減らしてみてください`;
+  } else {
+    liveCountHint.textContent = `この内容で絞り込むと ${count}件 が見つかります`;
+  }
 }
 
-presetGrid.addEventListener("click", (e) => {
-  const card = e.target.closest(".preset-card");
-  if (!card) return;
-  const presetKey = card.dataset.preset;
-  form.reset();
-  clearActivePresetHighlight();
-  if (presetKey !== "reset") {
-    PRESETS[presetKey](form);
-    card.classList.add("is-active");
-  }
-  applyFiltersAndRender();
-  updateLiveCount();
-  document.querySelector(".results-panel").scrollIntoView({ behavior: "smooth", block: "start" });
-});
+function resetAllFilters() {
+  document.querySelectorAll('input[type="checkbox"]').forEach(el => { el.checked = false; });
+  priceMaxSelect.value = "0";
+  moqMaxSelect.value = "0";
+  document.querySelectorAll("details[open]").forEach(el => el.removeAttribute("open"));
+}
 
-form.addEventListener("submit", (e) => {
-  e.preventDefault();
-  clearActivePresetHighlight();
-  applyFiltersAndRender();
-});
-
-form.addEventListener("reset", () => {
-  clearActivePresetHighlight();
-  setTimeout(() => {
+document.addEventListener("change", (e) => {
+  if (e.target.matches('input[type="checkbox"], select') && e.target.id !== "sort-select") {
     applyFiltersAndRender();
     updateLiveCount();
-  }, 0);
+  }
 });
 
 sortSelect.addEventListener("change", () => {
   applyFiltersAndRender();
 });
 
-function updateLiveCount() {
-  const filters = getFilters();
-  const count = PRODUCTS.filter(p => matchesFilters(p, filters)).length;
-  if (count === PRODUCTS.length) {
-    liveCountHint.textContent = `この内容で提案すると ${count}件 が見つかります(現在の全件数)`;
-  } else if (count === 0) {
-    liveCountHint.textContent = `この内容だと 0件 です。条件を減らしてみてください`;
-  } else {
-    liveCountHint.textContent = `この内容で提案すると ${count}件 が見つかります`;
-  }
-}
-
-form.addEventListener("change", updateLiveCount);
+resetBtn.addEventListener("click", () => {
+  resetAllFilters();
+  applyFiltersAndRender();
+  updateLiveCount();
+});
 
 loadData();
