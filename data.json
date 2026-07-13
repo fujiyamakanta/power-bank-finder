@@ -1,2439 +1,1857 @@
 [
   {
-    "id": "anker-537-powercore-24000-65w",
-    "name": "Anker 537 Power Bank (PowerCore 24000, 65W)",
-    "maker": "Anker",
-    "types": [
-      "standard"
+    "id": "iphone15plus-rssviss-bookcase-white",
+    "name": "Rssviss iPhone 15 Plus 手帳型ケース(シュリンクレザー)",
+    "brand": "Rssviss",
+    "compatible_models": [
+      "iPhone 15 Plus"
     ],
-    "capacity_mah": 24000,
-    "weight_g": 500,
-    "size_mm": "160 x 85 x 27 mm",
-    "thickness_mm": null,
-    "output_w": 65,
-    "fast_charge": [
-      "PD"
+    "material": [
+      "PUレザー"
     ],
-    "ports": 3,
-    "simultaneous_charge": 2,
-    "price_jpy": 11490,
-    "pse_mark": true,
+    "case_type": [
+      "手帳型"
+    ],
     "colors": [
-      "ブラック",
       "ホワイト"
     ],
-    "purchase_url": "https://www.ankerjapan.com/products/a1379",
-    "notes": "24000mAh大容量で65W出力、ノートPCも充電可能な定番モデル",
-    "design_style": [
-      "mecha",
-      "simple"
-    ]
+    "features": [
+      "カード収納",
+      "スタンド機能",
+      "マグネット式"
+    ],
+    "price_jpy_ref": 1980,
+    "moq_ref": 80,
+    "amazon_url": "https://www.amazon.co.jp/iPhone15-Rssviss-%E3%82%B7%E3%83%A5%E3%83%AA%E3%83%B3%E3%82%AF%E3%83%AC%E3%82%B6%E3%83%BC-%E3%82%A2%E3%82%A4%E3%83%95%E3%82%A9%E3%83%B315%E3%83%97%E3%83%A9%E3%82%B9-6-1inch%E5%AF%BE%E5%BF%9C/dp/B0CD3BY4RM",
+    "notes": "全面保護タイプの手帳型。カードポケット付きで実用性重視。",
+    "device_type": "iPhone"
   },
   {
-    "id": "anker-621-maggo-battery-5000",
-    "name": "Anker 621 Magnetic Battery (MagGo)",
-    "maker": "Anker",
-    "types": [
-      "magsafe"
+    "id": "iphone15-icovercase-bookcase-navy",
+    "name": "iCoverCase iPhone 15 手帳型ケース(耐衝撃・マグネット)",
+    "brand": "iCoverCase",
+    "compatible_models": [
+      "iPhone 15"
     ],
-    "capacity_mah": 5000,
-    "weight_g": 132,
-    "size_mm": "111 x 66 x 11.5 mm",
-    "thickness_mm": 11.5,
-    "output_w": 12,
-    "fast_charge": [],
-    "ports": 2,
-    "simultaneous_charge": 1,
-    "price_jpy": 5990,
-    "pse_mark": null,
+    "material": [
+      "PUレザー",
+      "TPU"
+    ],
+    "case_type": [
+      "手帳型",
+      "耐衝撃"
+    ],
     "colors": [
-      "ブラック",
-      "ホワイト",
-      "ブルー",
-      "グリーン",
+      "ネイビー"
+    ],
+    "features": [
+      "カード収納",
+      "マグネット式",
+      "スタンド機能",
+      "耐衝撃"
+    ],
+    "price_jpy_ref": 1780,
+    "moq_ref": 80,
+    "amazon_url": "https://www.amazon.co.jp/iPhone-15-iPhone15-%E3%81%84phone15-iCoverCase/dp/B0CHP786JW",
+    "notes": "落ち着いたレトロカラー。耐衝撃素材を内側に採用。",
+    "device_type": "iPhone"
+  },
+  {
+    "id": "iphone15-bookcase-magsafe-purple",
+    "name": "iPhone 15 手帳型ケース MagSafe対応(PU革)",
+    "brand": "ノーブランド(OEM)",
+    "compatible_models": [
+      "iPhone 15"
+    ],
+    "material": [
+      "PUレザー"
+    ],
+    "case_type": [
+      "手帳型"
+    ],
+    "colors": [
       "パープル"
     ],
-    "purchase_url": "https://www.ankerjapan.com/products/a1610",
-    "notes": "シリーズ最薄11.5mm、強力マグネットでiPhone背面に吸着充電",
-    "design_style": [
-      "kawaii",
-      "simple"
-    ]
+    "features": [
+      "MagSafe対応",
+      "カード収納",
+      "ワイヤレス充電対応"
+    ],
+    "price_jpy_ref": 2180,
+    "moq_ref": 60,
+    "amazon_url": "https://www.amazon.co.jp/%E3%81%84phone15-MagSafe%E5%AF%BE%E5%BF%9C-iPhone15-iPhone15%E3%82%B1%E3%83%BC%E3%82%B9-%E3%83%AF%E3%82%A4%E3%83%A4%E3%83%AC%E3%82%B9%E5%85%85%E9%9B%BB%E5%AF%BE%E5%BF%9C/dp/B0CJ78SQ4G",
+    "notes": "MagSafe対応で装着したままワイヤレス充電が可能。",
+    "device_type": "iPhone"
   },
   {
-    "id": "anker-fusion-10000-30w",
-    "name": "Anker Power Bank (10000mAh, Fusion, Built-In USB-C Cable)",
-    "maker": "Anker",
-    "types": [
-      "3in1",
-      "plug_integrated",
-      "cable_built_in"
+    "id": "iphone15-3ccart-bookcase-green",
+    "name": "3CCart iPhone 15 手帳型ケース(財布型)",
+    "brand": "3CCart",
+    "compatible_models": [
+      "iPhone 15"
     ],
-    "capacity_mah": 10000,
-    "weight_g": 250,
-    "size_mm": "108 x 51 x 31 mm (プラグ部を除く)",
-    "thickness_mm": null,
-    "output_w": 30,
-    "fast_charge": [
-      "PD"
+    "material": [
+      "PUレザー"
     ],
-    "ports": 2,
-    "simultaneous_charge": 2,
-    "price_jpy": 7990,
-    "pse_mark": null,
+    "case_type": [
+      "手帳型"
+    ],
     "colors": [
-      "ブラック",
-      "ホワイト",
-      "ピンク",
-      "ブルー",
-      "パープル"
-    ],
-    "purchase_url": "https://www.ankerjapan.com/products/a1637",
-    "notes": "モバイルバッテリー・USB充電器・ケーブル一体型の3in1設計",
-    "design_style": [
-      "simple"
-    ]
-  },
-  {
-    "id": "anker-nano-10000-45w-reel-cable",
-    "name": "Anker Nano Power Bank (10000mAh, 45W, 巻取り式USB-Cケーブル)",
-    "maker": "Anker",
-    "types": [
-      "cable_built_in"
-    ],
-    "capacity_mah": 10000,
-    "weight_g": 230,
-    "size_mm": "82 x 51 x 36 mm",
-    "thickness_mm": null,
-    "output_w": 45,
-    "fast_charge": [
-      "PD"
-    ],
-    "ports": 3,
-    "simultaneous_charge": 3,
-    "price_jpy": 6990,
-    "pse_mark": null,
-    "colors": [
-      "ブラック",
-      "ホワイト",
-      "ミントブルー",
-      "ピンク"
-    ],
-    "purchase_url": "https://www.ankerjapan.com/products/a1638",
-    "notes": "巻取り式USB-Cケーブル内蔵、ケーブル忘れの心配がない45W出力",
-    "design_style": [
-      "simple"
-    ]
-  },
-  {
-    "id": "anker-nano-maggo-slim-5000",
-    "name": "Anker Nano Power Bank (5000mAh, MagGo, Slim)",
-    "maker": "Anker",
-    "types": [
-      "magsafe"
-    ],
-    "capacity_mah": 5000,
-    "weight_g": 110,
-    "size_mm": "102 x 71 x 8.6 mm",
-    "thickness_mm": 8.6,
-    "output_w": 20,
-    "fast_charge": [
-      "PD",
-      "Qi2"
-    ],
-    "ports": 2,
-    "simultaneous_charge": null,
-    "price_jpy": 6990,
-    "pse_mark": null,
-    "colors": [
-      "ブラック",
-      "ホワイト",
-      "ミントブルー",
-      "ゴールド",
-      "ブルー",
-      "オレンジ"
-    ],
-    "purchase_url": "https://www.ankerjapan.com/products/a1665",
-    "notes": "約8.6mmの薄型設計、Qi2対応で最大15Wワイヤレス充電",
-    "design_style": [
-      "kawaii",
-      "simple"
-    ]
-  },
-  {
-    "id": "anker-maggo-applewatch-10000-35w",
-    "name": "Anker MagGo Power Bank (10000mAh, 35W, For Apple Watch)",
-    "maker": "Anker",
-    "types": [
-      "apple_watch",
-      "cable_built_in"
-    ],
-    "capacity_mah": 10000,
-    "weight_g": 250,
-    "size_mm": "95 x 51 x 33 mm",
-    "thickness_mm": null,
-    "output_w": 35,
-    "fast_charge": [
-      "PD"
-    ],
-    "ports": 3,
-    "simultaneous_charge": 3,
-    "price_jpy": 9990,
-    "pse_mark": null,
-    "colors": [
-      "ホワイト",
-      "ブラック",
-      "ピンク",
-      "ミントブルー"
-    ],
-    "purchase_url": "https://www.ankerjapan.com/products/a1657",
-    "notes": "Apple Watch公式認証充電パッドとUSB-Cケーブルを一体化",
-    "design_style": [
-      "simple"
-    ]
-  },
-  {
-    "id": "anker-powerbank-20000-87w-cable",
-    "name": "Anker Power Bank (20000mAh, 87W, Built-In USB-C ケーブル)",
-    "maker": "Anker",
-    "types": [
-      "cable_built_in"
-    ],
-    "capacity_mah": 20000,
-    "weight_g": 430,
-    "size_mm": "158 x 74 x 26 mm",
-    "thickness_mm": null,
-    "output_w": 87,
-    "fast_charge": [
-      "PD"
-    ],
-    "ports": 3,
-    "simultaneous_charge": 3,
-    "price_jpy": 7990,
-    "pse_mark": null,
-    "colors": [
-      "ブラック",
-      "ホワイト",
-      "パープル"
-    ],
-    "purchase_url": "https://www.ankerjapan.com/products/a1383",
-    "notes": "約145mm内蔵USB-Cケーブル搭載、iPhone15を約4回充電可能",
-    "design_style": [
-      "mecha",
-      "simple"
-    ]
-  },
-  {
-    "id": "anker-powerbank-10000-30w-standard",
-    "name": "Anker Power Bank (10000mAh, 30W)",
-    "maker": "Anker",
-    "types": [
-      "standard"
-    ],
-    "capacity_mah": 10000,
-    "weight_g": 220,
-    "size_mm": "99 x 52 x 26 mm",
-    "thickness_mm": null,
-    "output_w": 30,
-    "fast_charge": [
-      "PD"
-    ],
-    "ports": 3,
-    "simultaneous_charge": 3,
-    "price_jpy": 5990,
-    "pse_mark": null,
-    "colors": [
-      "ブラック",
-      "ホワイト",
-      "ブルー",
-      "パープル",
       "グリーン"
     ],
-    "purchase_url": "https://www.ankerjapan.com/products/a1256",
-    "notes": "定番スタンダードモデル、3ポート同時充電対応で汎用性が高い",
-    "design_style": [
-      "simple"
-    ]
+    "features": [
+      "カード収納",
+      "スタンド機能"
+    ],
+    "price_jpy_ref": 1680,
+    "moq_ref": 80,
+    "amazon_url": "https://www.amazon.co.jp/3CCart-iPhone15-%E3%82%A2%E3%82%A4%E3%83%95%E3%82%A9%E3%83%B315-%E3%81%84phone15-%E6%89%8B%E5%B8%B3%EF%BC%88iPhone/dp/B0C9TG823K",
+    "notes": "女性向けの可愛いデザインの財布型ケース。",
+    "device_type": "iPhone"
   },
   {
-    "id": "anker-621-connector-integrated-5000-22.5w",
-    "name": "Anker 621 Power Bank (Built-In USB-C Connector, 22.5W)",
-    "maker": "Anker",
-    "types": [
-      "connector_integrated"
+    "id": "iphone15-3ccart-bookcase-smokepurple",
+    "name": "3CCart iPhone 15 手帳型ケース(横置きスタンド)",
+    "brand": "3CCart",
+    "compatible_models": [
+      "iPhone 15"
     ],
-    "capacity_mah": 5000,
-    "weight_g": 102,
-    "size_mm": "77 x 37 x 25 mm",
-    "thickness_mm": null,
-    "output_w": 22.5,
-    "fast_charge": [
-      "PD"
+    "material": [
+      "PUレザー"
     ],
-    "ports": 2,
-    "simultaneous_charge": 2,
-    "price_jpy": 3990,
-    "pse_mark": null,
+    "case_type": [
+      "手帳型"
+    ],
     "colors": [
-      "ブラック",
+      "スモークパープル"
+    ],
+    "features": [
+      "カード収納",
+      "マグネット式",
+      "スタンド機能"
+    ],
+    "price_jpy_ref": 1680,
+    "moq_ref": 80,
+    "amazon_url": "https://www.amazon.co.jp/3CCart-iPhone15-%E3%81%84Phone15-%E3%82%B9%E3%83%88%E3%83%A9%E3%83%83%E3%83%97%E4%BB%98%E3%81%8D%EF%BC%88iPhone-15%E3%82%B9%E3%83%A2%E3%83%BC%E3%82%AF%E3%83%91%E3%83%BC%E3%83%97%E3%83%AB%EF%BC%89/dp/B0C9TJLXNV",
+    "notes": "薄型PUレザーで横置きスタンド機能付き。",
+    "device_type": "iPhone"
+  },
+  {
+    "id": "iphoneair-clear-shoulder",
+    "name": "iPhone Air クリアショルダーケース(TPU・耐衝撃)",
+    "brand": "ノーブランド(OEM)",
+    "compatible_models": [
+      "iPhone Air"
+    ],
+    "material": [
+      "TPU"
+    ],
+    "case_type": [
+      "クリア",
+      "ショルダー型"
+    ],
+    "colors": [
+      "クリア"
+    ],
+    "features": [
+      "耐衝撃",
+      "カード収納"
+    ],
+    "price_jpy_ref": 1580,
+    "moq_ref": 100,
+    "amazon_url": "https://www.amazon.co.jp/%E3%82%B7%E3%83%A7%E3%83%AB%E3%83%80%E3%83%BC-%E3%82%AB%E3%83%BC%E3%83%89%E5%8F%8E%E7%B4%8D-%E3%82%A2%E3%82%A4%E3%83%95%E3%82%A9%E3%83%B3-%E3%82%B9%E3%83%9E%E3%83%9B%E3%82%B1%E3%83%BC%E3%82%B9-%E3%82%B1%E3%83%BC%E3%82%B9%EF%BC%88%E3%82%AF%E3%83%AA%E3%82%A2%EF%BC%89/dp/B0FN6S3ZB3",
+    "notes": "斜めがけ・肩掛けストラップ対応で落下防止。",
+    "device_type": "iPhone"
+  },
+  {
+    "id": "iphone13-clear-selfie-white",
+    "name": "iPhone 13 クリアケース(衝撃吸収・自撮りリング)",
+    "brand": "ノーブランド(OEM)",
+    "compatible_models": [
+      "iPhone 13"
+    ],
+    "material": [
+      "TPU"
+    ],
+    "case_type": [
+      "クリア"
+    ],
+    "colors": [
       "ホワイト"
     ],
-    "purchase_url": "https://www.ankerjapan.com/products/a1648",
-    "notes": "折りたたみ式USB-C端子内蔵でケーブル不要のコンパクト設計",
-    "design_style": [
-      "kawaii",
-      "simple"
-    ]
+    "features": [
+      "耐衝撃"
+    ],
+    "price_jpy_ref": 980,
+    "moq_ref": 150,
+    "amazon_url": "https://www.amazon.co.jp/iPhone-%E3%81%8B%E3%82%8F%E3%81%84%E3%81%84-%E3%82%AA%E3%82%B7%E3%83%A3%E3%83%AC-%E6%8C%81%E3%81%A1%E3%82%84%E3%81%99%E3%81%84-iPhone13/dp/B0BQM733S9",
+    "notes": "定番のクリアTPU。低単価・大量仕入れ向き。",
+    "device_type": "iPhone"
   },
   {
-    "id": "anker-powerbank-25000-reel-cable",
-    "name": "Anker Power Bank (25000mAh, Built-In & 巻取り式USB-Cケーブル)",
-    "maker": "Anker",
-    "types": [
-      "cable_built_in"
+    "id": "iphone12-clear-selfie-white",
+    "name": "iPhone 12 クリアケース(衝撃吸収・自撮りリング)",
+    "brand": "ノーブランド(OEM)",
+    "compatible_models": [
+      "iPhone 12"
     ],
-    "capacity_mah": 25000,
-    "weight_g": 595,
-    "size_mm": "158 x 54 x 49 mm",
-    "thickness_mm": null,
-    "output_w": 165,
-    "fast_charge": [
-      "PD"
+    "material": [
+      "TPU"
     ],
-    "ports": 4,
-    "simultaneous_charge": 4,
-    "price_jpy": 14990,
-    "pse_mark": null,
+    "case_type": [
+      "クリア"
+    ],
     "colors": [
-      "ブラック",
-      "シルバー"
-    ],
-    "purchase_url": "https://www.ankerjapan.com/products/a1695",
-    "notes": "内蔵＆巻取り式ケーブル搭載、25000mAhの超大容量モデル",
-    "design_style": [
-      "mecha",
-      "simple"
-    ]
-  },
-  {
-    "id": "anker-prime-powerbank-20000-200w",
-    "name": "Anker Prime Power Bank (20000mAh, 200W)",
-    "maker": "Anker",
-    "types": [
-      "standard"
-    ],
-    "capacity_mah": 20000,
-    "weight_g": 540,
-    "size_mm": "127 x 55 x 50 mm",
-    "thickness_mm": null,
-    "output_w": 200,
-    "fast_charge": [
-      "PD"
-    ],
-    "ports": 3,
-    "simultaneous_charge": 3,
-    "price_jpy": 19990,
-    "pse_mark": true,
-    "colors": [
-      "ブラック",
-      "ゴールド"
-    ],
-    "purchase_url": "https://www.ankerjapan.com/products/a1336",
-    "notes": "スマートディスプレイ搭載、200W出力でMacBook Pro2台急速充電",
-    "design_style": [
-      "mecha",
-      "simple"
-    ]
-  },
-  {
-    "id": "cio-smartcoby-trio-67w-20000",
-    "name": "CIO SMARTCOBY TRIO 67W 20000mAh",
-    "maker": "CIO",
-    "types": [
-      "standard"
-    ],
-    "capacity_mah": 20000,
-    "weight_g": 333,
-    "size_mm": "95 x 69 x 29.5 mm",
-    "thickness_mm": null,
-    "output_w": 67,
-    "fast_charge": [
-      "PD",
-      "QC"
-    ],
-    "ports": 3,
-    "simultaneous_charge": 3,
-    "price_jpy": 8980,
-    "pse_mark": true,
-    "colors": [
-      "ブラック",
       "ホワイト"
     ],
-    "purchase_url": "https://connectinternationalone.co.jp/cioproduct/mobilebattery/smartcoby/cio-mb67w2c1a-20000/",
-    "notes": "世界最小級20000mAh、PD/QC対応で3台同時急速充電可能",
-    "design_style": [
-      "mecha",
-      "simple"
-    ]
+    "features": [
+      "耐衝撃"
+    ],
+    "price_jpy_ref": 980,
+    "moq_ref": 150,
+    "amazon_url": "https://www.amazon.co.jp/iPhone-%E3%81%8B%E3%82%8F%E3%81%84%E3%81%84-%E3%82%AA%E3%82%B7%E3%83%A3%E3%83%AC-%E6%8C%81%E3%81%A1%E3%82%84%E3%81%99%E3%81%84-iPhone12/dp/B0BQM82VB9",
+    "notes": "旧機種向けの定番クリアケース。旧モデルユーザー向け在庫として。",
+    "device_type": "iPhone"
   },
   {
-    "id": "cio-smartcoby-ex03-slim-plugcable-8000",
-    "name": "CIO SMARTCOBY Ex03 SLIM PLUG & CABLE",
-    "maker": "CIO",
-    "types": [
-      "3in1",
-      "plug_integrated",
-      "cable_built_in"
+    "id": "iphone16e-clear-shoulder-purple",
+    "name": "iPhone 16E クリアショルダーケース(TPU・耐衝撃)",
+    "brand": "ノーブランド(OEM)",
+    "compatible_models": [
+      "iPhone 16E"
     ],
-    "capacity_mah": 8000,
-    "weight_g": 223,
-    "size_mm": "115 x 67.5 x 22 mm",
-    "thickness_mm": null,
-    "output_w": 30,
-    "fast_charge": [
-      "PD",
-      "QC"
+    "material": [
+      "TPU"
     ],
-    "ports": 2,
-    "simultaneous_charge": 2,
-    "price_jpy": 6580,
-    "pse_mark": null,
+    "case_type": [
+      "クリア",
+      "ショルダー型"
+    ],
     "colors": [
-      "ブラック",
-      "ホワイト"
+      "パープル"
     ],
-    "purchase_url": "https://connectinternationalone.co.jp/cioproduct/mobilebattery/smartcoby/cio-mb30w2c-8k-ex03/",
-    "notes": "コンセント・ケーブル内蔵の3in1、外出先での利用に特化した設計",
-    "design_style": [
-      "simple"
-    ]
+    "features": [
+      "耐衝撃",
+      "ワイヤレス充電対応"
+    ],
+    "price_jpy_ref": 1580,
+    "moq_ref": 100,
+    "amazon_url": "https://www.amazon.co.jp/iPhone-%E7%B8%84%E6%8E%9B%E3%81%91%E3%82%B1%E3%83%BC%E3%82%B9-%E3%82%A2%E3%82%A4%E3%83%95%E3%82%A9%E3%83%B316E-%E7%B9%94%E3%82%8A%E3%82%B9%E3%83%88%E3%83%A9%E3%83%83%E3%83%97%E4%BB%98%E3%81%8D-%E3%83%AF%E3%82%A4%E3%83%A4%E3%83%AC%E3%82%B9%E5%85%85%E9%9B%BB%E5%AF%BE%E5%BF%9C/dp/B0F1JVH6R9",
+    "notes": "紐付きで長さ調整・取り外し可能。",
+    "device_type": "iPhone"
   },
   {
-    "id": "cio-smartcoby-proplug2-67w3c-10000",
-    "name": "CIO SMARTCOBY Pro PLUGⅡ 67W3C",
-    "maker": "CIO",
-    "types": [
-      "plug_integrated"
+    "id": "esr-iphone1413-projectzero-clear",
+    "name": "ESR iPhone 14/13 Project Zeroクリアケース(米軍MIL規格)",
+    "brand": "ESR",
+    "compatible_models": [
+      "iPhone 14",
+      "iPhone 13"
     ],
-    "capacity_mah": 10000,
-    "weight_g": 308,
-    "size_mm": "64 x 104 x 31 mm",
-    "thickness_mm": null,
-    "output_w": 67,
-    "fast_charge": [
-      "PD",
-      "QC"
+    "material": [
+      "TPU"
     ],
-    "ports": 3,
-    "simultaneous_charge": 3,
-    "price_jpy": 10800,
-    "pse_mark": null,
+    "case_type": [
+      "クリア",
+      "耐衝撃"
+    ],
     "colors": [
-      "ブラック",
-      "ホワイト"
+      "クリア"
     ],
-    "purchase_url": "https://connectinternationalone.co.jp/cioproduct/mobilebattery/smartcoby/cio-mb67w3c-10k-p2/",
-    "notes": "ACプラグ内蔵で充電器としても使える全部入りモバイルバッテリー",
-    "design_style": [
-      "mecha",
-      "simple"
-    ]
+    "features": [
+      "耐衝撃",
+      "ストラップホール付き",
+      "黄ばみ防止"
+    ],
+    "price_jpy_ref": 2480,
+    "moq_ref": 40,
+    "amazon_url": "https://www.amazon.co.jp/ESR-iPhone-13-%E7%B1%B3%E8%BB%8DMIL%E8%A6%8F%E6%A0%BC-%E3%82%B9%E3%83%88%E3%83%A9%E3%83%83%E3%83%97%E3%83%9B%E3%83%BC%E3%83%AB%E4%BB%98%E3%81%8D/dp/B099K6PP31",
+    "notes": "有名ブランド品。ブランド力を訴求したい仕入れ向け。",
+    "device_type": "iPhone"
   },
   {
-    "id": "cio-smartcoby-slim-5000",
-    "name": "CIO SMARTCOBY SLIM 5000mAh",
-    "maker": "CIO",
-    "types": [
-      "standard"
+    "id": "galaxys24ultra-zw2340-blue",
+    "name": "Galaxy S24 Ultra 耐衝撃ケース(黄ばみなし・PC)",
+    "brand": "ZW23-40",
+    "compatible_models": [
+      "Galaxy S24 Ultra"
     ],
-    "capacity_mah": 5000,
-    "weight_g": 108,
-    "size_mm": "88 x 60.8 x 12.11 mm",
-    "thickness_mm": 12,
-    "output_w": 20,
-    "fast_charge": [
-      "PD"
+    "material": [
+      "PC"
     ],
-    "ports": 2,
-    "simultaneous_charge": 2,
-    "price_jpy": 3498,
-    "pse_mark": null,
+    "case_type": [
+      "耐衝撃",
+      "シンプル"
+    ],
     "colors": [
-      "ブラック",
-      "ホワイト"
-    ],
-    "purchase_url": "https://connectinternationalone.co.jp/cioproduct/mobilebattery/smartcoby/cio-mb20w2c-5000/",
-    "notes": "薄さ約12mmのカード感覚サイズ、約108gの軽量モデル",
-    "design_style": [
-      "kawaii",
-      "simple"
-    ]
-  },
-  {
-    "id": "cio-smartcoby-ultraslim-3k-magsafe",
-    "name": "CIO SMARTCOBY ULTRA SLIM 3K",
-    "maker": "CIO",
-    "types": [
-      "magsafe"
-    ],
-    "capacity_mah": 3000,
-    "weight_g": 82,
-    "size_mm": "104 x 70 x 4.98 mm",
-    "thickness_mm": 4.98,
-    "output_w": 10,
-    "fast_charge": [
-      "PD"
-    ],
-    "ports": 1,
-    "simultaneous_charge": 2,
-    "price_jpy": 8980,
-    "pse_mark": null,
-    "colors": [
-      "ブラック",
-      "シルバー"
-    ],
-    "purchase_url": "https://connectinternationalone.co.jp/cioproduct/mobilebattery/smartcoby/cio-mb10w1c-3k-uswl7/",
-    "notes": "厚さ4.98mmの世界最薄クラス、MagSafeとFind My対応",
-    "design_style": [
-      "kawaii",
-      "simple"
-    ]
-  },
-  {
-    "id": "cio-smartcoby-slim5k-highperf-qi2",
-    "name": "CIO SMARTCOBY SLIM 5K（ハイパフォーマンスモデル）",
-    "maker": "CIO",
-    "types": [
-      "magsafe"
-    ],
-    "capacity_mah": 5000,
-    "weight_g": 117,
-    "size_mm": "102 x 70 x 8.7 mm",
-    "thickness_mm": 8.7,
-    "output_w": 20,
-    "fast_charge": [
-      "PD",
-      "Qi2"
-    ],
-    "ports": 1,
-    "simultaneous_charge": 2,
-    "price_jpy": 5980,
-    "pse_mark": null,
-    "colors": [
-      "ブラック",
-      "シルバー"
-    ],
-    "purchase_url": "https://connectinternationalone.co.jp/cioproduct/mobilebattery/smartcoby/cio-mb20w1c-5k-wl15/",
-    "notes": "極薄8.7mm、Qi2認証チップ搭載で最大15Wワイヤレス充電",
-    "design_style": [
-      "kawaii",
-      "simple"
-    ]
-  },
-  {
-    "id": "cio-smartcoby-proslim-35w2c1a-10000",
-    "name": "CIO SMARTCOBY Pro SLIM 35W2C1A",
-    "maker": "CIO",
-    "types": [
-      "standard"
-    ],
-    "capacity_mah": 10000,
-    "weight_g": 180,
-    "size_mm": "97.6 x 69 x 16.2 mm",
-    "thickness_mm": 16,
-    "output_w": 35,
-    "fast_charge": [
-      "PD",
-      "QC"
-    ],
-    "ports": 3,
-    "simultaneous_charge": 3,
-    "price_jpy": 4818,
-    "pse_mark": true,
-    "colors": [
-      "ブラック",
-      "ホワイト"
-    ],
-    "purchase_url": "https://connectinternationalone.co.jp/cioproduct/mobilebattery/smartcoby/cio-smartcoby-pro-slim-35w2c1a/",
-    "notes": "30W以上クラスで最薄16mmを実現した高出力スリムモデル",
-    "design_style": [
-      "simple"
-    ]
-  },
-  {
-    "id": "cio-smartcoby-slim2-wireless22-pro-ss10k",
-    "name": "CIO SMARTCOBY SLIMⅡ Wireless2.2 Pro SS10K",
-    "maker": "CIO",
-    "types": [
-      "magsafe"
-    ],
-    "capacity_mah": 10000,
-    "weight_g": 225,
-    "size_mm": "101 x 70 x 17 mm",
-    "thickness_mm": 17,
-    "output_w": 35,
-    "fast_charge": [
-      "PD",
-      "Qi2"
-    ],
-    "ports": 1,
-    "simultaneous_charge": 2,
-    "price_jpy": 8580,
-    "pse_mark": null,
-    "colors": [
-      "ブラック",
-      "シルバー"
-    ],
-    "purchase_url": "https://connectinternationalone.co.jp/cioproduct/mobilebattery/smartcoby/cio-mb35w1c-ss10k-s2w25/",
-    "notes": "半固体電池採用、Qi2.2で最大25Wワイヤレス急速充電に対応",
-    "design_style": [
-      "kawaii",
-      "simple"
-    ]
-  },
-  {
-    "id": "elecom-ec-c28l-5000",
-    "name": "ELECOM 折り畳み式直挿しモバイルバッテリー(USB Type-Cプラグ一体型) EC-C28L 5000mAh",
-    "maker": "ELECOM",
-    "types": [
-      "connector_integrated"
-    ],
-    "capacity_mah": 5000,
-    "weight_g": 130,
-    "size_mm": "77×37×25 mm",
-    "thickness_mm": 25,
-    "output_w": 22.5,
-    "fast_charge": [
-      "PD",
-      "QC"
-    ],
-    "ports": 1,
-    "simultaneous_charge": 1,
-    "price_jpy": 2740,
-    "pse_mark": true,
-    "colors": [
-      "ブラック",
-      "ホワイト"
-    ],
-    "purchase_url": "https://www.elecom.co.jp/products/EC-C28LBK.html",
-    "notes": "USB-Cプラグ直挿しでケーブル不要、180度スイング構造で携帯性良好",
-    "design_style": [
-      "kawaii",
-      "simple"
-    ]
-  },
-  {
-    "id": "elecom-de-c86-10000-semisolid",
-    "name": "ELECOM 半固体モバイルバッテリー DE-C86-10000 10000mAh/35W",
-    "maker": "ELECOM",
-    "types": [
-      "standard"
-    ],
-    "capacity_mah": 10000,
-    "weight_g": 220,
-    "size_mm": "114.6×70×19 mm",
-    "thickness_mm": 19,
-    "output_w": 35,
-    "fast_charge": [
-      "PD",
-      "QC"
-    ],
-    "ports": 3,
-    "simultaneous_charge": 3,
-    "price_jpy": 7700,
-    "pse_mark": true,
-    "colors": [
-      "ブラック",
-      "ホワイト",
-      "ブルー",
-      "ピンク"
-    ],
-    "purchase_url": "https://www.elecom.co.jp/products/DE-C86-10000BK.html",
-    "notes": "半固体電池採用で約2000回充電可能、高い安全性と長寿命が特長",
-    "design_style": [
-      "simple"
-    ]
-  },
-  {
-    "id": "elecom-ec-c38-10000-qi2",
-    "name": "ELECOM Qi2ワイヤレスモバイルバッテリー EC-C38 10000mAh/20W",
-    "maker": "ELECOM",
-    "types": [
-      "magsafe"
-    ],
-    "capacity_mah": 10000,
-    "weight_g": 210,
-    "size_mm": "110×69.3×17.5 mm",
-    "thickness_mm": 17.5,
-    "output_w": 20,
-    "fast_charge": [
-      "PD",
-      "Qi2"
-    ],
-    "ports": 2,
-    "simultaneous_charge": 3,
-    "price_jpy": 3990,
-    "pse_mark": true,
-    "colors": [
-      "ブラック"
-    ],
-    "purchase_url": "https://www.elecom.co.jp/products/EC-C38BK.html",
-    "notes": "Qi2対応でiPhoneにマグネット吸着、最大15Wワイヤレス充電に対応",
-    "design_style": [
-      "kawaii",
-      "simple"
-    ]
-  },
-  {
-    "id": "elecom-de-ac07-10000-plug",
-    "name": "ELECOM AC充電器一体モバイルバッテリー DE-AC07 10000mAh/20W",
-    "maker": "ELECOM",
-    "types": [
-      "plug_integrated"
-    ],
-    "capacity_mah": 10000,
-    "weight_g": 275,
-    "size_mm": "90×81×34 mm",
-    "thickness_mm": 34,
-    "output_w": 20,
-    "fast_charge": [
-      "PD"
-    ],
-    "ports": 2,
-    "simultaneous_charge": 2,
-    "price_jpy": 5518,
-    "pse_mark": true,
-    "colors": [
-      "ホワイトフェイス",
-      "ブラック"
-    ],
-    "purchase_url": "https://www.elecom.co.jp/products/DE-AC07-10000WF.html",
-    "notes": "折りたたみ式プラグ内蔵でコンセント直挿し充電も可能な2in1モデル",
-    "design_style": [
-      "simple"
-    ]
-  },
-  {
-    "id": "elecom-ec-c51l-10000-3in1",
-    "name": "ELECOM AC充電器・USB Type-Cケーブル一体モバイルバッテリー EC-C51L 10000mAh",
-    "maker": "ELECOM",
-    "types": [
-      "plug_integrated",
-      "cable_built_in",
-      "3in1"
-    ],
-    "capacity_mah": 10000,
-    "weight_g": 260,
-    "size_mm": "107.5×51×31 mm",
-    "thickness_mm": 31,
-    "output_w": 35,
-    "fast_charge": [
-      "PD",
-      "PPS"
-    ],
-    "ports": 1,
-    "simultaneous_charge": 2,
-    "price_jpy": 6051,
-    "pse_mark": true,
-    "colors": [
-      "ブラック",
-      "ホワイトフェイス"
-    ],
-    "purchase_url": "https://www.elecom.co.jp/products/EC-C51LBK.html",
-    "notes": "ACプラグとUSB-Cケーブルを内蔵、1台で3役こなす多機能モデル",
-    "design_style": [
-      "simple"
-    ]
-  },
-  {
-    "id": "elecom-de-c84-10000-cable",
-    "name": "ELECOM ケーブル一体型半固体モバイルバッテリー DE-C84 10000mAh/30W",
-    "maker": "ELECOM",
-    "types": [
-      "cable_built_in"
-    ],
-    "capacity_mah": 10000,
-    "weight_g": 195,
-    "size_mm": "116×74×15.2 mm",
-    "thickness_mm": 15.2,
-    "output_w": 30,
-    "fast_charge": [
-      "PD"
-    ],
-    "ports": 1,
-    "simultaneous_charge": null,
-    "price_jpy": 6920,
-    "pse_mark": true,
-    "colors": [
-      "ブラック",
-      "ホワイト"
-    ],
-    "purchase_url": "https://www.elecom.co.jp/products/DE-C84-10000BK.html",
-    "notes": "USB-Cケーブル内蔵の半固体電池モデル、薄型軽量で持ち運びやすい",
-    "design_style": [
-      "simple"
-    ]
-  },
-  {
-    "id": "elecom-de-c81l-10000-reel",
-    "name": "ELECOM 巻き取り式ケーブル一体型モバイルバッテリー DE-C81L 10000mAh/45W",
-    "maker": "ELECOM",
-    "types": [
-      "cable_built_in"
-    ],
-    "capacity_mah": 10000,
-    "weight_g": 220,
-    "size_mm": null,
-    "thickness_mm": null,
-    "output_w": 45,
-    "fast_charge": [
-      "PD"
-    ],
-    "ports": 2,
-    "simultaneous_charge": 2,
-    "price_jpy": 6352,
-    "pse_mark": true,
-    "colors": [
-      "ブラック",
-      "ホワイト"
-    ],
-    "purchase_url": "https://www.elecom.co.jp/products/DE-C81L-10000BK.html",
-    "notes": "約62cmまで伸びる巻き取り式リールケーブル内蔵、すぐに充電開始できる",
-    "design_style": [
-      "simple"
-    ]
-  },
-  {
-    "id": "elecom-de-c39-12000-lifepo4",
-    "name": "ELECOM リン酸鉄モバイルバッテリー DE-C39 12000mAh/PD20W",
-    "maker": "ELECOM",
-    "types": [
-      "standard"
-    ],
-    "capacity_mah": 12000,
-    "weight_g": 310,
-    "size_mm": "159×78×17 mm",
-    "thickness_mm": 17,
-    "output_w": 20,
-    "fast_charge": [
-      "PD"
-    ],
-    "ports": 2,
-    "simultaneous_charge": 2,
-    "price_jpy": 6980,
-    "pse_mark": true,
-    "colors": [
-      "ブラック",
-      "ホワイト"
-    ],
-    "purchase_url": "https://www.elecom.co.jp/products/DE-C39-12000BK.html",
-    "notes": "リン酸鉄リチウムイオン電池で約1000回充電可能、高い安全性が特長",
-    "design_style": [
-      "simple"
-    ]
-  },
-  {
-    "id": "elecom-de-c28-10000-standard",
-    "name": "ELECOM USB PD20Wモバイルバッテリー DE-C28 10000mAh",
-    "maker": "ELECOM",
-    "types": [
-      "standard"
-    ],
-    "capacity_mah": 10000,
-    "weight_g": null,
-    "size_mm": null,
-    "thickness_mm": null,
-    "output_w": 20,
-    "fast_charge": [
-      "PD"
-    ],
-    "ports": 2,
-    "simultaneous_charge": 2,
-    "price_jpy": 2960,
-    "pse_mark": true,
-    "colors": [
-      "ベージュ",
-      "ブラック",
-      "ブルー",
-      "グレー",
-      "グリーン",
-      "ネイビー",
-      "ピンク",
-      "パープル",
-      "レッド",
-      "シルバー",
-      "ホワイト",
-      "イエロー"
-    ],
-    "purchase_url": "https://www.elecom.co.jp/products/DE-C28-10000BK.html",
-    "notes": "12色展開の定番USB PD対応モデル、丸みのある握りやすい形状",
-    "design_style": [
-      "kawaii",
-      "simple"
-    ]
-  },
-  {
-    "id": "elecom-de-c87-20000-semisolid",
-    "name": "ELECOM 半固体モバイルバッテリー DE-C87-20000 20000mAh/67W",
-    "maker": "ELECOM",
-    "types": [
-      "standard"
-    ],
-    "capacity_mah": 20000,
-    "weight_g": 405,
-    "size_mm": "110.2×70×35.5 mm",
-    "thickness_mm": 35.5,
-    "output_w": 67,
-    "fast_charge": [
-      "PD",
-      "QC"
-    ],
-    "ports": 3,
-    "simultaneous_charge": 3,
-    "price_jpy": 15980,
-    "pse_mark": true,
-    "colors": [
-      "ブラック"
-    ],
-    "purchase_url": "https://www.elecom.co.jp/products/DE-C87-20000BK.html",
-    "notes": "大容量20000mAhで67W出力、半固体電池で長寿命かつ高安全性を実現",
-    "design_style": [
-      "mecha",
-      "simple"
-    ]
-  },
-  {
-    "id": "belkin-bpd004-5000-magsafe",
-    "name": "Belkin BoostCharge MagSafe対応ワイヤレスモバイルバッテリー 5000mAh スタンド付き BPD004",
-    "maker": "Belkin",
-    "types": [
-      "magsafe"
-    ],
-    "capacity_mah": 5000,
-    "weight_g": 149,
-    "size_mm": "94.7×64.4×16.6 mm",
-    "thickness_mm": 16.6,
-    "output_w": 10,
-    "fast_charge": [
-      "PD"
-    ],
-    "ports": 1,
-    "simultaneous_charge": 2,
-    "price_jpy": 4227,
-    "pse_mark": true,
-    "colors": [
-      "ブラック",
-      "ホワイト"
-    ],
-    "purchase_url": "https://www.belkin.com/jp/p/magsafe%E5%AF%BE%E5%BF%9C-%E3%83%AF%E3%82%A4%E3%83%A4%E3%83%AC%E3%82%B9-%E3%83%A2%E3%83%90%E3%82%A4%E3%83%AB%E3%83%90%E3%83%83%E3%83%86%E3%83%AA%E3%83%BC-5000mah-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E4%BB%98%E3%81%8D/BPD004btWT.html",
-    "notes": "MagSafe対応、折りたたみスタンドで手放しで動画視聴しながら充電可能",
-    "design_style": [
-      "kawaii",
-      "simple"
-    ]
-  },
-  {
-    "id": "belkin-bpd002-2500-magsafe",
-    "name": "Belkin BoostCharge MagSafe対応磁気ワイヤレスモバイルバッテリー 2500mAh BPD002",
-    "maker": "Belkin",
-    "types": [
-      "magsafe"
-    ],
-    "capacity_mah": 2500,
-    "weight_g": 108,
-    "size_mm": "97×65×13 mm",
-    "thickness_mm": 13,
-    "output_w": null,
-    "fast_charge": [
-      "PD"
-    ],
-    "ports": 1,
-    "simultaneous_charge": null,
-    "price_jpy": 3828,
-    "pse_mark": true,
-    "colors": [
-      "ブラック",
-      "ホワイト"
-    ],
-    "purchase_url": "https://www.belkin.com/jp/chargers/wireless/boost-charge-magnetic-wireless-power-bank-2-5k/p/p-bpd002/",
-    "notes": "薄型軽量でiPhoneカメラを塞がずマグネット吸着するワイヤレス充電器",
-    "design_style": [
-      "kawaii",
-      "simple"
-    ]
-  },
-  {
-    "id": "belkin-bpd012-10000-applewatch",
-    "name": "Belkin モバイルバッテリー10K(Apple Watch充電機能付き) BPD012",
-    "maker": "Belkin",
-    "types": [
-      "apple_watch",
-      "cable_built_in"
-    ],
-    "capacity_mah": 10000,
-    "weight_g": 266,
-    "size_mm": "118×60×32.4 mm",
-    "thickness_mm": 32.4,
-    "output_w": 45,
-    "fast_charge": [
-      "PD"
-    ],
-    "ports": null,
-    "simultaneous_charge": 3,
-    "price_jpy": 13990,
-    "pse_mark": true,
-    "colors": [
-      "ブラック"
-    ],
-    "purchase_url": "https://www.belkin.com/jp/p/%E3%83%A2%E3%83%90%E3%82%A4%E3%83%AB%E3%83%90%E3%83%83%E3%83%86%E3%83%AA%E3%83%BC10k%EF%BC%88apple-watch%E5%85%85%E9%9B%BB%E6%A9%9F%E8%83%BD%E4%BB%98%E3%81%8D%EF%BC%89/BPD012fqBK.html",
-    "notes": "iPhone2台とApple Watchを同時充電可能、Watch急速充電に対応",
-    "design_style": [
-      "simple"
-    ]
-  },
-  {
-    "id": "belkin-bpz003-5000-hybrid-plug",
-    "name": "Belkin BoostCharge Hybrid Charger 25W + Power Bank 5000mAh BPZ003",
-    "maker": "Belkin",
-    "types": [
-      "plug_integrated"
-    ],
-    "capacity_mah": 5000,
-    "weight_g": null,
-    "size_mm": null,
-    "thickness_mm": null,
-    "output_w": 25,
-    "fast_charge": [
-      "PD",
-      "PPS"
-    ],
-    "ports": 2,
-    "simultaneous_charge": 2,
-    "price_jpy": 6660,
-    "pse_mark": true,
-    "colors": [
-      "ブラック"
-    ],
-    "purchase_url": "https://www.belkin.com/jp/p/hybrid-charger-25w-power-bank-5000mah/P-BPZ003.html",
-    "notes": "折りたたみ式プラグ内蔵でAC充電器とモバイルバッテリーを両立",
-    "design_style": [
-      "simple"
-    ]
-  },
-  {
-    "id": "belkin-bpb016-26000-4port",
-    "name": "Belkin BoostCharge 26000mAh 4ポートモバイルバッテリー 32W PD PPS対応 BPB016",
-    "maker": "Belkin",
-    "types": [
-      "standard"
-    ],
-    "capacity_mah": 26000,
-    "weight_g": 576,
-    "size_mm": null,
-    "thickness_mm": null,
-    "output_w": 32,
-    "fast_charge": [
-      "PD",
-      "PPS"
-    ],
-    "ports": 4,
-    "simultaneous_charge": 4,
-    "price_jpy": 7547,
-    "pse_mark": true,
-    "colors": [
-      "ブラック"
-    ],
-    "purchase_url": "https://www.belkin.com/jp/p/26000mah-4%E3%83%9D%E3%83%BC%E3%83%88%E3%83%A2%E3%83%90%E3%82%A4%E3%83%AB%E3%83%90%E3%83%83%E3%83%86%E3%83%AA%E3%83%BC-32w-pd-pps%E5%AF%BE%E5%BF%9C/BPB016btBK.html",
-    "notes": "USB-C×2、USB-A×2の4ポートで最大4台同時充電できる大容量モデル",
-    "design_style": [
-      "mecha",
-      "simple"
-    ]
-  },
-  {
-    "id": "belkin-bpb028-20000-display",
-    "name": "Belkin ポータブルモバイルバッテリー20000mAh(脱着式ケーブル付き) BPB028",
-    "maker": "Belkin",
-    "types": [
-      "standard"
-    ],
-    "capacity_mah": 20000,
-    "weight_g": 395,
-    "size_mm": null,
-    "thickness_mm": null,
-    "output_w": 20,
-    "fast_charge": [
-      "PD"
-    ],
-    "ports": 3,
-    "simultaneous_charge": 3,
-    "price_jpy": 4990,
-    "pse_mark": true,
-    "colors": [
-      "ブラック",
-      "ピンク"
-    ],
-    "purchase_url": "https://www.belkin.com/jp/p/power-bank-20k-with-display/BPB028fqBK.html",
-    "notes": "残量デジタル表示付き、脱着式USB-Cケーブルで3台同時充電に対応",
-    "design_style": [
-      "mecha",
-      "simple"
-    ]
-  },
-  {
-    "id": "belkin-bpb021-10000-cable",
-    "name": "Belkin ポータブルモバイルバッテリー10000mAh(一体型ケーブル) BPB021",
-    "maker": "Belkin",
-    "types": [
-      "cable_built_in"
-    ],
-    "capacity_mah": 10000,
-    "weight_g": null,
-    "size_mm": "99×64×23 mm",
-    "thickness_mm": 23,
-    "output_w": 20,
-    "fast_charge": [
-      "PD"
-    ],
-    "ports": 1,
-    "simultaneous_charge": 2,
-    "price_jpy": 4536,
-    "pse_mark": true,
-    "colors": [
-      "ブラック",
-      "ホワイト"
-    ],
-    "purchase_url": "https://www.belkin.com/jp/p/power-bank-10k-with-integrated-cable/BPB021fqBK.html",
-    "notes": "USB-Cケーブル一体型でパススルー充電対応、2台同時充電が可能",
-    "design_style": [
-      "simple"
-    ]
-  },
-  {
-    "id": "belkin-bpb011-10000-standard",
-    "name": "Belkin モバイル充電器10K + USB-A-USB-C充電ケーブル BPB011",
-    "maker": "Belkin",
-    "types": [
-      "standard"
-    ],
-    "capacity_mah": 10000,
-    "weight_g": null,
-    "size_mm": null,
-    "thickness_mm": null,
-    "output_w": 15,
-    "fast_charge": [
-      "PD"
-    ],
-    "ports": 3,
-    "simultaneous_charge": 3,
-    "price_jpy": 2390,
-    "pse_mark": true,
-    "colors": [
-      "ブラック",
-      "ブルー",
-      "シルバー"
-    ],
-    "purchase_url": "https://www.belkin.com/jp/chargers/power-banks/boost-chargetm-3-port-power-bank-10k-usb-a-to-usb-c-cable/p/p-bpb011/",
-    "notes": "USB-C×1とUSB-A×2で3台同時充電、USB-A-Cケーブルが付属する",
-    "design_style": [
-      "simple"
-    ]
-  },
-  {
-    "id": "belkin-bpb039-25000-laptop",
-    "name": "Belkin UltraCharge Pro Laptop Power Bank 25K BPB039",
-    "maker": "Belkin",
-    "types": [
-      "standard",
-      "cable_built_in"
-    ],
-    "capacity_mah": 25000,
-    "weight_g": null,
-    "size_mm": null,
-    "thickness_mm": null,
-    "output_w": 140,
-    "fast_charge": [
-      "PD"
-    ],
-    "ports": 2,
-    "simultaneous_charge": 3,
-    "price_jpy": null,
-    "pse_mark": true,
-    "colors": [
-      "ブラック"
-    ],
-    "purchase_url": "https://www.belkin.com/jp/p/laptop-power-bank-25k/BPB039qcBK.html",
-    "notes": "編み込みUSB-Cケーブル内蔵、最大158W出力でノートPCも急速充電可能",
-    "design_style": [
-      "mecha",
-      "simple"
-    ]
-  },
-  {
-    "id": "ugreen-magflow-10000mah-25w",
-    "name": "UGREEN MagFlow マグネット式モバイルバッテリー 10000mAh 25W",
-    "maker": "Ugreen",
-    "types": [
-      "magsafe",
-      "cable_built_in"
-    ],
-    "capacity_mah": 10000,
-    "weight_g": 254,
-    "size_mm": "21 x 110.8 x 70 mm",
-    "thickness_mm": null,
-    "output_w": 30,
-    "fast_charge": [
-      "PD",
-      "QC",
-      "Qi2"
-    ],
-    "ports": 2,
-    "simultaneous_charge": 3,
-    "price_jpy": 11580,
-    "pse_mark": null,
-    "colors": [
-      "グレー",
       "ブルー"
     ],
-    "purchase_url": "https://www.amazon.co.jp/dp/B0F37VLJQW",
-    "notes": "Qi2 25W磁気ワイヤレス充電とUSB-Cケーブル内蔵の3WAY充電に対応",
-    "design_style": [
-      "kawaii"
-    ]
+    "features": [
+      "耐衝撃",
+      "レンズ保護",
+      "ストラップホール付き"
+    ],
+    "price_jpy_ref": 1680,
+    "moq_ref": 80,
+    "amazon_url": "https://www.amazon.co.jp/Galaxy-S24-Ultra-%E3%82%B9%E3%83%88%E3%83%A9%E3%83%83%E3%83%97%E3%83%9B%E3%83%BC%E3%83%AB%E4%BB%98%E3%81%8D-%E3%82%AE%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%B7%E3%83%BCs24/dp/B0CQ887B2S",
+    "notes": "指紋防止・すり傷防止コーティング。",
+    "device_type": "Galaxy"
   },
   {
-    "id": "ugreen-nexode-retractable-20000mah-165w",
-    "name": "UGREEN Nexode 巻き取り式USB-Cケーブル内蔵モバイルバッテリー 20000mAh 165W",
-    "maker": "Ugreen",
-    "types": [
-      "cable_built_in"
+    "id": "spigen-galaxys24-liquidair-black",
+    "name": "Spigen Galaxy S24 リキッド・エアー(米軍MIL規格)",
+    "brand": "Spigen",
+    "compatible_models": [
+      "Galaxy S24"
     ],
-    "capacity_mah": 20000,
-    "weight_g": 550,
-    "size_mm": "146 x 54 x 50 mm",
-    "thickness_mm": null,
-    "output_w": 165,
-    "fast_charge": [
-      "PD"
+    "material": [
+      "TPU"
     ],
-    "ports": 3,
-    "simultaneous_charge": 3,
-    "price_jpy": 13280,
-    "pse_mark": true,
+    "case_type": [
+      "耐衝撃",
+      "シンプル"
+    ],
     "colors": [
-      "ホワイト"
+      "マット・ブラック"
     ],
-    "purchase_url": "https://www.amazon.co.jp/dp/B0DSPXHFBM",
-    "notes": "7段階調整可能な巻き取り式USB-Cケーブルを内蔵、165W出力",
-    "design_style": [
-      "mecha"
-    ]
+    "features": [
+      "耐衝撃",
+      "レンズ保護",
+      "ワイヤレス充電対応"
+    ],
+    "price_jpy_ref": 2680,
+    "moq_ref": 30,
+    "amazon_url": "https://www.amazon.co.jp/Spigen-%E7%B1%B3%E8%BB%8DMIL%E8%A6%8F%E6%A0%BC%E5%8F%96%E5%BE%97-%E3%83%AA%E3%82%AD%E3%83%83%E3%83%89%E3%83%BB%E3%82%A8%E3%82%A2%E3%83%BC-ACS07347-%E3%83%9E%E3%83%83%E3%83%88%E3%83%BB%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF/dp/B0CM5F1T8P",
+    "notes": "知名度の高い大手ブランド。ブランド仕入れは小ロットから検討。",
+    "device_type": "Galaxy"
   },
   {
-    "id": "ugreen-nexode-4in1-20000mah-145w",
-    "name": "UGREEN Nexode モバイルバッテリー 4-in-1 20000mAh 145W",
-    "maker": "Ugreen",
-    "types": [
-      "magsafe",
-      "standard"
+    "id": "galaxys24-bookcase-turquoise",
+    "name": "Galaxy S24 手帳型ケース(PUレザー・マグネット内蔵)",
+    "brand": "ノーブランド(OEM)",
+    "compatible_models": [
+      "Galaxy S24"
     ],
-    "capacity_mah": 20000,
-    "weight_g": null,
-    "size_mm": null,
-    "thickness_mm": null,
-    "output_w": 145,
-    "fast_charge": [
-      "PD",
-      "QC",
-      "PPS"
+    "material": [
+      "PUレザー",
+      "TPU"
     ],
-    "ports": 3,
-    "simultaneous_charge": 4,
-    "price_jpy": 23980,
-    "pse_mark": null,
-    "colors": [],
-    "purchase_url": "https://www.amazon.co.jp/dp/B0D4F34SB4",
-    "notes": "USB-C×2/USB-A×1に加えQi2ワイヤレス充電も搭載した4in1モデル",
-    "design_style": [
-      "kawaii",
-      "mecha"
-    ]
-  },
-  {
-    "id": "ugreen-mobile-battery-20000mah-standard",
-    "name": "UGREEN モバイルバッテリー 20000mAh",
-    "maker": "Ugreen",
-    "types": [
-      "standard"
+    "case_type": [
+      "手帳型"
     ],
-    "capacity_mah": 20000,
-    "weight_g": null,
-    "size_mm": "28 x 147 x 72 mm",
-    "thickness_mm": null,
-    "output_w": 22.5,
-    "fast_charge": [
-      "PD",
-      "QC",
-      "PPS"
-    ],
-    "ports": 3,
-    "simultaneous_charge": 3,
-    "price_jpy": 3480,
-    "pse_mark": null,
-    "colors": [],
-    "purchase_url": "https://www.amazon.co.jp/dp/B0CSSRD4NT",
-    "notes": "USB-A×2/USB-C×1の3ポートを備えた価格重視の定番エントリーモデル",
-    "design_style": [
-      "mecha"
-    ]
-  },
-  {
-    "id": "ugreen-nexode-48000mah-300w",
-    "name": "UGREEN Nexode モバイルバッテリー 48000mAh 300W",
-    "maker": "Ugreen",
-    "types": [
-      "standard"
-    ],
-    "capacity_mah": 48000,
-    "weight_g": 1637,
-    "size_mm": "106 x 145 x 77 mm",
-    "thickness_mm": null,
-    "output_w": 300,
-    "fast_charge": [
-      "PD",
-      "PPS",
-      "QC"
-    ],
-    "ports": 5,
-    "simultaneous_charge": 5,
-    "price_jpy": 29980,
-    "pse_mark": null,
-    "colors": [],
-    "purchase_url": "https://www.amazon.co.jp/dp/B0CJY37RT3",
-    "notes": "LiFePO4採用で3000回充電可能な大容量48000mAhの大型モデル",
-    "design_style": [
-      "mecha"
-    ]
-  },
-  {
-    "id": "ugreen-nexode-20000mah-130w",
-    "name": "UGREEN Nexode モバイルバッテリー 20000mAh 130W",
-    "maker": "Ugreen",
-    "types": [
-      "standard"
-    ],
-    "capacity_mah": 20000,
-    "weight_g": 480,
-    "size_mm": "131 x 54 x 51 mm",
-    "thickness_mm": null,
-    "output_w": 130,
-    "fast_charge": [
-      "PD",
-      "PPS",
-      "QC"
-    ],
-    "ports": 3,
-    "simultaneous_charge": null,
-    "price_jpy": 13980,
-    "pse_mark": null,
-    "colors": [],
-    "purchase_url": "https://ugreen.jp/products/nexode-mobile-battery-20000mah",
-    "notes": "USB-C1が100W維持のまま複数ポート同時出力できる130W機",
-    "design_style": [
-      "mecha"
-    ]
-  },
-  {
-    "id": "ugreen-nexode-25000mah-200w",
-    "name": "UGREEN Nexode モバイルバッテリー 25000mAh 200W",
-    "maker": "Ugreen",
-    "types": [
-      "standard"
-    ],
-    "capacity_mah": 25000,
-    "weight_g": 609,
-    "size_mm": "155 x 54 x 50 mm",
-    "thickness_mm": null,
-    "output_w": 200,
-    "fast_charge": [
-      "PD",
-      "PPS",
-      "QC"
-    ],
-    "ports": 3,
-    "simultaneous_charge": 2,
-    "price_jpy": 19580,
-    "pse_mark": null,
-    "colors": [],
-    "purchase_url": "https://www.amazon.co.jp/dp/B0CXHM5RY2",
-    "notes": "USB-C×2ポートでノートPC2台を同時急速充電できる大出力機",
-    "design_style": [
-      "mecha"
-    ]
-  },
-  {
-    "id": "ugreen-connector-built-in-5000mah-22w",
-    "name": "UGREEN Built-In USB-Cコネクター モバイルバッテリー 5000mAh 22.5W",
-    "maker": "Ugreen",
-    "types": [
-      "connector_integrated"
-    ],
-    "capacity_mah": 5000,
-    "weight_g": 112,
-    "size_mm": "26 x 79 x 38 mm",
-    "thickness_mm": 26,
-    "output_w": 22.5,
-    "fast_charge": [
-      "PD",
-      "SCP"
-    ],
-    "ports": 2,
-    "simultaneous_charge": 2,
-    "price_jpy": 3780,
-    "pse_mark": null,
     "colors": [
-      "メタリックグレー"
+      "ターコイズ"
     ],
-    "purchase_url": "https://www.amazon.co.jp/dp/B0CXHRNVNW",
-    "notes": "USB-C端子一体型でスマホに直接挿せる、折りたたみスタンド付き",
-    "design_style": [
-      "kawaii"
-    ]
+    "features": [
+      "カード収納",
+      "マグネット式",
+      "スタンド機能",
+      "耐衝撃",
+      "防水"
+    ],
+    "price_jpy_ref": 1880,
+    "moq_ref": 70,
+    "amazon_url": "https://www.amazon.co.jp/Galaxy-S24-Sumsung-%E3%82%B9%E3%83%88%E3%83%A9%E3%83%83%E3%83%97%E3%83%9B%E3%83%BC%E3%83%AB%E4%BB%98%E3%81%8D-%E3%83%9E%E3%82%B0%E3%83%8D%E3%83%83%E3%83%88%E5%86%85%E8%94%B5/dp/B0CNP6NJYL",
+    "notes": "発色の良いターコイズカラー。防滴仕様。",
+    "device_type": "Galaxy"
   },
   {
-    "id": "ugreen-nexode-12000mah-100w",
-    "name": "UGREEN Nexode モバイルバッテリー 12000mAh 100W",
-    "maker": "Ugreen",
-    "types": [
-      "standard"
+    "id": "galaxys24-clearmatte-magsafe-green",
+    "name": "Galaxy S24 クリアマットケース(MagSafe対応)",
+    "brand": "ノーブランド(OEM)",
+    "compatible_models": [
+      "Galaxy S24"
     ],
-    "capacity_mah": 12000,
-    "weight_g": 309,
-    "size_mm": "115 x 45.5 x 46 mm",
-    "thickness_mm": null,
-    "output_w": 100,
-    "fast_charge": [
-      "PD",
-      "PPS",
-      "QC",
-      "AFC",
-      "FCP",
-      "SCP"
+    "material": [
+      "PC"
     ],
-    "ports": 3,
-    "simultaneous_charge": 3,
-    "price_jpy": 9980,
-    "pse_mark": null,
-    "colors": [],
-    "purchase_url": "https://www.amazon.co.jp/dp/B0CXJ1F1M7",
-    "notes": "65W入力対応で約1.5時間フル充電できるコンパクトな100W機",
-    "design_style": [
-      "mecha"
-    ]
-  },
-  {
-    "id": "ugreen-nexode-10000mah-2way-30w",
-    "name": "UGREEN Nexode 10000mAh 2way急速充電モバイルバッテリー 30W",
-    "maker": "Ugreen",
-    "types": [
-      "standard"
+    "case_type": [
+      "クリア",
+      "シンプル"
     ],
-    "capacity_mah": 10000,
-    "weight_g": 188,
-    "size_mm": "16.5 x 131.8 x 66 mm",
-    "thickness_mm": null,
-    "output_w": 30,
-    "fast_charge": [
-      "PD"
-    ],
-    "ports": 2,
-    "simultaneous_charge": 2,
-    "price_jpy": 5680,
-    "pse_mark": null,
     "colors": [
-      "グレー",
-      "ホワイト"
+      "グリーン"
     ],
-    "purchase_url": "https://www.amazon.co.jp/dp/B0CDWGCMCP",
-    "notes": "USB-C/USB-Aの2ポートを備えたスリムなスタンダードモデル",
-    "design_style": [
-      "simple"
-    ]
+    "features": [
+      "MagSafe対応",
+      "耐衝撃",
+      "スタンド機能"
+    ],
+    "price_jpy_ref": 1580,
+    "moq_ref": 90,
+    "amazon_url": "https://www.amazon.co.jp/Galaxy-MagSafe%E5%AF%BE%E5%BF%9C-%E3%83%9E%E3%82%B0%E3%82%BB%E3%83%BC%E3%83%95%E5%AF%BE%E5%BF%9C-GalaxyS24-%E3%82%AE%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%B7%E3%83%BCS24%E3%82%B1%E3%83%BC%E3%82%B9/dp/B0CSMT5XQ9",
+    "notes": "韓国系デザインのマットクリア。スタンド機能付き。",
+    "device_type": "Galaxy"
   },
   {
-    "id": "ugreen-magnetic-wireless-10000mah",
-    "name": "UGREEN 10000mAh マグネット式ワイヤレス充電対応モバイルバッテリー",
-    "maker": "Ugreen",
-    "types": [
-      "magsafe"
+    "id": "fonkcase-galaxys24-clear-black",
+    "name": "FONKCASE Galaxy S24 クリアケース(360度回転リング・MagSafe対応)",
+    "brand": "FONKCASE",
+    "compatible_models": [
+      "Galaxy S24"
     ],
-    "capacity_mah": 10000,
-    "weight_g": 220,
-    "size_mm": "19 x 105 x 68 mm",
-    "thickness_mm": null,
-    "output_w": 20,
-    "fast_charge": [
-      "PD"
+    "material": [
+      "TPU"
     ],
-    "ports": 1,
-    "simultaneous_charge": 2,
-    "price_jpy": 6980,
-    "pse_mark": null,
-    "colors": [],
-    "purchase_url": "https://www.amazon.co.jp/dp/B0CCS1KZZT",
-    "notes": "約10Nの磁力でMagSafeに対応、ワイヤレス15W+有線20W出力",
-    "design_style": [
-      "kawaii"
-    ]
-  },
-  {
-    "id": "ugreen-uno-10000mah-cable-built-in",
-    "name": "UGREEN Uno 10000mAh ケーブル内蔵型モバイルバッテリー",
-    "maker": "Ugreen",
-    "types": [
-      "cable_built_in"
+    "case_type": [
+      "クリア"
     ],
-    "capacity_mah": 10000,
-    "weight_g": 203,
-    "size_mm": "22 x 116 x 72 mm",
-    "thickness_mm": null,
-    "output_w": 30,
-    "fast_charge": [
-      "PPS"
-    ],
-    "ports": 3,
-    "simultaneous_charge": 3,
-    "price_jpy": 7580,
-    "pse_mark": null,
-    "colors": [
-      "メタリックグレー",
-      "ゆめいろ"
-    ],
-    "purchase_url": "https://www.amazon.co.jp/dp/B0D1XKS2LP",
-    "notes": "巻き取り式USB-Cケーブル内蔵、絵文字表示の残量LEDが特徴",
-    "design_style": [
-      "simple"
-    ]
-  },
-  {
-    "id": "ugreen-145w-powerbank-25000mah",
-    "name": "UGREEN 145W モバイルバッテリー 25000mAh",
-    "maker": "Ugreen",
-    "types": [
-      "standard"
-    ],
-    "capacity_mah": 25000,
-    "weight_g": 505,
-    "size_mm": "26.7 x 160 x 80.8 mm",
-    "thickness_mm": 26.7,
-    "output_w": 145,
-    "fast_charge": [
-      "PD",
-      "QC"
-    ],
-    "ports": 3,
-    "simultaneous_charge": 3,
-    "price_jpy": 13980,
-    "pse_mark": null,
-    "colors": [],
-    "purchase_url": "https://www.amazon.co.jp/dp/B0BJQ7F16T",
-    "notes": "USB-C×2/USB-A×1、最大145W出力でノートPC充電にも対応",
-    "design_style": [
-      "mecha"
-    ]
-  },
-  {
-    "id": "ugreen-magflow-air-5000mah",
-    "name": "UGREEN MagFlow Air マグネット式モバイルバッテリー 5000mAh",
-    "maker": "Ugreen",
-    "types": [
-      "magsafe"
-    ],
-    "capacity_mah": 5000,
-    "weight_g": 126,
-    "size_mm": "8.6 x 104.9 x 69.7 mm",
-    "thickness_mm": 8.6,
-    "output_w": 20,
-    "fast_charge": [
-      "PD",
-      "Qi2"
-    ],
-    "ports": 1,
-    "simultaneous_charge": 2,
-    "price_jpy": 6580,
-    "pse_mark": true,
-    "colors": [
-      "グレー",
-      "ブルー",
-      "ホワイト"
-    ],
-    "purchase_url": "https://www.amazon.co.jp/dp/B0FZVJZK96",
-    "notes": "厚さ8.6mmの超薄型、Qi2 15W+USB-C PD20Wに対応",
-    "design_style": [
-      "kawaii"
-    ]
-  },
-  {
-    "id": "ugreen-magflow-air-10000mah",
-    "name": "UGREEN MagFlow Air マグネット式モバイルバッテリー 10000mAh",
-    "maker": "Ugreen",
-    "types": [
-      "magsafe",
-      "cable_built_in"
-    ],
-    "capacity_mah": 10000,
-    "weight_g": 213,
-    "size_mm": "13.9 x 111.5 x 69.7 mm",
-    "thickness_mm": 13.9,
-    "output_w": 30,
-    "fast_charge": [
-      "PD",
-      "Qi2"
-    ],
-    "ports": 2,
-    "simultaneous_charge": 3,
-    "price_jpy": 7980,
-    "pse_mark": true,
-    "colors": [
-      "グレー",
-      "ブルー",
-      "ホワイト"
-    ],
-    "purchase_url": "https://www.amazon.co.jp/dp/B0F6NC41DZ",
-    "notes": "Qi2ワイヤレスとUSB-Cケーブル内蔵でiPhone/Watch/AirPods同時充電",
-    "design_style": [
-      "kawaii"
-    ]
-  },
-  {
-    "id": "ugreen-pb527-applewatch-10000mah",
-    "name": "UGREEN Apple Watch対応モバイルバッテリー 10000mAh PD30W (PB527)",
-    "maker": "Ugreen",
-    "types": [
-      "apple_watch",
-      "cable_built_in"
-    ],
-    "capacity_mah": 10000,
-    "weight_g": 245,
-    "size_mm": null,
-    "thickness_mm": null,
-    "output_w": 30,
-    "fast_charge": [
-      "PD"
-    ],
-    "ports": 2,
-    "simultaneous_charge": 4,
-    "price_jpy": 7980,
-    "pse_mark": true,
-    "colors": [],
-    "purchase_url": "https://www.amazon.co.jp/dp/B0DQD2S49X",
-    "notes": "Apple Watch専用磁気充電ドック内蔵、MFi認証取得のケーブル内蔵型",
-    "design_style": [
-      "simple"
-    ]
-  },
-  {
-    "id": "ugreen-pb512-outlet-10000mah",
-    "name": "UGREEN コンセント付きモバイルバッテリー 10000mAh 65W (PB512)",
-    "maker": "Ugreen",
-    "types": [
-      "plug_integrated",
-      "cable_built_in"
-    ],
-    "capacity_mah": 10000,
-    "weight_g": 309,
-    "size_mm": "32 x 120 x 60 mm",
-    "thickness_mm": null,
-    "output_w": 65,
-    "fast_charge": [
-      "PD",
-      "PPS",
-      "QC"
-    ],
-    "ports": 3,
-    "simultaneous_charge": 3,
-    "price_jpy": 9980,
-    "pse_mark": true,
-    "colors": [],
-    "purchase_url": "https://www.amazon.co.jp/dp/B0FJR9813B",
-    "notes": "折りたたみACプラグとUSB-Cケーブルを内蔵した充電器一体型",
-    "design_style": [
-      "mecha"
-    ]
-  },
-  {
-    "id": "matech-magon-ultra-slim-5000",
-    "name": "MATECH MagOn Ultra Slim 5000",
-    "maker": "MATECH",
-    "types": [
-      "magsafe"
-    ],
-    "capacity_mah": 5000,
-    "weight_g": null,
-    "size_mm": null,
-    "thickness_mm": 6.9,
-    "output_w": 22,
-    "fast_charge": [
-      "PD"
-    ],
-    "ports": 1,
-    "simultaneous_charge": null,
-    "price_jpy": 5990,
-    "pse_mark": null,
-    "colors": [
-      "ブラック",
-      "ホワイト"
-    ],
-    "purchase_url": "https://www.amazon.co.jp/dp/B0DJ4LVCYD",
-    "notes": "史上最薄6.9mmのMagSafe対応ワイヤレスモバイルバッテリー",
-    "design_style": [
-      "kawaii",
-      "simple"
-    ]
-  },
-  {
-    "id": "matech-magon-prime-ultra-slim-5000",
-    "name": "MATECH MagOn Prime Ultra Slim 5000",
-    "maker": "MATECH",
-    "types": [
-      "magsafe"
-    ],
-    "capacity_mah": 5000,
-    "weight_g": 99,
-    "size_mm": null,
-    "thickness_mm": 6.9,
-    "output_w": null,
-    "fast_charge": [
-      "Qi2"
-    ],
-    "ports": null,
-    "simultaneous_charge": null,
-    "price_jpy": 6990,
-    "pse_mark": null,
     "colors": [
       "ブラック"
     ],
-    "purchase_url": null,
-    "notes": "Qi2対応・残量ディスプレイ搭載の世界最薄クラス機",
-    "design_style": [
-      "kawaii",
-      "mecha",
-      "simple"
-    ]
+    "features": [
+      "MagSafe対応",
+      "ワイヤレス充電対応",
+      "耐衝撃",
+      "黄ばみ防止",
+      "ストラップホール付き"
+    ],
+    "price_jpy_ref": 2180,
+    "moq_ref": 50,
+    "amazon_url": "https://www.amazon.co.jp/%E3%80%90360%C2%B0%E5%9B%9E%E8%BB%A2%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%BB%E7%B8%A6%E6%A8%AA%E4%B8%A1%E5%AF%BE%E5%BF%9C%E3%80%91FONKCASE-Galaxy-S24-Magsafe%E5%AF%BE%E5%BF%9C-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E3%83%BB%E7%B8%A6%E6%A8%AA%E4%B8%A1%E5%AF%BE%E5%BF%9C/dp/B0GWKPDR6J",
+    "notes": "360度回転リング付きでスタンドとしても使用可能。",
+    "device_type": "Galaxy"
   },
   {
-    "id": "matech-magon-ultra-blade-5000",
-    "name": "MATECH MagOn Ultra Blade 5000",
-    "maker": "MATECH",
-    "types": [
-      "magsafe"
+    "id": "bentoben-galaxys24-matte-black",
+    "name": "BENTOBEN Galaxy S24 半透明マットケース(MagSafe対応)",
+    "brand": "BENTOBEN",
+    "compatible_models": [
+      "Galaxy S24"
     ],
-    "capacity_mah": 5000,
-    "weight_g": null,
-    "size_mm": null,
-    "thickness_mm": 7.8,
-    "output_w": 20,
-    "fast_charge": [
-      "PD",
-      "Qi2"
+    "material": [
+      "PC"
     ],
-    "ports": 1,
-    "simultaneous_charge": null,
-    "price_jpy": 7990,
-    "pse_mark": null,
-    "colors": [
-      "ブラック",
-      "シルバー"
+    "case_type": [
+      "クリア",
+      "シンプル"
     ],
-    "purchase_url": "https://www.amazon.co.jp/dp/B0DG38T7J8",
-    "notes": "史上最薄7.8mm・Qi2対応のMagSafe薄型バッテリー",
-    "design_style": [
-      "kawaii",
-      "simple"
-    ]
-  },
-  {
-    "id": "matech-magon-ultra-blade-10000",
-    "name": "MATECH MagOn Ultra Blade 10000",
-    "maker": "MATECH",
-    "types": [
-      "magsafe"
-    ],
-    "capacity_mah": 10000,
-    "weight_g": null,
-    "size_mm": null,
-    "thickness_mm": 12.05,
-    "output_w": null,
-    "fast_charge": [
-      "Qi2"
-    ],
-    "ports": null,
-    "simultaneous_charge": null,
-    "price_jpy": 8990,
-    "pse_mark": null,
-    "colors": [
-      "ブラック",
-      "シルバー"
-    ],
-    "purchase_url": "https://www.amazon.co.jp/dp/B0DSVSVS9C",
-    "notes": "10000mAhクラス最薄12.05mmのQi2対応バッテリー",
-    "design_style": [
-      "kawaii",
-      "simple"
-    ]
-  },
-  {
-    "id": "matech-magon-mini-5000",
-    "name": "MATECH MagOn Mini 5000",
-    "maker": "MATECH",
-    "types": [
-      "magsafe"
-    ],
-    "capacity_mah": 5000,
-    "weight_g": 117,
-    "size_mm": "96 x 65.8 x 9.5 mm",
-    "thickness_mm": 9.5,
-    "output_w": 22,
-    "fast_charge": [
-      "PD"
-    ],
-    "ports": 1,
-    "simultaneous_charge": null,
-    "price_jpy": 5990,
-    "pse_mark": true,
     "colors": [
       "ブラック"
     ],
-    "purchase_url": "https://www.amazon.co.jp/dp/B0CYY2G5X3",
-    "notes": "世界最小サイズを謳うMagSafe対応モバイルバッテリー",
-    "design_style": [
-      "kawaii",
-      "simple"
-    ]
+    "features": [
+      "MagSafe対応",
+      "ワイヤレス充電対応",
+      "耐衝撃",
+      "レンズ保護",
+      "ストラップホール付き"
+    ],
+    "price_jpy_ref": 1980,
+    "moq_ref": 50,
+    "amazon_url": "https://www.amazon.co.jp/BENTOBEN-MagSafe%E5%AF%BE%E5%BF%9C-%E3%83%AF%E3%82%A4%E3%83%A4%E3%83%AC%E3%82%B9%E5%85%85%E9%9B%BB-%E3%82%B9%E3%83%88%E3%83%A9%E3%83%83%E3%83%97%E3%83%9B%E3%83%BC%E3%83%AB%E4%BB%98%E3%81%8D-%E3%82%AE%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%B7%E3%83%BCs24/dp/B0CPDKJK3S",
+    "notes": "指紋防止のマット質感。メタルレンズ保護付き。",
+    "device_type": "Galaxy"
   },
   {
-    "id": "matech-magon-10000",
-    "name": "MATECH MagOn 10000",
-    "maker": "MATECH",
-    "types": [
-      "magsafe"
+    "id": "provare-galaxys24-clear-hard",
+    "name": "Provare Galaxy S24 クリアハードケース(ポリカーボネート)",
+    "brand": "Provare",
+    "compatible_models": [
+      "Galaxy S24"
     ],
-    "capacity_mah": 10000,
-    "weight_g": 168,
-    "size_mm": "104 x 69 x 12.76 mm",
-    "thickness_mm": 12.76,
-    "output_w": 20,
-    "fast_charge": [
-      "PD"
+    "material": [
+      "PC"
     ],
-    "ports": 1,
-    "simultaneous_charge": null,
-    "price_jpy": 8990,
-    "pse_mark": null,
+    "case_type": [
+      "クリア",
+      "シンプル"
+    ],
+    "colors": [
+      "クリア"
+    ],
+    "features": [
+      "耐衝撃",
+      "ストラップホール付き"
+    ],
+    "price_jpy_ref": 1280,
+    "moq_ref": 100,
+    "amazon_url": "https://www.amazon.co.jp/Galaxy-SC-51E-%E3%83%9D%E3%83%AA%E3%82%AB%E3%83%BC%E3%83%9C%E3%83%8D%E3%83%BC%E3%83%88-%E3%82%B9%E3%83%88%E3%83%A9%E3%83%83%E3%83%97%E3%83%9B%E3%83%BC%E3%83%AB%E4%BB%98-%E3%80%90Provare%E3%80%91/dp/B0D2KR8VLY",
+    "notes": "高光沢・軽量ハードタイプ。",
+    "device_type": "Galaxy"
+  },
+  {
+    "id": "galaxys24-genuineleather-brown",
+    "name": "Galaxy S24シリーズ 本革レザーケース(手作り高級牛革)",
+    "brand": "ノーブランド(OEM)",
+    "compatible_models": [
+      "Galaxy S24 Ultra",
+      "Galaxy S24 Plus",
+      "Galaxy S24"
+    ],
+    "material": [
+      "本革"
+    ],
+    "case_type": [
+      "手帳型"
+    ],
+    "colors": [
+      "ブラウン"
+    ],
+    "features": [
+      "耐衝撃"
+    ],
+    "price_jpy_ref": 3980,
+    "moq_ref": 20,
+    "amazon_url": "https://www.amazon.co.jp/Samsung-Galaxy-Ultra-%E6%9C%AC%E9%9D%A9%E3%83%AC%E3%82%B6%E3%83%BC%E3%83%9E%E3%82%B0%E3%83%8D%E3%83%83%E3%83%88%E9%9B%BB%E8%A9%B1%E3%82%AB%E3%83%90%E3%83%BC-%E4%BF%9D%E8%AD%B7%E3%82%AB%E3%83%90%E3%83%BC/dp/B0CSCWT5JJ",
+    "notes": "伝統工芸の手作り高級ライン。高単価・少量仕入れ向き。",
+    "device_type": "Galaxy"
+  },
+  {
+    "id": "bentoben-galaxys24-clear",
+    "name": "BENTOBEN Galaxy S24 クリアケース(MagSafe対応)",
+    "brand": "BENTOBEN",
+    "compatible_models": [
+      "Galaxy S24"
+    ],
+    "material": [
+      "TPU"
+    ],
+    "case_type": [
+      "クリア"
+    ],
+    "colors": [
+      "クリア"
+    ],
+    "features": [
+      "MagSafe対応",
+      "ワイヤレス充電対応",
+      "耐衝撃",
+      "レンズ保護",
+      "ストラップホール付き"
+    ],
+    "price_jpy_ref": 1980,
+    "moq_ref": 50,
+    "amazon_url": "https://www.amazon.co.jp/BENTOBEN-MagSafe%E5%AF%BE%E5%BF%9C-%E3%83%AF%E3%82%A4%E3%83%A4%E3%83%AC%E3%82%B9%E5%85%85%E9%9B%BB-%E3%82%B9%E3%83%88%E3%83%A9%E3%83%83%E3%83%97%E3%83%9B%E3%83%BC%E3%83%AB%E4%BB%98%E3%81%8D-%E3%82%AE%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%B7%E3%83%BCs24/dp/B0CPDKR213",
+    "notes": "同ブランドのクリアタイプ。定番色として在庫向き。",
+    "device_type": "Galaxy"
+  },
+  {
+    "id": "iphone16-simple-pc-clear",
+    "name": "iPhone 16 シンプル無地ハードケース(ポリカーボネート)",
+    "brand": "ノーブランド(OEM)",
+    "compatible_models": [
+      "iPhone 16"
+    ],
+    "material": [
+      "PC"
+    ],
+    "case_type": [
+      "シンプル",
+      "クリア"
+    ],
+    "colors": [
+      "クリア"
+    ],
+    "features": [],
+    "price_jpy_ref": 880,
+    "moq_ref": 200,
+    "amazon_url": "https://www.amazon.co.jp/iPhone16-%E3%82%B9%E3%83%9E%E3%83%9B%E3%82%B1%E3%83%BC%E3%82%B9-iphone16%E3%82%B1%E3%83%BC%E3%82%B9-%E3%82%A2%E3%82%A4%E3%83%95%E3%82%A9%E3%83%B3%E3%82%AB%E3%83%90%E3%83%BC-%E3%83%9D%E3%83%AA%E3%82%AB%E3%83%BC%E3%83%9C%E3%83%8D%E3%83%BC%E3%83%88%E8%A3%BD/dp/B0DHCLQ34B",
+    "notes": "最も低単価で大量仕入れがしやすい無地タイプ。",
+    "device_type": "iPhone"
+  },
+  {
+    "id": "iphone16-aramid-black",
+    "name": "iPhone 16 アラミド繊維フチなしケース(超薄型・耐衝撃)",
+    "brand": "ノーブランド(OEM)",
+    "compatible_models": [
+      "iPhone 16"
+    ],
+    "material": [
+      "アラミド繊維"
+    ],
+    "case_type": [
+      "シンプル",
+      "耐衝撃"
+    ],
     "colors": [
       "ブラック"
     ],
-    "purchase_url": null,
-    "notes": "感動の薄さと大容量10000mAhを両立したMagSafe機",
-    "design_style": [
-      "kawaii",
-      "simple"
-    ]
+    "features": [
+      "耐衝撃",
+      "ワイヤレス充電対応"
+    ],
+    "price_jpy_ref": 2280,
+    "moq_ref": 60,
+    "amazon_url": "https://www.amazon.co.jp/%E7%94%A8%E3%83%95%E3%83%81%E3%81%AA%E3%81%97%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3-%E3%82%A2%E3%83%A9%E3%83%9F%E3%83%89%E7%B9%8A%E7%B6%AD%E8%A3%BD-%E3%83%AF%E3%82%A4%E3%83%A4%E3%83%AC%E3%82%B9%E5%85%85%E9%9B%BB%E5%AF%BE%E5%BF%9C-%E8%B6%85%E6%A5%B5%E8%96%84%E3%83%BB%E8%B6%85%E8%BB%BD%E9%87%8F-%E3%82%B1%E3%83%BC%E3%82%B9%EF%BC%88%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF%EF%BC%89/dp/B0F2TNRRT7",
+    "notes": "ミニマリスト向けフチなしデザイン、高級素材で差別化。",
+    "device_type": "iPhone"
   },
   {
-    "id": "matech-magon-display-5000-qi2",
-    "name": "MATECH MagOn Display 5000 Qi2",
-    "maker": "MATECH",
-    "types": [
-      "magsafe"
+    "id": "iphone16pro-simple-pc-clear",
+    "name": "iPhone 16 Pro シンプル無地ハードケース(ポリカーボネート)",
+    "brand": "ノーブランド(OEM)",
+    "compatible_models": [
+      "iPhone 16 Pro"
     ],
-    "capacity_mah": 5000,
-    "weight_g": 111,
-    "size_mm": "102 x 66 x 8.7 mm",
-    "thickness_mm": 8.6,
-    "output_w": 22,
-    "fast_charge": [
-      "PD",
-      "Qi2"
+    "material": [
+      "PC"
     ],
-    "ports": 1,
-    "simultaneous_charge": null,
-    "price_jpy": null,
-    "pse_mark": null,
+    "case_type": [
+      "シンプル",
+      "クリア"
+    ],
+    "colors": [
+      "クリア"
+    ],
+    "features": [],
+    "price_jpy_ref": 880,
+    "moq_ref": 200,
+    "amazon_url": "https://www.amazon.co.jp/iPhone16-%E3%82%B9%E3%83%9E%E3%83%9B%E3%82%B1%E3%83%BC%E3%82%B9-iphone16pro%E3%82%B1%E3%83%BC%E3%82%B9-%E3%82%A2%E3%82%A4%E3%83%95%E3%82%A9%E3%83%B3%E3%82%AB%E3%83%90%E3%83%BC-%E3%83%9D%E3%83%AA%E3%82%AB%E3%83%BC%E3%83%9C%E3%83%8D%E3%83%BC%E3%83%88%E8%A3%BD/dp/B0DHCLLW43",
+    "notes": "Proモデル向けの定番無地ケース。",
+    "device_type": "iPhone"
+  },
+  {
+    "id": "iphone16plus-clear-tpupc-black",
+    "name": "iPhone 16 Plus クリアケース(TPU+PC・全面保護)",
+    "brand": "ノーブランド(OEM)",
+    "compatible_models": [
+      "iPhone 16 Plus"
+    ],
+    "material": [
+      "TPU",
+      "PC"
+    ],
+    "case_type": [
+      "クリア"
+    ],
     "colors": [
       "ブラック"
     ],
-    "purchase_url": "https://www.amazon.co.jp/dp/B0F63SF48V",
-    "notes": "残量ディスプレイ搭載・Qi2対応の薄型モバイルバッテリー",
-    "design_style": [
-      "kawaii",
-      "mecha",
-      "simple"
-    ]
+    "features": [
+      "耐衝撃",
+      "ワイヤレス充電対応"
+    ],
+    "price_jpy_ref": 1180,
+    "moq_ref": 150,
+    "amazon_url": "https://www.amazon.co.jp/iPhone-Plus-%E3%82%AF%E3%83%AA%E3%82%A2%E3%82%B1%E3%83%BC%E3%82%B9-%E3%81%99%E3%82%8A%E5%82%B7%E9%98%B2%E6%AD%A2-%E3%83%AF%E3%82%A4%E3%83%A4%E3%83%AC%E3%82%B9%E5%85%85%E9%9B%BB%E5%AF%BE%E5%BF%9C/dp/B0DG8L779G",
+    "notes": "TPU+PCハイブリッドで薄型・軽量。すり傷防止コーティング。",
+    "device_type": "iPhone"
   },
   {
-    "id": "matech-magon-display-10000-qi2",
-    "name": "MATECH MagOn Display 10000 Qi2",
-    "maker": "MATECH",
-    "types": [
-      "magsafe"
+    "id": "iphone16-vertical-pc-brown",
+    "name": "iPhone 16 縦開きハードケース(PC・シンプル)",
+    "brand": "ノーブランド(OEM)",
+    "compatible_models": [
+      "iPhone 16"
     ],
-    "capacity_mah": 10000,
-    "weight_g": null,
-    "size_mm": null,
-    "thickness_mm": 12.76,
-    "output_w": 22,
-    "fast_charge": [
-      "PD",
-      "Qi2"
+    "material": [
+      "PC"
     ],
-    "ports": 1,
-    "simultaneous_charge": null,
-    "price_jpy": null,
-    "pse_mark": null,
-    "colors": [],
-    "purchase_url": "https://www.amazon.co.jp/dp/B0F63QZR28",
-    "notes": "ディスプレイ搭載・Qi2対応の10000mAhモバイルバッテリー",
-    "design_style": [
-      "kawaii",
-      "mecha",
-      "simple"
-    ]
-  },
-  {
-    "id": "matech-magon-powermax-10000",
-    "name": "MATECH MagOn PowerMax 10000",
-    "maker": "MATECH",
-    "types": [
-      "magsafe"
+    "case_type": [
+      "シンプル"
     ],
-    "capacity_mah": 10000,
-    "weight_g": null,
-    "size_mm": null,
-    "thickness_mm": null,
-    "output_w": 45,
-    "fast_charge": [
-      "PD",
-      "Qi2"
-    ],
-    "ports": 1,
-    "simultaneous_charge": null,
-    "price_jpy": 7990,
-    "pse_mark": null,
     "colors": [
-      "ブラック",
-      "ホワイト"
+      "ブラウン"
     ],
-    "purchase_url": null,
-    "notes": "Qi2 25Wと45W有線出力を両立した10000mAh機",
-    "design_style": [
-      "kawaii",
-      "simple"
-    ]
+    "features": [
+      "耐衝撃"
+    ],
+    "price_jpy_ref": 1080,
+    "moq_ref": 150,
+    "amazon_url": "https://www.amazon.co.jp/iPhone16-%E4%B8%8A%E4%B8%8B%E3%81%AE%E9%96%8B%E9%96%89%E5%BC%8F-%E3%83%8F%E3%83%BC%E3%83%89PC%E3%82%B1%E3%83%BC%E3%82%B9-%E3%82%B7%E3%83%B3%E3%83%97%E3%83%AB-%E6%90%BA%E5%B8%AF%E3%82%AB%E3%83%90%E3%83%BC/dp/B0DKCQRRD7",
+    "notes": "上下開閉式のユニークな構造。薄型でかさばらない。",
+    "device_type": "iPhone"
   },
   {
-    "id": "matech-magon-watch-max-10000",
-    "name": "MATECH MagOn Watch Max 10000",
-    "maker": "MATECH",
-    "types": [
-      "magsafe",
-      "apple_watch"
+    "id": "iphone16pro-simple-clear-thin",
+    "name": "iPhone 16 Pro 無地シンプルクリアハードケース(薄型)",
+    "brand": "ノーブランド(OEM)",
+    "compatible_models": [
+      "iPhone 16 Pro"
     ],
-    "capacity_mah": 10000,
-    "weight_g": null,
-    "size_mm": null,
-    "thickness_mm": 14,
-    "output_w": 22,
-    "fast_charge": [
-      "PD",
-      "Qi2"
+    "material": [
+      "PC"
     ],
-    "ports": 1,
-    "simultaneous_charge": 2,
-    "price_jpy": 7990,
-    "pse_mark": null,
+    "case_type": [
+      "シンプル",
+      "クリア"
+    ],
     "colors": [
-      "ブラック"
+      "クリア"
     ],
-    "purchase_url": null,
-    "notes": "iPhoneとApple Watchを同一面で充電できる10000mAh機",
-    "design_style": [
-      "kawaii",
-      "simple"
-    ]
+    "features": [],
+    "price_jpy_ref": 780,
+    "moq_ref": 200,
+    "amazon_url": "https://www.amazon.co.jp/IPHONE16PRO-iphone16-%E3%82%A2%E3%82%A4%E3%83%95%E3%82%A9%E3%83%B316%E3%83%97%E3%83%AD-iphone16pro-%E3%82%B9%E3%83%9E%E3%83%BC%E3%83%88%E3%83%95%E3%82%A9%E3%83%B3%E3%82%AB%E3%83%90%E3%83%BC/dp/B0DHJQ4L6W",
+    "notes": "全キャリア共通で使える薄型背面カバー。",
+    "device_type": "iPhone"
   },
   {
-    "id": "matech-magon-watch-slim-5000",
-    "name": "MATECH MagOn Watch Slim 5000",
-    "maker": "MATECH",
-    "types": [
-      "magsafe",
-      "apple_watch"
+    "id": "iphone16series-clear-stand-gray",
+    "name": "iPhone 16/16 Plus/16 Pro/16 Pro Max クリアケース(TPU+PC・スタンド機能)",
+    "brand": "ノーブランド(OEM)",
+    "compatible_models": [
+      "iPhone 16",
+      "iPhone 16 Plus",
+      "iPhone 16 Pro",
+      "iPhone 16 Pro Max"
     ],
-    "capacity_mah": 5000,
-    "weight_g": null,
-    "size_mm": null,
-    "thickness_mm": 8.5,
-    "output_w": null,
-    "fast_charge": [
-      "Qi2"
+    "material": [
+      "TPU",
+      "PC"
     ],
-    "ports": null,
-    "simultaneous_charge": 2,
-    "price_jpy": 7990,
-    "pse_mark": null,
+    "case_type": [
+      "クリア"
+    ],
     "colors": [
-      "ブラック",
-      "ホワイト"
-    ],
-    "purchase_url": null,
-    "notes": "厚さ8.5mmでApple Watch充電にも対応する薄型機",
-    "design_style": [
-      "kawaii",
-      "simple"
-    ]
-  },
-  {
-    "id": "matech-powerfusion-5000-45w",
-    "name": "MATECH PowerFusion 5000 45W",
-    "maker": "MATECH",
-    "types": [
-      "plug_integrated",
-      "cable_built_in"
-    ],
-    "capacity_mah": 5000,
-    "weight_g": 189,
-    "size_mm": "87 x 48 x 31 mm",
-    "thickness_mm": null,
-    "output_w": 45,
-    "fast_charge": [
-      "PD"
-    ],
-    "ports": null,
-    "simultaneous_charge": null,
-    "price_jpy": 6990,
-    "pse_mark": true,
-    "colors": [
-      "ブラック"
-    ],
-    "purchase_url": "https://www.amazon.co.jp/dp/B0DT6MWH8R",
-    "notes": "コンセント+USB-Cケーブル一体型の45W出力ハイブリッド機",
-    "design_style": [
-      "simple"
-    ]
-  },
-  {
-    "id": "sharge-shargeek-storm2",
-    "name": "Sharge Shargeek Storm2",
-    "maker": "Sharge",
-    "types": [
-      "standard"
-    ],
-    "capacity_mah": 25600,
-    "weight_g": null,
-    "size_mm": "151 x 59 x 47 mm",
-    "thickness_mm": 47,
-    "output_w": 100,
-    "fast_charge": [
-      "PD",
-      "QC"
-    ],
-    "ports": 3,
-    "simultaneous_charge": 3,
-    "price_jpy": 29999,
-    "pse_mark": true,
-    "colors": [
-      "トランスペアレント"
-    ],
-    "purchase_url": "https://www.amazon.co.jp/dp/B09NY8GN76",
-    "notes": "スケルトンデザインで内部構造が見える25600mAh大容量機",
-    "design_style": [
-      "kawaii",
-      "mecha"
-    ]
-  },
-  {
-    "id": "sharge-storm2-slim",
-    "name": "Sharge Storm2 Slim",
-    "maker": "Sharge",
-    "types": [
-      "standard"
-    ],
-    "capacity_mah": 20000,
-    "weight_g": null,
-    "size_mm": null,
-    "thickness_mm": null,
-    "output_w": 130,
-    "fast_charge": [
-      "PD",
-      "QC",
-      "PPS"
-    ],
-    "ports": 2,
-    "simultaneous_charge": null,
-    "price_jpy": null,
-    "pse_mark": true,
-    "colors": [
-      "トランスペアレント"
-    ],
-    "purchase_url": "https://www.amazon.co.jp/dp/B09X9DT3JS",
-    "notes": "パープルセルが透けるスケルトン意匠の130W出力機",
-    "design_style": [
-      "kawaii",
-      "mecha"
-    ]
-  },
-  {
-    "id": "sharge-shargeek-140",
-    "name": "Sharge Shargeek 140",
-    "maker": "Sharge",
-    "types": [
-      "standard"
-    ],
-    "capacity_mah": 20000,
-    "weight_g": 470,
-    "size_mm": "158 x 65 x 30.5 mm",
-    "thickness_mm": 30.5,
-    "output_w": 140,
-    "fast_charge": [
-      "PD"
-    ],
-    "ports": 2,
-    "simultaneous_charge": null,
-    "price_jpy": null,
-    "pse_mark": null,
-    "colors": [
-      "ブラック",
-      "シルバーグレー"
-    ],
-    "purchase_url": "https://sharge.com/products/shargeek-140",
-    "notes": "21700セル採用・500ml缶サイズの20000mAh大容量機",
-    "design_style": [
-      "kawaii",
-      "mecha"
-    ]
-  },
-  {
-    "id": "sharge-flow-2",
-    "name": "Sharge Flow 2",
-    "maker": "Sharge",
-    "types": [
-      "cable_built_in"
-    ],
-    "capacity_mah": 10000,
-    "weight_g": 210,
-    "size_mm": "80 x 60 x 28.5 mm",
-    "thickness_mm": 28.5,
-    "output_w": 22.5,
-    "fast_charge": [
-      "PD"
-    ],
-    "ports": 1,
-    "simultaneous_charge": null,
-    "price_jpy": null,
-    "pse_mark": null,
-    "colors": [
-      "ブラック"
-    ],
-    "purchase_url": "https://sharge.com/products/flow-2-power-bank",
-    "notes": "USB-Cケーブル内蔵デザインの10000mAhバッテリー",
-    "design_style": [
-      "kawaii"
-    ]
-  },
-  {
-    "id": "sharge-flow-3",
-    "name": "Sharge Flow 3",
-    "maker": "Sharge",
-    "types": [
-      "cable_built_in"
-    ],
-    "capacity_mah": 10000,
-    "weight_g": 220,
-    "size_mm": "80 x 50 x 35.8 mm",
-    "thickness_mm": 35.8,
-    "output_w": 45,
-    "fast_charge": [
-      "PD"
-    ],
-    "ports": 1,
-    "simultaneous_charge": null,
-    "price_jpy": null,
-    "pse_mark": null,
-    "colors": [
-      "ブラック",
-      "ホワイト"
-    ],
-    "purchase_url": "https://sharge.com/products/flow-3-power-bank",
-    "notes": "45W急速充電・オービタルLED表示付きの10000mAh機",
-    "design_style": [
-      "kawaii"
-    ]
-  },
-  {
-    "id": "sharge-flow-mini-2",
-    "name": "Sharge Flow Mini 2",
-    "maker": "Sharge",
-    "types": [
-      "cable_built_in",
-      "connector_integrated"
-    ],
-    "capacity_mah": 5000,
-    "weight_g": 100,
-    "size_mm": "79.4 x 25.8 x 33.5 mm",
-    "thickness_mm": 33.5,
-    "output_w": 22.5,
-    "fast_charge": [
-      "PD"
-    ],
-    "ports": 1,
-    "simultaneous_charge": 2,
-    "price_jpy": 4999,
-    "pse_mark": true,
-    "colors": [
-      "シルバー",
-      "ブラック",
-      "ピンク"
-    ],
-    "purchase_url": "https://www.amazon.co.jp/dp/B0F295TN17",
-    "notes": "直挿し&ケーブル内蔵のポケットサイズ5000mAh機",
-    "design_style": [
-      "kawaii"
-    ]
-  },
-  {
-    "id": "sharge-pouch-mini",
-    "name": "Sharge Pouch Mini",
-    "maker": "Sharge",
-    "types": [
-      "cable_built_in"
-    ],
-    "capacity_mah": 10000,
-    "weight_g": 210,
-    "size_mm": "95.7 x 60.7 x 31.8 mm",
-    "thickness_mm": 31.8,
-    "output_w": 30,
-    "fast_charge": [
-      "PD"
-    ],
-    "ports": 2,
-    "simultaneous_charge": 3,
-    "price_jpy": 4999,
-    "pse_mark": true,
-    "colors": [
-      "ホワイト",
       "グレー"
     ],
-    "purchase_url": "https://www.amazon.co.jp/dp/B0DTDL7YDW",
-    "notes": "USB-Cケーブル内蔵で3台同時充電可能な10000mAh機",
-    "design_style": [
-      "kawaii"
-    ]
+    "features": [
+      "耐衝撃",
+      "スタンド機能"
+    ],
+    "price_jpy_ref": 1280,
+    "moq_ref": 120,
+    "amazon_url": "https://www.amazon.co.jp/iPhone-Max%E3%82%B1%E3%83%BC%E3%82%B9-%E6%8C%81%E3%81%A1%E3%82%84%E3%81%99%E3%81%84-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E6%A9%9F%E8%83%BD-%E8%80%90%E8%A1%9D%E6%92%83%E3%82%AB%E3%83%90%E3%83%BC/dp/B0D9QMRL9M",
+    "notes": "iPhone16シリーズ全機種に対応した汎用モデル。",
+    "device_type": "iPhone"
   },
   {
-    "id": "sharge-carbonmag-10k",
-    "name": "Sharge CarbonMag (10K)",
-    "maker": "Sharge",
-    "types": [
-      "magsafe"
+    "id": "plata-iphone16-hardgloss-white",
+    "name": "PLATA iPhone 16 ハード光沢バックケース(単色シンプル)",
+    "brand": "PLATA",
+    "compatible_models": [
+      "iPhone 16"
     ],
-    "capacity_mah": 10000,
-    "weight_g": 180,
-    "size_mm": "102 x 70 x 14.6 mm",
-    "thickness_mm": 14.6,
-    "output_w": 20,
-    "fast_charge": [
-      "PD",
-      "Qi2"
+    "material": [
+      "PC"
     ],
-    "ports": 1,
-    "simultaneous_charge": null,
-    "price_jpy": 10399,
-    "pse_mark": true,
-    "colors": [
-      "ブラック"
+    "case_type": [
+      "シンプル"
     ],
-    "purchase_url": "https://www.amazon.co.jp/dp/B0DDCJRXPT",
-    "notes": "カーボンファイバー採用・Qi2認証のMagSafe対応機",
-    "design_style": [
-      "kawaii"
-    ]
-  },
-  {
-    "id": "sharge-carbonmag-5k",
-    "name": "Sharge CarbonMag (5K)",
-    "maker": "Sharge",
-    "types": [
-      "magsafe"
-    ],
-    "capacity_mah": 5000,
-    "weight_g": 120,
-    "size_mm": "102 x 70 x 8.8 mm",
-    "thickness_mm": 8.8,
-    "output_w": 20,
-    "fast_charge": [
-      "PD",
-      "Qi2"
-    ],
-    "ports": 1,
-    "simultaneous_charge": null,
-    "price_jpy": null,
-    "pse_mark": null,
-    "colors": [
-      "ブラック"
-    ],
-    "purchase_url": "https://sharge.com/products/carbonmag-5-000mah",
-    "notes": "軽量カーボンファイバー製の薄型5000mAh MagSafe機",
-    "design_style": [
-      "kawaii"
-    ]
-  },
-  {
-    "id": "sharge-aeromag-5k",
-    "name": "Sharge AeroMag 5K",
-    "maker": "Sharge",
-    "types": [
-      "magsafe"
-    ],
-    "capacity_mah": 5000,
-    "weight_g": 125,
-    "size_mm": "102 x 70 mm",
-    "thickness_mm": 8.5,
-    "output_w": 20,
-    "fast_charge": [
-      "PD",
-      "Qi2"
-    ],
-    "ports": 1,
-    "simultaneous_charge": null,
-    "price_jpy": null,
-    "pse_mark": null,
-    "colors": [
-      "ブラック",
-      "ブルー"
-    ],
-    "purchase_url": "https://sharge.com/products/aeromag5k-10k",
-    "notes": "厚さ8.5mmの超薄型Qi2対応MagSafeバッテリー",
-    "design_style": [
-      "kawaii"
-    ]
-  },
-  {
-    "id": "sharge-aeromag-10k",
-    "name": "Sharge AeroMag 10K",
-    "maker": "Sharge",
-    "types": [
-      "magsafe"
-    ],
-    "capacity_mah": 10000,
-    "weight_g": 192,
-    "size_mm": "102.15 x 70.1 mm",
-    "thickness_mm": 14.3,
-    "output_w": 20,
-    "fast_charge": [
-      "PD",
-      "Qi2"
-    ],
-    "ports": 1,
-    "simultaneous_charge": null,
-    "price_jpy": null,
-    "pse_mark": null,
-    "colors": [
-      "ブラック",
-      "ブルー"
-    ],
-    "purchase_url": "https://sharge.com/products/aeromag5k-10k",
-    "notes": "10000mAh大容量でも薄さ14.3mmのMagSafe機",
-    "design_style": [
-      "kawaii"
-    ]
-  },
-  {
-    "id": "sharge-icemag-3",
-    "name": "Sharge ICEMAG 3",
-    "maker": "Sharge",
-    "types": [
-      "magsafe",
-      "cable_built_in"
-    ],
-    "capacity_mah": 10000,
-    "weight_g": 220,
-    "size_mm": "110 x 70.5 x 19.7 mm",
-    "thickness_mm": 19.7,
-    "output_w": 35,
-    "fast_charge": [
-      "PD",
-      "Qi2"
-    ],
-    "ports": 1,
-    "simultaneous_charge": null,
-    "price_jpy": null,
-    "pse_mark": null,
-    "colors": [
-      "ブラック",
-      "ホワイト",
-      "ブラック×ホワイト"
-    ],
-    "purchase_url": "https://sharge.com/products/icemag-3",
-    "notes": "冷却ファン内蔵・Qi2.2 25W対応のMagSafeバッテリー",
-    "design_style": [
-      "kawaii"
-    ]
-  },
-  {
-    "id": "sharge-discho-retractable-3in1",
-    "name": "Sharge 格納式 3-in-1 モバイルバッテリー (Discho)",
-    "maker": "Sharge",
-    "types": [
-      "3in1",
-      "plug_integrated",
-      "cable_built_in"
-    ],
-    "capacity_mah": 10000,
-    "weight_g": 300,
-    "size_mm": "110 x 52 x 40 mm",
-    "thickness_mm": null,
-    "output_w": 30,
-    "fast_charge": [
-      "PD"
-    ],
-    "ports": 1,
-    "simultaneous_charge": null,
-    "price_jpy": 8299,
-    "pse_mark": true,
     "colors": [
       "ホワイト"
     ],
-    "purchase_url": "https://www.amazon.co.jp/dp/B0FXMM9NDH",
-    "notes": "コンセント・巻取りケーブル・バッテリーが一体の3in1機",
-    "design_style": [
-      "kawaii"
-    ]
+    "features": [],
+    "price_jpy_ref": 980,
+    "moq_ref": 180,
+    "amazon_url": "https://www.amazon.co.jp/PLATA-iPhone16%E5%AF%BE%E5%BF%9C-%E3%82%A2%E3%82%A4%E3%83%95%E3%82%A9%E3%83%B316%E5%AF%BE%E5%BF%9C-%E3%83%8F%E3%83%BC%E3%83%89%E3%82%B1%E3%83%BC%E3%82%B9-%E3%83%90%E3%83%83%E3%82%AF%E3%82%AB%E3%83%90%E3%83%BC/dp/B0DHKPRRGD",
+    "notes": "ボタン操作・充電も装着したまま可能な光沢ハードケース。",
+    "device_type": "iPhone"
   },
   {
-    "id": "sharge-grip",
-    "name": "Sharge Grip",
-    "maker": "Sharge",
-    "types": [
-      "cable_built_in"
+    "id": "iphone16-carbon-blackred",
+    "name": "iPhone 16 耐衝撃ケース(カーボン調・レンズ保護)",
+    "brand": "ノーブランド(OEM)",
+    "compatible_models": [
+      "iPhone 16"
     ],
-    "capacity_mah": 5000,
-    "weight_g": 120,
-    "size_mm": "88 x 38 x 30 mm",
-    "thickness_mm": null,
-    "output_w": 22.5,
-    "fast_charge": [
-      "PD"
+    "material": [
+      "TPU",
+      "PC"
     ],
-    "ports": 1,
-    "simultaneous_charge": null,
-    "price_jpy": null,
-    "pse_mark": null,
-    "colors": [],
-    "purchase_url": "https://sharge.com/products/grip",
-    "notes": "タクティルシャッターボタン付き・コイルケーブル内蔵機",
-    "design_style": [
-      "kawaii"
-    ]
+    "case_type": [
+      "耐衝撃",
+      "シンプル"
+    ],
+    "colors": [
+      "ブラック",
+      "レッド"
+    ],
+    "features": [
+      "耐衝撃",
+      "レンズ保護"
+    ],
+    "price_jpy_ref": 1180,
+    "moq_ref": 140,
+    "amazon_url": "https://www.amazon.co.jp/iPhone-iPhone16-%E3%82%A2%E3%82%A4%E3%83%95%E3%82%A9%E3%83%B316-%E3%82%B7%E3%83%83%E3%82%AF%E3%82%B9%E3%83%86%E3%82%A3%E3%83%BC%E3%83%B3-%E3%82%AB%E3%83%A1%E3%83%A9%E3%83%AC%E3%83%B3%E3%82%BA%E4%BF%9D%E8%AD%B7/dp/B0DGFMK1D9",
+    "notes": "カーボン調デザインで男性向け需要にも対応。",
+    "device_type": "iPhone"
+  },
+  {
+    "id": "xperia1vi-crystal-clear",
+    "name": "Xperia 1 VI Crystal Series クリアケース(米軍MIL規格・SGS認証)",
+    "brand": "ノーブランド(OEM)",
+    "compatible_models": [
+      "Xperia 1 VI"
+    ],
+    "material": [
+      "PC"
+    ],
+    "case_type": [
+      "クリア",
+      "耐衝撃"
+    ],
+    "colors": [
+      "クリア"
+    ],
+    "features": [
+      "耐衝撃",
+      "レンズ保護",
+      "ストラップホール付き",
+      "黄ばみ防止"
+    ],
+    "price_jpy_ref": 1980,
+    "moq_ref": 60,
+    "amazon_url": "https://www.amazon.co.jp/Xperia-%E7%B1%B3%E8%BB%8DMIL%E8%A6%8F%E6%A0%BC%E5%8F%96%E5%BE%97-%E3%82%B9%E3%83%88%E3%83%A9%E3%83%83%E3%83%97%E3%83%9B%E3%83%BC%E3%83%AB%E4%BB%98%E3%81%8D-%E3%82%A8%E3%82%AF%E3%82%B9%E3%83%9A%E3%83%AA%E3%82%A21-Crystal/dp/B0D5VNLM6F",
+    "notes": "米軍MIL規格・SGS認証取得のクリアケース。黄ばみに強い。",
+    "device_type": "Xperia"
+  },
+  {
+    "id": "xperia1vi-matte-simple",
+    "name": "Xperia 1 VI 耐衝撃マットケース(全面保護・シンプル)",
+    "brand": "ノーブランド(OEM)",
+    "compatible_models": [
+      "Xperia 1 VI"
+    ],
+    "material": [
+      "TPU"
+    ],
+    "case_type": [
+      "耐衝撃",
+      "シンプル"
+    ],
+    "colors": [
+      "ブラック"
+    ],
+    "features": [
+      "耐衝撃",
+      "レンズ保護",
+      "ストラップホール付き"
+    ],
+    "price_jpy_ref": 1380,
+    "moq_ref": 100,
+    "amazon_url": "https://www.amazon.co.jp/XPERIA-VI-%E3%82%A8%E3%82%AF%E3%82%B9%E3%83%9A%E3%83%AA%E3%82%A2-%E3%82%B9%E3%83%88%E3%83%A9%E3%83%83%E3%83%97%E3%83%9B%E3%83%BC%E3%83%AB%E4%BB%98%E3%81%8D-Xperia/dp/B0D2QTSDJM",
+    "notes": "マット質感で指紋防止・擦り傷防止。脱着簡単。",
+    "device_type": "Xperia"
+  },
+  {
+    "id": "xperia1vi-ring-tpu",
+    "name": "Sony Xperia 1 VI ケース リング付きTPU(米軍MIL規格)",
+    "brand": "ノーブランド(OEM)",
+    "compatible_models": [
+      "Xperia 1 VI"
+    ],
+    "material": [
+      "TPU"
+    ],
+    "case_type": [
+      "耐衝撃"
+    ],
+    "colors": [
+      "ブラック"
+    ],
+    "features": [
+      "耐衝撃",
+      "スタンド機能",
+      "ストラップホール付き"
+    ],
+    "price_jpy_ref": 1580,
+    "moq_ref": 80,
+    "amazon_url": "https://www.amazon.co.jp/Xperia-%E7%B1%B3%E8%BB%8DMIL%E8%A6%8F%E6%A0%BC%E5%8F%96%E5%BE%97-%E3%82%B9%E3%83%88%E3%83%A9%E3%83%83%E3%83%97%E3%83%9B%E3%83%BC%E3%83%AB%E4%BB%98%E3%81%8D-%E3%82%B5%E3%83%A9%E3%82%B5%E3%83%A9%E8%A7%A6%E3%82%8A%E5%BF%83%E5%9C%B0-%E3%82%A8%E3%82%AF%E3%82%B9%E3%83%9A%E3%83%AA%E3%82%A21/dp/B0D2PZ3LTQ",
+    "notes": "液状シリコンの薄型TPU。リング付きでスタンドとしても使用可。",
+    "device_type": "Xperia"
+  },
+  {
+    "id": "xperia1vi-magsafe-purple",
+    "name": "Xperia 1 VI ケース MagSafe対応(PC・軽量薄型)",
+    "brand": "ノーブランド(OEM)",
+    "compatible_models": [
+      "Xperia 1 VI"
+    ],
+    "material": [
+      "PC"
+    ],
+    "case_type": [
+      "シンプル",
+      "耐衝撃"
+    ],
+    "colors": [
+      "うすむらさき"
+    ],
+    "features": [
+      "MagSafe対応",
+      "ワイヤレス充電対応",
+      "耐衝撃",
+      "ストラップホール付き"
+    ],
+    "price_jpy_ref": 1880,
+    "moq_ref": 70,
+    "amazon_url": "https://www.amazon.co.jp/Xperia-MagSafe%E5%AF%BE%E5%BF%9C-%E3%83%AF%E3%82%A4%E3%83%A4%E3%83%AC%E3%82%B9%E5%85%85%E9%9B%BB%E5%AF%BE%E5%BF%9C-Xperia1VI-%E3%82%B9%E3%83%88%E3%83%A9%E3%83%83%E3%83%97%E3%83%9B%E3%83%BC%E3%83%AB%E4%BB%98%E3%81%8D/dp/B0D4TL1JKG",
+    "notes": "MagSafe対応で装着したままワイヤレス充電が可能。軽量薄型。",
+    "device_type": "Xperia"
+  },
+  {
+    "id": "xperia1vi-bookcase-leather",
+    "name": "Xperia 1 VI 手帳型ケース(高級PUレザー・財布型)",
+    "brand": "ノーブランド(OEM)",
+    "compatible_models": [
+      "Xperia 1 VI"
+    ],
+    "material": [
+      "PUレザー"
+    ],
+    "case_type": [
+      "手帳型",
+      "耐衝撃"
+    ],
+    "colors": [
+      "ブラウン"
+    ],
+    "features": [
+      "カード収納",
+      "マグネット式",
+      "耐衝撃"
+    ],
+    "price_jpy_ref": 2280,
+    "moq_ref": 50,
+    "amazon_url": "https://www.amazon.co.jp/Sony-Xperia-VI-%E9%AB%98%E7%B4%9APU%E3%83%AC%E3%82%B6%E3%83%BC-%E3%82%A8%E3%82%AF%E3%82%B9%E3%83%9A%E3%83%AA%E3%82%A21vi/dp/B0DFGPDCCR",
+    "notes": "高級PUレザーの財布型。カード収納・マグネット式開閉。",
+    "device_type": "Xperia"
+  },
+  {
+    "id": "xperia1vi-clear-purple",
+    "name": "Xperia 1 VI クリアケース(透明TPU・耐衝撃)",
+    "brand": "ノーブランド(OEM)",
+    "compatible_models": [
+      "Xperia 1 VI"
+    ],
+    "material": [
+      "TPU"
+    ],
+    "case_type": [
+      "クリア"
+    ],
+    "colors": [
+      "パープル"
+    ],
+    "features": [
+      "耐衝撃",
+      "ワイヤレス充電対応"
+    ],
+    "price_jpy_ref": 1280,
+    "moq_ref": 110,
+    "amazon_url": "https://www.amazon.co.jp/Xperia-Xperia1VI-SO-51E-%E3%83%AF%E3%82%A4%E3%83%A4%E3%83%AC%E3%82%B9%E5%85%85%E9%9B%BB%E5%AF%BE%E5%BF%9C/dp/B0D7C39P8J",
+    "notes": "透明TPUで薄型・軽量。滑り止め加工。",
+    "device_type": "Xperia"
+  },
+  {
+    "id": "oppo-renoa-bookcase-gray",
+    "name": "COVERARY OPPO Reno A 手帳型ケース(全機種対応ダークカラー)",
+    "brand": "COVERARY",
+    "compatible_models": [
+      "OPPO Reno A"
+    ],
+    "material": [
+      "PUレザー"
+    ],
+    "case_type": [
+      "手帳型",
+      "シンプル"
+    ],
+    "colors": [
+      "グレー"
+    ],
+    "features": [],
+    "price_jpy_ref": 1480,
+    "moq_ref": 90,
+    "amazon_url": "https://www.amazon.co.jp/OPPO-Reno-%E3%82%B1%E3%83%BC%E3%82%B9-%E3%82%B9%E3%83%9E%E3%83%9B%E3%82%B1%E3%83%BC%E3%82%B9-%E3%82%B7%E3%83%B3%E3%83%97%E3%83%AB/dp/B07ZNCZ17T",
+    "notes": "メンズ向けのダークカラー・シンプルな手帳型。",
+    "device_type": "OPPO"
+  },
+  {
+    "id": "oppo-reno11a-bookcase-blue",
+    "name": "OPPO Reno 11A 手帳型ケース(高質PU合皮・財布型)",
+    "brand": "ノーブランド(OEM)",
+    "compatible_models": [
+      "OPPO Reno 11A"
+    ],
+    "material": [
+      "PUレザー"
+    ],
+    "case_type": [
+      "手帳型"
+    ],
+    "colors": [
+      "ブルー"
+    ],
+    "features": [
+      "カード収納",
+      "マグネット式",
+      "スタンド機能",
+      "耐衝撃"
+    ],
+    "price_jpy_ref": 1780,
+    "moq_ref": 70,
+    "amazon_url": "https://www.amazon.co.jp/%E9%AB%98%E8%B3%AAPU%E5%90%88%E7%9A%AE-Reno11-%E3%83%9E%E3%82%B0%E3%83%8D%E3%83%83%E3%83%88-%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E6%A9%9F%E8%83%BD%E4%BB%98-Reno11A/dp/B0D78WH4F3",
+    "notes": "耐摩擦・耐衝撃仕様の財布型。全面保護。",
+    "device_type": "OPPO"
+  },
+  {
+    "id": "oppo-renoa-bookcase-black",
+    "name": "OPPO Reno A 手帳型ケース(カード収納・PUレザー)",
+    "brand": "ノーブランド(OEM)",
+    "compatible_models": [
+      "OPPO Reno A"
+    ],
+    "material": [
+      "PUレザー"
+    ],
+    "case_type": [
+      "手帳型",
+      "耐衝撃"
+    ],
+    "colors": [
+      "ブラック"
+    ],
+    "features": [
+      "カード収納",
+      "マグネット式",
+      "スタンド機能",
+      "耐衝撃",
+      "ストラップホール付き"
+    ],
+    "price_jpy_ref": 1680,
+    "moq_ref": 80,
+    "amazon_url": "https://www.amazon.co.jp/OPPO-Reno-SIM%E3%83%95%E3%83%AA%E3%83%BC-%E3%82%B9%E3%83%88%E3%83%A9%E3%83%83%E3%83%97%E3%83%9B%E3%83%BC%E3%83%AB%E4%BB%98%E3%81%8D-%E3%82%AB%E3%83%BC%E3%83%89%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC/dp/B08F3GXQ7M",
+    "notes": "カードホルダー・札収納付きのレトロ財布型。SIMフリー機対応。",
+    "device_type": "OPPO"
+  },
+  {
+    "id": "oppo-reno5a-bookcase-simple",
+    "name": "OPPO Reno5 A 手帳型ケース(TPU・耐衝撃・シンプル)",
+    "brand": "ノーブランド(OEM)",
+    "compatible_models": [
+      "OPPO Reno5 A"
+    ],
+    "material": [
+      "TPU",
+      "PUレザー"
+    ],
+    "case_type": [
+      "手帳型",
+      "シンプル"
+    ],
+    "colors": [
+      "ブラック"
+    ],
+    "features": [
+      "カード収納",
+      "マグネット式",
+      "スタンド機能",
+      "耐衝撃"
+    ],
+    "price_jpy_ref": 1580,
+    "moq_ref": 90,
+    "amazon_url": "https://www.amazon.co.jp/%E3%82%B1%E3%83%BC%E3%82%B9%E6%89%8B%E5%B8%B3%E5%9E%8B-OPPOReno5A%E3%82%B1%E3%83%BC%E3%82%B9-Reno5A-%E3%83%9E%E3%82%B0%E3%83%8D%E3%83%83%E3%83%88%E5%86%85%E8%94%B5-%E3%82%B9%E3%83%94%E3%83%BC%E3%82%AB%E3%83%BC%E3%83%9B%E3%83%BC%E3%83%AB/dp/B0968QTHJQ",
+    "notes": "ベルトなしのスピーカーホール付き。ワイモバイル/SIMフリー機対応。",
+    "device_type": "OPPO"
+  },
+  {
+    "id": "galaxya54-clear-tpu-black",
+    "name": "Galaxy A54 5G クリアケース(TPU・黄変防止・ワイヤレス充電対応)",
+    "brand": "ノーブランド(OEM)",
+    "compatible_models": [
+      "Galaxy A54"
+    ],
+    "material": [
+      "TPU"
+    ],
+    "case_type": [
+      "クリア"
+    ],
+    "colors": [
+      "クリア"
+    ],
+    "features": [
+      "耐衝撃",
+      "ワイヤレス充電対応",
+      "黄ばみ防止"
+    ],
+    "price_jpy_ref": 980,
+    "moq_ref": 150,
+    "amazon_url": "https://www.amazon.co.jp/Samsung-Galaxy-%E3%82%AE%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%B7%E3%83%BCA54-SC-53D-%E3%83%AF%E3%82%A4%E3%83%A4%E3%83%AC%E3%82%B9%E5%85%85%E9%9B%BB/dp/B0C33J2YCF",
+    "notes": "柔らかい薄型TPU。低単価で大量仕入れ向き。",
+    "device_type": "Galaxy"
+  },
+  {
+    "id": "galaxya54-ring-clear",
+    "name": "Galaxy A54 5G クリアリングケース(TPU・車載ホルダー対応)",
+    "brand": "ノーブランド(OEM)",
+    "compatible_models": [
+      "Galaxy A54"
+    ],
+    "material": [
+      "TPU"
+    ],
+    "case_type": [
+      "クリア"
+    ],
+    "colors": [
+      "クリア"
+    ],
+    "features": [
+      "耐衝撃",
+      "黄ばみ防止"
+    ],
+    "price_jpy_ref": 1080,
+    "moq_ref": 130,
+    "amazon_url": "https://www.amazon.co.jp/Galaxy-%E3%83%AA%E3%83%B3%E3%82%B0%E4%BB%98%E3%81%8D-%E3%82%AE%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%B7%E3%83%BC-SC-53D-%E8%BB%8A%E8%BC%89%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%E5%AF%BE%E5%BF%9C/dp/B0C2BYXGXS",
+    "notes": "リング付きで車載ホルダーにも対応。滑り止め加工。",
+    "device_type": "Galaxy"
+  },
+  {
+    "id": "galaxya54-clear-tpupc-blue",
+    "name": "Galaxy A54 5G クリアケース(TPU+PC二重構造・強化ガラスフィルム付き)",
+    "brand": "ノーブランド(OEM)",
+    "compatible_models": [
+      "Galaxy A54"
+    ],
+    "material": [
+      "TPU",
+      "PC"
+    ],
+    "case_type": [
+      "クリア",
+      "耐衝撃"
+    ],
+    "colors": [
+      "クリアブルー"
+    ],
+    "features": [
+      "耐衝撃"
+    ],
+    "price_jpy_ref": 1180,
+    "moq_ref": 120,
+    "amazon_url": "https://www.amazon.co.jp/Galaxy-%E5%82%B7%E3%82%84%E3%81%BB%E3%81%93%E3%82%8A%E3%81%8B%E3%82%89%E5%AE%88%E3%82%8B-%E3%82%AE%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%B7%E3%83%BC-%E5%BC%B7%E5%8C%96%E3%82%AC%E3%83%A9%E3%82%B9%E3%83%95%E3%82%A3%E3%83%AB%E3%83%A0-%E3%82%AF%E3%83%AA%E3%82%A2%E3%83%96%E3%83%AB%E3%83%BC/dp/B0BPX6GNRH",
+    "notes": "強化ガラスフィルムのおまけ付き。2重構造で耐衝撃性アップ。",
+    "device_type": "Galaxy"
+  },
+  {
+    "id": "galaxya54-genuine-clear",
+    "name": "Samsung純正 Galaxy A54 Clear Case(国内正規品)",
+    "brand": "Samsung純正",
+    "compatible_models": [
+      "Galaxy A54"
+    ],
+    "material": [
+      "PC"
+    ],
+    "case_type": [
+      "クリア",
+      "シンプル"
+    ],
+    "colors": [
+      "クリア"
+    ],
+    "features": [],
+    "price_jpy_ref": 2480,
+    "moq_ref": 30,
+    "amazon_url": "https://www.amazon.co.jp/Samsung-Clear-Galaxy%E7%B4%94%E6%AD%A3-%E5%9B%BD%E5%86%85%E6%AD%A3%E8%A6%8F%E5%93%81-EF-QA546CTEGJP/dp/B0C2YCV22P",
+    "notes": "Samsung純正の国内正規品。ブランド力を訴求したい仕入れ向け。",
+    "device_type": "Galaxy"
+  },
+  {
+    "id": "pixel9-gogorelax-clear",
+    "name": "Google Pixel 9 クリアケース(ガラスフィルム保護付き・米軍MIL規格)",
+    "brand": "gogorelax",
+    "compatible_models": [
+      "Google Pixel 9"
+    ],
+    "material": [
+      "PC"
+    ],
+    "case_type": [
+      "クリア"
+    ],
+    "colors": [
+      "クリア"
+    ],
+    "features": [
+      "耐衝撃",
+      "ワイヤレス充電対応",
+      "黄ばみ防止",
+      "ストラップホール付き"
+    ],
+    "price_jpy_ref": 1680,
+    "moq_ref": 90,
+    "amazon_url": "https://www.amazon.co.jp/Google-Pixel-%E3%82%B1%E3%83%BC%E3%82%B9-%E3%82%AC%E3%83%A9%E3%82%B9%E3%83%95%E3%82%A3%E3%83%AB%E3%83%A0%E4%BF%9D%E8%AD%B7%E4%BB%98%E3%81%8D-gogorelax/dp/B0D9W282B9",
+    "notes": "保護ガラスフィルム付属。米軍MIL規格取得で耐久性も確保。",
+    "device_type": "Google Pixel"
+  },
+  {
+    "id": "pixel9profold-clear",
+    "name": "Google Pixel 9 Pro Fold クリアケース(軽量薄型・米軍MIL規格)",
+    "brand": "ノーブランド(OEM)",
+    "compatible_models": [
+      "Google Pixel 9 Pro Fold"
+    ],
+    "material": [
+      "PC"
+    ],
+    "case_type": [
+      "クリア"
+    ],
+    "colors": [
+      "クリア"
+    ],
+    "features": [
+      "耐衝撃",
+      "ワイヤレス充電対応",
+      "黄ばみ防止"
+    ],
+    "price_jpy_ref": 2680,
+    "moq_ref": 40,
+    "amazon_url": "https://www.amazon.co.jp/Google-Fold%E3%82%B1%E3%83%BC%E3%82%B9-fold%E3%82%B9%E3%83%9E%E3%83%9B%E3%82%B1%E3%83%BC%E3%82%B9-%E3%83%AF%E3%82%A4%E3%83%A4%E3%83%AC%E3%82%B9%E5%85%85%E9%9B%BB%E5%AF%BE%E5%BF%9C-%E7%B1%B3%E8%BB%8DMIL%E8%A6%8F%E6%A0%BC/dp/B0DHL7Y27S",
+    "notes": "折りたたみ機種向けの薄型軽量クリアケース。背面透明。",
+    "device_type": "Google Pixel"
+  },
+  {
+    "id": "pixel9-simple-white",
+    "name": "Google Pixel 9 耐衝撃シンプルケース(衝撃吸収・傷に強い)",
+    "brand": "ノーブランド(OEM)",
+    "compatible_models": [
+      "Google Pixel 9"
+    ],
+    "material": [
+      "TPU",
+      "PC"
+    ],
+    "case_type": [
+      "耐衝撃",
+      "シンプル"
+    ],
+    "colors": [
+      "ホワイト"
+    ],
+    "features": [
+      "耐衝撃"
+    ],
+    "price_jpy_ref": 1180,
+    "moq_ref": 130,
+    "amazon_url": "https://www.amazon.co.jp/Google-%E3%82%B0%E3%83%BC%E3%82%B0%E3%83%AB%E3%83%94%E3%82%AF%E3%82%BB%E3%83%AB9-GooglePixel9-%E8%80%90%E8%A1%9D%E6%92%83%E3%82%B1%E3%83%BC%E3%82%B9-%E3%82%B9%E3%83%9E%E3%83%9B%E3%82%AB%E3%83%90%E3%83%BC/dp/B0DDS7JDZ9",
+    "notes": "ソフト・ハード併用のシンプルな耐衝撃ケース。",
+    "device_type": "Google Pixel"
+  },
+  {
+    "id": "pixel9a-elecom-clear",
+    "name": "エレコム Google Pixel 9a クリアケース(耐衝撃・高耐久ハイブリッド)",
+    "brand": "エレコム",
+    "compatible_models": [
+      "Google Pixel 9a"
+    ],
+    "material": [
+      "TPU",
+      "PC"
+    ],
+    "case_type": [
+      "クリア",
+      "耐衝撃"
+    ],
+    "colors": [
+      "クリア"
+    ],
+    "features": [
+      "耐衝撃",
+      "ストラップホール付き",
+      "黄ばみ防止"
+    ],
+    "price_jpy_ref": 2180,
+    "moq_ref": 50,
+    "amazon_url": "https://www.amazon.co.jp/%E3%80%90%E3%83%95%E3%82%A3%E3%83%AB%E3%83%A0%E3%82%BB%E3%83%83%E3%83%88%E3%80%91-%E3%82%A8%E3%83%AC%E3%82%B3%E3%83%A0-%E3%82%B9%E3%83%88%E3%83%A9%E3%83%83%E3%83%97%E3%83%9B%E3%83%BC%E3%83%AB%E4%BB%98%E3%81%8D-4%E3%81%A4%E8%A7%92%E3%82%A8%E3%82%A2%E3%83%BC%E3%82%AF%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3-PMWP251HVCK3CR/dp/B0F5VQGJMS",
+    "notes": "国内ブランドのエレコム製。ガラスフィルムセット付属。",
+    "device_type": "Google Pixel"
+  },
+  {
+    "id": "pixel9-milspec-clear",
+    "name": "Google Pixel9/Pixel 9 Pro クリアケース(米軍MIL規格・PC+TPU二重構造)",
+    "brand": "ノーブランド(OEM)",
+    "compatible_models": [
+      "Google Pixel 9",
+      "Google Pixel 9 Pro"
+    ],
+    "material": [
+      "PC",
+      "TPU"
+    ],
+    "case_type": [
+      "クリア",
+      "耐衝撃"
+    ],
+    "colors": [
+      "クリア"
+    ],
+    "features": [
+      "耐衝撃",
+      "ストラップホール付き",
+      "黄ばみ防止"
+    ],
+    "price_jpy_ref": 1580,
+    "moq_ref": 90,
+    "amazon_url": "https://www.amazon.co.jp/Google-Pixel9-Pixel-Pro-GooglePixel9Pro/dp/B0DBDFFDFR",
+    "notes": "PC背面+TPUバンパーの2重構造で衝撃吸収。",
+    "device_type": "Google Pixel"
+  },
+  {
+    "id": "aquos-sense8-feyyxi-bookcase-gray",
+    "name": "FEYYXI AQUOS sense8 手帳型ケース(財布型・高級PUレザー)",
+    "brand": "FEYYXI",
+    "compatible_models": [
+      "AQUOS sense8"
+    ],
+    "material": [
+      "PUレザー"
+    ],
+    "case_type": [
+      "手帳型"
+    ],
+    "colors": [
+      "グレー"
+    ],
+    "features": [
+      "カード収納",
+      "スタンド機能"
+    ],
+    "price_jpy_ref": 1780,
+    "moq_ref": 70,
+    "amazon_url": "https://www.amazon.co.jp/FEYYXI-%E3%82%AB%E3%83%BC%E3%83%89%E3%83%9D%E3%82%B1%E3%83%83%E3%83%88%E4%BB%98%E3%81%8D-%E6%A8%AA%E7%BD%AE%E3%81%8D%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E6%A9%9F%E8%83%BD-%E9%AB%98%E7%B4%9APU%E3%83%AC%E3%82%B6%E3%83%BC-6-1inch/dp/B0D3SXDX6P",
+    "notes": "カードポケット付きで全面保護。上質な手触りのPUレザー。",
+    "device_type": "AQUOS"
+  },
+  {
+    "id": "aquos-sense8-rayout-bookcase-black",
+    "name": "レイ・アウト AQUOS sense8 手帳型ケース(レザー・シンプル)",
+    "brand": "レイ・アウト",
+    "compatible_models": [
+      "AQUOS sense8"
+    ],
+    "material": [
+      "PUレザー"
+    ],
+    "case_type": [
+      "手帳型",
+      "シンプル"
+    ],
+    "colors": [
+      "ブラック"
+    ],
+    "features": [],
+    "price_jpy_ref": 1980,
+    "moq_ref": 60,
+    "amazon_url": "https://www.amazon.co.jp/-/en/4580548468242/dp/B0F65FM4K7",
+    "notes": "国内アクセサリーブランド製。シンプルなレザーデザイン。",
+    "device_type": "AQUOS"
+  },
+  {
+    "id": "aquos-sense8-genuineleather-green",
+    "name": "AQUOS sense8 手帳型ケース(本革・高級本皮・耐衝撃)",
+    "brand": "Ayakumo",
+    "compatible_models": [
+      "AQUOS sense8"
+    ],
+    "material": [
+      "本革"
+    ],
+    "case_type": [
+      "手帳型",
+      "耐衝撃"
+    ],
+    "colors": [
+      "グリーン"
+    ],
+    "features": [
+      "カード収納",
+      "マグネット式",
+      "スタンド機能",
+      "耐衝撃"
+    ],
+    "price_jpy_ref": 3680,
+    "moq_ref": 25,
+    "amazon_url": "https://www.amazon.co.jp/%E3%82%B7%E3%83%A5%E3%83%AA%E3%83%B3%E3%82%AF%E3%82%AB%E3%83%BC%E3%83%95%E3%83%AC%E3%82%B6%E3%83%BC-%E3%82%B7%E3%83%B3%E3%83%97%E3%83%AB%E6%89%8B%E5%B8%B3%E3%82%B1%E3%83%BC%E3%82%B9-%E3%82%B5%E3%82%A4%E3%83%89%E3%83%9E%E3%82%B0%E3%83%8D%E3%83%83%E3%83%88%E5%BC%8F-%E6%A8%AA%E7%BD%AE%E3%81%8D%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E6%A9%9F%E8%83%BD-Ayakumo/dp/B0CLP1LL8Y",
+    "notes": "高級本皮のシュリンクカーフレザー。カード3枚収納可。",
+    "device_type": "AQUOS"
+  },
+  {
+    "id": "kyocera705kc-bookcase-camel",
+    "name": "京セラ かんたんスマホ 705KC 手帳型ケース(PUレザー・マグネット式)",
+    "brand": "ノーブランド(OEM)",
+    "compatible_models": [
+      "京セラ かんたんスマホ 705KC"
+    ],
+    "material": [
+      "PUレザー"
+    ],
+    "case_type": [
+      "手帳型"
+    ],
+    "colors": [
+      "キャメルブラウン"
+    ],
+    "features": [
+      "カード収納",
+      "マグネット式",
+      "スタンド機能"
+    ],
+    "price_jpy_ref": 1680,
+    "moq_ref": 70,
+    "amazon_url": "https://www.amazon.co.jp/%E3%81%8B%E3%82%93%E3%81%9F%E3%82%93%E3%82%B9%E3%83%9E%E3%83%9B-%E3%83%9C%E3%82%BF%E3%83%B3%E6%90%AD%E8%BC%89%E3%83%9E%E3%82%B0%E3%83%8D%E3%83%83%E3%83%88%E5%BC%8F-%E3%82%AB%E3%83%BC%E3%83%89%E3%83%9D%E3%82%B1%E3%83%83%E3%83%88%E4%BB%98%E3%81%8D-%E6%A8%AA%E7%BD%AE%E3%81%8D%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E6%A9%9F%E8%83%BD%E4%BB%98%E3%81%8D-%E3%82%AD%E3%83%A3%E3%83%A1%E3%83%AB%E3%83%96%E3%83%A9%E3%82%A6%E3%83%B3/dp/B07M6VBXLL",
+    "notes": "シニア向け機種。牛革風カバーで全面保護、横置きスタンド機能付き。",
+    "device_type": "京セラ"
+  },
+  {
+    "id": "kyocera-a205kc-bookcase-pink",
+    "name": "京セラ かんたんスマホ3 A205KC 手帳型ケース(財布型・ショルダー)",
+    "brand": "ノーブランド(OEM)",
+    "compatible_models": [
+      "京セラ かんたんスマホ3 A205KC"
+    ],
+    "material": [
+      "PUレザー"
+    ],
+    "case_type": [
+      "手帳型",
+      "ショルダー型"
+    ],
+    "colors": [
+      "ローズピンク"
+    ],
+    "features": [
+      "カード収納",
+      "スタンド機能"
+    ],
+    "price_jpy_ref": 1580,
+    "moq_ref": 80,
+    "amazon_url": "https://www.amazon.co.jp/%E3%81%8B%E3%82%93%E3%81%9F%E3%82%93%E3%82%B9%E3%83%9E%E3%83%9B3-A205KC-%E3%81%8B%E3%82%93%E3%81%9F%E3%82%93%E3%82%B9%E3%83%9E%E3%83%9B-%E3%82%B8%E3%83%83%E3%83%97%E4%BB%98%E3%81%8D%E8%B2%A1%E5%B8%83-%E3%82%B9%E3%83%9E%E3%83%9B%E3%82%B1%E3%83%BC%E3%82%B9/dp/B0DJQH11PB",
+    "notes": "肩掛けショルダー対応。ジップ付き財布型でシニア層に人気。",
+    "device_type": "京セラ"
+  },
+  {
+    "id": "kyocera-a205kc-clear-black",
+    "name": "京セラ かんたんスマホ3ケース 耐衝撃(TPU・薄型・軽量)",
+    "brand": "ノーブランド(OEM)",
+    "compatible_models": [
+      "京セラ かんたんスマホ3 A205KC"
+    ],
+    "material": [
+      "TPU"
+    ],
+    "case_type": [
+      "耐衝撃",
+      "シンプル"
+    ],
+    "colors": [
+      "ブラック"
+    ],
+    "features": [
+      "耐衝撃",
+      "黄ばみ防止"
+    ],
+    "price_jpy_ref": 880,
+    "moq_ref": 160,
+    "amazon_url": "https://www.amazon.co.jp/%E3%81%8B%E3%82%93%E3%81%9F%E3%82%93%E3%82%B9%E3%83%9E%E3%83%9B3%E3%82%B1%E3%83%BC%E3%82%B9-A205KC-%E8%BB%BD%E9%87%8FKYOCERA-Sumaho3-%E8%A1%9D%E6%92%83%E5%90%B8%E5%8F%8E%E9%BB%84%E5%A4%89%E9%98%B2%E6%AD%A2/dp/B0D1VCPX6M",
+    "notes": "シリコンTPUでカメラ保護。低単価で大量仕入れ向き。",
+    "device_type": "京セラ"
+  },
+  {
+    "id": "kyocera705kc-bookcase-lightbrown",
+    "name": "京セラ かんたんスマホ 705KC 手帳型ケース(内蔵マグネット・カードポケット)",
+    "brand": "ノーブランド(OEM)",
+    "compatible_models": [
+      "京セラ かんたんスマホ 705KC"
+    ],
+    "material": [
+      "PUレザー"
+    ],
+    "case_type": [
+      "手帳型",
+      "シンプル"
+    ],
+    "colors": [
+      "ライトブラウン"
+    ],
+    "features": [
+      "カード収納",
+      "マグネット式",
+      "スタンド機能"
+    ],
+    "price_jpy_ref": 1480,
+    "moq_ref": 80,
+    "amazon_url": "https://www.amazon.co.jp/%E3%81%8B%E3%82%93%E3%81%9F%E3%82%93%E3%82%B9%E3%83%9E%E3%83%9B-705KC-kyocera-case_iCoverCase_-%E5%86%85%E8%94%B5%E3%83%9E%E3%82%B0%E3%83%8D%E3%83%83%E3%83%88/dp/B07RN7F9ZQ",
+    "notes": "落ち着いた色味でシニア層に好まれるレトロデザイン。",
+    "device_type": "京セラ"
+  },
+  {
+    "id": "ipad10-spigen-kickstand-clear",
+    "name": "Spigen iPad 第10世代 ケース(キックスタンド・クリア耐衝撃)",
+    "brand": "Spigen",
+    "device_type": "iPad",
+    "compatible_models": [
+      "iPad 第10世代"
+    ],
+    "material": [
+      "PC",
+      "TPU"
+    ],
+    "case_type": [
+      "クリア",
+      "耐衝撃"
+    ],
+    "colors": [
+      "クリア"
+    ],
+    "features": [
+      "耐衝撃",
+      "スタンド機能"
+    ],
+    "price_jpy_ref": 2980,
+    "moq_ref": 30,
+    "amazon_url": "https://www.amazon.co.jp/Spigen-%E3%82%AD%E3%83%83%E3%82%AF%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89-Pencil%E5%85%85%E9%9B%BB-ACS05419-%E3%82%AF%E3%83%AA%E3%82%B9%E3%82%BF%E3%83%AB%E3%83%BB%E3%82%AF%E3%83%AA%E3%82%A2/dp/B0B9ZSLP7F",
+    "notes": "キックスタンド付きで動画視聴に便利。Apple Pencil充電にも対応。"
+  },
+  {
+    "id": "ipad-a16-clear-purple",
+    "name": "iPad(A16)第11世代/第10世代 クリアケース(TPU・落下防止)",
+    "brand": "ノーブランド(OEM)",
+    "device_type": "iPad",
+    "compatible_models": [
+      "iPad 第11世代 (A16)",
+      "iPad 第10世代"
+    ],
+    "material": [
+      "TPU"
+    ],
+    "case_type": [
+      "クリア"
+    ],
+    "colors": [
+      "パープル"
+    ],
+    "features": [
+      "耐衝撃"
+    ],
+    "price_jpy_ref": 1680,
+    "moq_ref": 80,
+    "amazon_url": "https://www.amazon.co.jp/11%E3%82%A4%E3%83%B3%E3%83%81-%E7%AC%AC10%E4%B8%96%E4%BB%A3-10-9%E3%82%A4%E3%83%B3%E3%83%81-2025%E3%83%A2%E3%83%87%E3%83%AB-%E6%89%8B%E9%A6%96%E3%81%A8%E8%90%BD%E4%B8%8B%E9%98%B2%E6%AD%A2/dp/B0DNF3PYC9",
+    "notes": "超軽量マット透明タイプ。手首と落下防止のストラップ対応。"
+  },
+  {
+    "id": "ipad10-waterproof-clear",
+    "name": "iPad 第10世代 完全防水ケース(IP68規格・耐衝撃・スタンド機能)",
+    "brand": "ノーブランド(OEM)",
+    "device_type": "iPad",
+    "compatible_models": [
+      "iPad 第10世代"
+    ],
+    "material": [
+      "PC",
+      "TPU"
+    ],
+    "case_type": [
+      "クリア",
+      "耐衝撃"
+    ],
+    "colors": [
+      "クリア"
+    ],
+    "features": [
+      "耐衝撃",
+      "スタンド機能",
+      "防水"
+    ],
+    "price_jpy_ref": 3480,
+    "moq_ref": 30,
+    "amazon_url": "https://www.amazon.co.jp/10-9%E3%82%A4%E3%83%B3%E3%83%81%E5%B0%82%E7%94%A8%E3%82%B1%E3%83%BC%E3%82%B9-%E3%82%B9%E3%83%88%E3%83%A9%E3%83%83%E3%83%97%E4%BB%98%E3%81%8D-10-9%E3%82%A4%E3%83%B3%E3%83%81-2022%E5%B9%B4%E7%99%BA%E5%A3%B2-360%E5%BA%A6%E5%85%A8%E9%9D%A2%E4%BF%9D%E8%AD%B7%E3%82%B1%E3%83%BC%E3%82%B9/dp/B0DP9Y7YCX",
+    "notes": "IP68防水防塵規格。お風呂・プールでも使用可能な360度保護。"
+  },
+  {
+    "id": "ipad11-greerass-clear",
+    "name": "iPad 第11世代(A16) クリアケース(TPU・全面保護)",
+    "brand": "Greerass",
+    "device_type": "iPad",
+    "compatible_models": [
+      "iPad 第11世代 (A16)"
+    ],
+    "material": [
+      "TPU"
+    ],
+    "case_type": [
+      "クリア"
+    ],
+    "colors": [
+      "クリア"
+    ],
+    "features": [
+      "耐衝撃",
+      "黄ばみ防止"
+    ],
+    "price_jpy_ref": 1580,
+    "moq_ref": 90,
+    "amazon_url": "https://www.amazon.co.jp/%E7%AC%AC11%E4%B8%96%E4%BB%A3-10-9%E3%82%A4%E3%83%B3%E3%83%81-Greerass-%E3%82%BD%E3%83%95%E3%83%88%E3%82%AB%E3%83%90%E3%83%BC-%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E7%B0%A1%E5%8D%98/dp/B0DZD9CVPW",
+    "notes": "薄型軽量で滑り止め加工。指紋防止・黄ばみ防止コーティング。"
+  },
+  {
+    "id": "ipad109-mageasy-vivaz-black",
+    "name": "MagEasy iPad 10.9 ケース(耐衝撃・薄型スリム)",
+    "brand": "MagEasy",
+    "device_type": "iPad",
+    "compatible_models": [
+      "iPad 第10世代"
+    ],
+    "material": [
+      "TPU"
+    ],
+    "case_type": [
+      "クリア",
+      "耐衝撃"
+    ],
+    "colors": [
+      "ブラック"
+    ],
+    "features": [
+      "耐衝撃"
+    ],
+    "price_jpy_ref": 2680,
+    "moq_ref": 40,
+    "amazon_url": "https://www.amazon.co.jp/%E3%80%90MagEasy%E3%80%91-iPad%E3%82%B1%E3%83%BC%E3%82%B9-%E3%82%BF%E3%83%96%E3%83%AC%E3%83%83%E3%83%88%E3%82%B1%E3%83%BC%E3%82%B9-iPad10-9-%E3%82%A2%E3%82%A4%E3%83%91%E3%83%83%E3%83%8910-9/dp/B0BYSJBVP3",
+    "notes": "サイドグリップ付きで持ちやすい半透明デザイン。"
+  },
+  {
+    "id": "watch45-spigen-ruggedarmor-black",
+    "name": "Spigen Apple Watch 45mm/44mm 一体型バンドケース(耐衝撃)",
+    "brand": "Spigen",
+    "device_type": "Apple Watch",
+    "compatible_models": [
+      "Apple Watch 45mm",
+      "Apple Watch 44mm"
+    ],
+    "material": [
+      "PC",
+      "TPU"
+    ],
+    "case_type": [
+      "バンド一体型",
+      "耐衝撃"
+    ],
+    "colors": [
+      "ブラック"
+    ],
+    "features": [
+      "耐衝撃"
+    ],
+    "price_jpy_ref": 2980,
+    "moq_ref": 30,
+    "amazon_url": "https://www.amazon.co.jp/%E3%80%90Spigen%E3%80%91-Apple-Watch-%E3%83%A9%E3%82%AE%E3%83%83%E3%83%89%E3%83%BB%E3%82%A2%E3%83%BC%E3%83%9E%E3%83%BC-062CS25324/dp/B07HSSDV4S",
+    "notes": "Rugged Armor Proシリーズ。PC+TPUの2層構造で耐衝撃性が高い。"
+  },
+  {
+    "id": "watch4544-ahnhsky-metalband-silver",
+    "name": "AHNHSKY Apple Watch 45mm/44mm バンパー付きメタル保護カバー",
+    "brand": "AHNHSKY",
+    "device_type": "Apple Watch",
+    "compatible_models": [
+      "Apple Watch 45mm",
+      "Apple Watch 44mm"
+    ],
+    "material": [
+      "PC"
+    ],
+    "case_type": [
+      "バンド一体型"
+    ],
+    "colors": [
+      "シルバー/ブラック"
+    ],
+    "features": [],
+    "price_jpy_ref": 2280,
+    "moq_ref": 50,
+    "amazon_url": "https://www.amazon.co.jp/AHNHSKY-%E3%83%90%E3%83%B3%E3%83%89%E4%BB%98%E3%81%8D-Apple-iWatch%E7%94%A8-%E3%83%97%E3%83%AD%E3%83%86%E3%82%AF%E3%82%BF%E3%83%BC/dp/B0BK92YF85",
+    "notes": "ストラップとスクリーンプロテクター付きのフルセット。"
+  },
+  {
+    "id": "watch4544-ahnhsky-sportsband-silver",
+    "name": "AHNHSKY Apple Watch 45mm/44mm スポーツバンド(耐衝撃・傷防止)",
+    "brand": "AHNHSKY",
+    "device_type": "Apple Watch",
+    "compatible_models": [
+      "Apple Watch 45mm",
+      "Apple Watch 44mm"
+    ],
+    "material": [
+      "TPU"
+    ],
+    "case_type": [
+      "バンド一体型"
+    ],
+    "colors": [
+      "シルバー/ブラック"
+    ],
+    "features": [
+      "耐衝撃"
+    ],
+    "price_jpy_ref": 1980,
+    "moq_ref": 60,
+    "amazon_url": "https://www.amazon.co.jp/AHNHSKY-Apple-%E3%82%B9%E3%83%9D%E3%83%BC%E3%83%84%E3%83%90%E3%83%B3%E3%83%89-%E3%82%A2%E3%83%83%E3%83%97%E3%83%AB%E3%82%A6%E3%82%A9%E3%83%83%E3%83%81-iWatch/dp/B0CHDWRMP8",
+    "notes": "軽量なスポーツバンドタイプ。落下防止・傷防止仕様。"
+  },
+  {
+    "id": "watch45-pellforia-green",
+    "name": "Pellforia Apple Watch 45mm 保護ケース・カバー",
+    "brand": "Pellforia",
+    "device_type": "Apple Watch",
+    "compatible_models": [
+      "Apple Watch 45mm"
+    ],
+    "material": [
+      "PC"
+    ],
+    "case_type": [
+      "シンプル"
+    ],
+    "colors": [
+      "グリーン"
+    ],
+    "features": [],
+    "price_jpy_ref": 1480,
+    "moq_ref": 70,
+    "amazon_url": "https://www.amazon.co.jp/%E3%82%A2%E3%83%83%E3%83%97%E3%83%AB%E3%82%A6%E3%82%A9%E3%83%83%E3%83%81-Apple-watch-Pellforia-%E4%BF%9D%E8%AD%B7%E3%82%B1%E3%83%BC%E3%82%B9/dp/B09S2XBH82",
+    "notes": "シンプルなカラーバリエーション豊富な保護カバー。"
+  },
+  {
+    "id": "watch45-amband-steel-black",
+    "name": "amBand Apple Watch 45mm ステンレスケースバンド一体型",
+    "brand": "amBand",
+    "device_type": "Apple Watch",
+    "compatible_models": [
+      "Apple Watch 45mm"
+    ],
+    "material": [
+      "本革"
+    ],
+    "case_type": [
+      "バンド一体型"
+    ],
+    "colors": [
+      "ブラック"
+    ],
+    "features": [
+      "耐衝撃"
+    ],
+    "price_jpy_ref": 3280,
+    "moq_ref": 25,
+    "amazon_url": "https://www.amazon.co.jp/%E3%80%902022%E6%94%B9%E8%89%AF%E3%83%A2%E3%83%87%E3%83%AB%E3%80%91amBand-%E3%82%B1%E3%83%BC%E3%82%B9%E3%83%90%E3%83%B3%E3%83%89-%E3%82%A2%E3%83%83%E3%83%97%E3%83%AB%E3%82%A6%E3%82%A9%E3%83%83%E3%83%81-%E3%83%A1%E3%83%B3%E3%82%BA%E3%83%A1%E3%82%BF%E3%83%AB%E3%83%99%E3%83%AB%E3%83%88-%E9%95%B7%E3%81%95%E8%AA%BF%E6%95%B4%E5%99%A8%E5%85%B7%E4%BB%98%E3%81%8D/dp/B09YRC7LWT",
+    "notes": "ステンレスメタルベルト一体型。高級感のある仕上げ。"
+  },
+  {
+    "id": "macbook1314-sleeve-suede-gray",
+    "name": "MacBook Pro/Air 13 スリーブケース(スウェード素材・マグネット開閉)",
+    "brand": "ノーブランド(OEM)",
+    "device_type": "MacBook",
+    "compatible_models": [
+      "MacBook Air 13",
+      "MacBook Pro 13"
+    ],
+    "material": [
+      "PUレザー"
+    ],
+    "case_type": [
+      "スリーブ型"
+    ],
+    "colors": [
+      "グレー"
+    ],
+    "features": [
+      "防水"
+    ],
+    "price_jpy_ref": 1980,
+    "moq_ref": 60,
+    "amazon_url": "https://www.amazon.co.jp/%E3%82%B9%E3%83%AA%E3%83%BC%E3%83%96%E3%82%B1%E3%83%BC%E3%82%B9-macbook-%E5%A4%A7%E5%88%87%E3%81%AA%E3%81%94%E6%84%9B%E6%A9%9F%E3%82%92%E3%81%8D%E3%81%A1%E3%82%93%E3%81%A8%E5%AE%88%E3%82%8C%E3%82%8B-%E3%83%9E%E3%82%B0%E3%83%8D%E3%83%83%E3%83%88%E9%96%8B%E9%96%89-%E8%B6%85%E8%96%84%E5%9E%8B%E3%83%BB%E8%BB%BD%E9%87%8F%E3%83%BB%E9%98%B2%E6%B0%B4/dp/B07BCDJMRT",
+    "notes": "超薄型・軽量で防水性のあるスウェード素材。マグネット開閉。"
+  },
+  {
+    "id": "macbookair13-pu-stand-pink",
+    "name": "MacBook Airケース 13インチ(PUレザー・スタンド付き・放熱機能)",
+    "brand": "ノーブランド(OEM)",
+    "device_type": "MacBook",
+    "compatible_models": [
+      "MacBook Air 13"
+    ],
+    "material": [
+      "PUレザー"
+    ],
+    "case_type": [
+      "スリーブ型"
+    ],
+    "colors": [
+      "ピンク"
+    ],
+    "features": [
+      "スタンド機能"
+    ],
+    "price_jpy_ref": 2280,
+    "moq_ref": 50,
+    "amazon_url": "https://www.amazon.co.jp/Macbook-Air%E3%82%B1%E3%83%BC%E3%82%B9-%E3%82%B9%E3%83%AA%E3%83%BC%E3%83%96%E3%82%B1%E3%83%BC%E3%82%B9-%E4%BF%9D%E8%AD%B7%E3%83%95%E3%82%A3%E3%83%AB%E3%83%A0-%E3%83%9E%E3%83%83%E3%82%AF%E3%83%96%E3%83%83%E3%82%AF%E3%82%A8%E3%82%A2%E3%83%BC%E3%82%B1%E3%83%BC%E3%82%B9/dp/B08D6JBQPL",
+    "notes": "スタンド機能付きで放熱性も確保。軽量で衝撃吸収。"
+  },
+  {
+    "id": "macbookair13-clear-hogotech-midnight",
+    "name": "MacBook Air 13 M4/M3/M2 クリアマットケース(HOGOTECH)",
+    "brand": "HOGOTECH",
+    "device_type": "MacBook",
+    "compatible_models": [
+      "MacBook Air 13"
+    ],
+    "material": [
+      "PC"
+    ],
+    "case_type": [
+      "ハードケース",
+      "シンプル"
+    ],
+    "colors": [
+      "ミッドナイト"
+    ],
+    "features": [],
+    "price_jpy_ref": 2680,
+    "moq_ref": 40,
+    "amazon_url": "https://www.amazon.co.jp/%E3%83%9F%E3%83%83%E3%83%89%E3%83%8A%E3%82%A4%E3%83%88%E3%80%90%E8%B3%AA%E6%84%9F%E3%81%9D%E3%81%AE%E3%81%BE%E3%81%BE%E3%80%81%E5%82%B7%E3%82%92%E5%AE%88%E3%82%8B%E3%80%91MacBook-13%E3%82%A4%E3%83%B3%E3%83%81-%E3%82%AF%E3%83%AA%E3%82%A2%E3%83%9E%E3%83%83%E3%83%88%E3%82%AB%E3%83%90%E3%83%BC-A3240-HOGOTECH/dp/B0FBFB4DB4",
+    "notes": "質感そのままのクリアマットハードカバー。M4/M3/M2モデル対応。"
+  },
+  {
+    "id": "macbookair-simplism-sleeve-warmgray",
+    "name": "Simplism MacBook Air スリーブケース(ウォームグレー)",
+    "brand": "Simplism",
+    "device_type": "MacBook",
+    "compatible_models": [
+      "MacBook Air 13"
+    ],
+    "material": [
+      "PUレザー"
+    ],
+    "case_type": [
+      "スリーブ型",
+      "シンプル"
+    ],
+    "colors": [
+      "グレー"
+    ],
+    "features": [],
+    "price_jpy_ref": 3480,
+    "moq_ref": 30,
+    "amazon_url": "https://www.amazon.co.jp/Simplism-MacBook-%E3%82%B9%E3%83%AA%E3%83%BC%E3%83%96%E3%82%B1%E3%83%BC%E3%82%B9-%E3%82%A6%E3%82%A9%E3%83%BC%E3%83%A0%E3%82%B0%E3%83%AC%E3%83%BC-TR-BSAIR13-WG/dp/B008XPN3XK",
+    "notes": "国内ブランドSimplism製。シンプルで上品なデザイン。"
+  },
+  {
+    "id": "macbook13-drip-leather-mocha",
+    "name": "drip MacBookケース13(本革レザースリーブ・モカ)",
+    "brand": "drip",
+    "device_type": "MacBook",
+    "compatible_models": [
+      "MacBook Air 13",
+      "MacBook Pro 13"
+    ],
+    "material": [
+      "本革"
+    ],
+    "case_type": [
+      "スリーブ型"
+    ],
+    "colors": [
+      "モカ"
+    ],
+    "features": [],
+    "price_jpy_ref": 4280,
+    "moq_ref": 20,
+    "amazon_url": "https://www.amazon.co.jp/drip-MacBook%E3%82%B1%E3%83%BC%E3%82%B9-Macbook-%E3%82%B9%E3%83%AA%E3%83%BC%E3%83%96%E3%82%B1%E3%83%BC%E3%82%B9-PC%E3%82%B9%E3%83%AA%E3%83%BC%E3%83%96/dp/B0829W5RXY",
+    "notes": "本革レザーの高級スリーブケース。高単価・少量仕入れ向き。"
   }
 ]
