@@ -104,7 +104,7 @@ function buildNavTree() {
       modelsWrap.className = "chip-group nav-models";
       modelsWrap.innerHTML = models.map(m => {
         const hasProduct = productModels.has(m);
-        const label = hasProduct ? m : `${m} (準備中)`;
+        const label = hasProduct ? m : `${m} (Amazon検索)`;
         return `<label class="chip${hasProduct ? "" : " chip-empty"}"><input type="checkbox" name="model" value="${m}"><span>${label}</span></label>`;
       }).join("");
       deviceEl.appendChild(modelsWrap);
@@ -226,16 +226,41 @@ function cardHtml(p) {
   `;
 }
 
-function renderResults(products) {
+let currentFilters = null;
+
+function renderResults(products, filters) {
+  currentFilters = filters;
   currentMatched = sortProducts(products, sortSelect.value);
   resultCount.textContent = `${currentMatched.length}件 見つかりました`;
   visibleCount = PAGE_SIZE;
   renderVisiblePage();
 }
 
+function amazonSearchUrl(keyword) {
+  return `https://www.amazon.co.jp/s?k=${encodeURIComponent(keyword + " ケース")}`;
+}
+
+function emptyStateHtml() {
+  const models = currentFilters ? currentFilters.models : [];
+  if (models.length === 0) {
+    return `<div class="empty-state">条件に合う商品が見つかりませんでした。条件を減らして再検索してください。</div>`;
+  }
+  const links = models.map(m => `
+    <a class="amazon-search-link" href="${amazonSearchUrl(m)}" target="_blank" rel="noopener noreferrer">
+      ${m} のケースをAmazonで検索する →
+    </a>
+  `).join("");
+  return `
+    <div class="empty-state">
+      <p>この機種の商品データはまだ登録されていません。下のリンクからAmazonで直接検索できます。</p>
+      <div class="amazon-search-links">${links}</div>
+    </div>
+  `;
+}
+
 function renderVisiblePage() {
   if (currentMatched.length === 0) {
-    resultList.innerHTML = `<div class="empty-state">条件に合う商品が見つかりませんでした。条件を減らして再検索してください。</div>`;
+    resultList.innerHTML = emptyStateHtml();
     return;
   }
 
@@ -290,7 +315,7 @@ function applyFiltersAndRender() {
   const filters = getFilters();
   const matched = PRODUCTS.filter(p => matchesFilters(p, filters));
   renderActiveConditions(filters);
-  renderResults(matched);
+  renderResults(matched, filters);
 }
 
 function updateLiveCount() {
